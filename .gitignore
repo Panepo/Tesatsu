@@ -83,3 +83,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+themes/landscape
