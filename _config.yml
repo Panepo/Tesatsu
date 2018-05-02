@@ -31,17 +31,18 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
+auto_spacing: true
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -82,3 +83,9 @@ deploy:
   repo: https://github.com/Panepo/Tesatsu.git
   branch: gh-pages
   message: hexo deployer auto deploy
+
+# Search
+## hexo-generator-search
+search:
+  path: search.xml
+  field: post
