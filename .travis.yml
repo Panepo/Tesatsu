@@ -1,0 +1,29 @@
+language: node_js
+
+node_js:
+  - "4"
+
+env:
+  global:
+    secure: XN7bTWNHQyFk9Mq656K9iYCp3apSwVECA1PGQQUnrdpjfZXDTvDlxhbN65euShbH2tsKxPRnXq47wzkKw38NS2TonrF05cUiA4O49sd8Nifh3YJe9ynx9NfmLjq22qpP0Ul9+d9NFGIkiactMC22ho8KcEYXs9KEx8r4gytkdvNC0dqYzmI9bPx9TNg5k1MmAKwzwB/Sy2MVudhJGUPMMhDD8i2zUS/ollrnuK6CG+UGu39/2/IyEtrcQZ5/jm6m4Bo+ofnOro8+9x/y/RlzGGjsjvBDVl7Jodd6Nuu4FLQjsD6fOzrV+mgFZKU+nE4/8Qc9HiM2cT7DqWMOy05Lx2XqN48/gerv7qPeglEIqIhHGmz0poAgc0TCp552Ys8TFMhpbuUvBeIxxbzCjFD5hgTpgFHnVo+F7PEOTEBapRnK2H+5PNRgJsT1vtsQw1wXf3VxwUHsa7F+UO2sD6QpJGG1xJZWGx4eSLWVHxLEfCr76vEWXadoNtZ8VkjInuYMtllSf7J8nECSoCJKYarYlXtiGgzHhtItLPmH9QMHtgc2RNyliL6z4zc8EeAuKDT0lZYYpyvplzHbgSyidLxi3X/wsx4cwjU3n1oag8A9JFK3iY745ctXv3SjhWrPPsQUpuVkZVQwnLxU2geTVbYzNFBs8cL2h8I6XIFRPVgPkA4=
+    
+before_install:
+  - export TZ=Asia/Taipei
+
+install:
+  - npm install
+  - npm install -g hexo-cli
+
+script:
+  # Set Git config
+  - git config --global user.name "$GIT_NAME"
+  - git config --global user.email "$GIT_EMAIL"
+  - git config --global push.default simple
+  - git clone --depth 1 --branch gh-pages https://$GH_TOKEN@github.com/Panepo/Tesatsu public
+  # Generate static pages
+  - hexo generate
+  - cd public
+  - git add -A .
+  - MESSAGE=`date +\ %Y-%m-%d\ %H:%M:%S`
+  - git commit -m "Travis CI auto deploy:$MESSAGE"
+  - git push --quiet
