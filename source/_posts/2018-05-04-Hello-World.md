@@ -6,7 +6,7 @@ tags: 化語
 ---
 Hello World 對於程式設計師來說, 這是一定要的啦!
 
-{% asset_img 1.png 大觀峰日落 %}
+{% asset_img DSCN1635.JPG 大觀峰日落 %}
 
 那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD
 
