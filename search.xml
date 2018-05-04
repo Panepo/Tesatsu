@@ -4,71 +4,20 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/Tesatsu/2018/05/03/hello-world/"/>
-      <url>/Tesatsu/2018/05/03/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
-    </entry>
-    
-    <entry>
-      <title>hello world 3</title>
-      <link href="/Tesatsu/2015/01/30/hello-world-4/"/>
-      <url>/Tesatsu/2015/01/30/hello-world-4/</url>
-      <content type="html"><![CDATA[<p>FQFQFQ<br>FQFQFQF<br>fq</p>]]></content>
+      <link href="/Tesatsu/2018/05/04/Hello-World/"/>
+      <url>/Tesatsu/2018/05/04/Hello-World/</url>
+      <content type="html"><![CDATA[<p>Hello World 對於程式設計師來說, 這是一定要的啦!</p><img src="/Tesatsu/2018/05/04/Hello-World/1.png" title="大觀峰日落"><p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p><p>照片攝於去年 9 月日本九州大觀峰.</p><p>登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p>]]></content>
       
       <categories>
           
-          <category> Diary </category>
+          <category> 化語 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>hello world 3</title>
-      <link href="/Tesatsu/2013/01/30/hello-world-3/"/>
-      <url>/Tesatsu/2013/01/30/hello-world-3/</url>
-      <content type="html"><![CDATA[<p>FQFQFQ<br>FQFQFQF<br>fq</p>]]></content>
-      
-      <categories>
-          
-          <category> Diary </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>hello world 2</title>
-      <link href="/Tesatsu/2011/04/30/hello-world-2/"/>
-      <url>/Tesatsu/2011/04/30/hello-world-2/</url>
-      <content type="html"><![CDATA[<p>FQFQFQ<br>FQFQFQF<br>fq</p><blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p><footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote><blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io" target="_blank" rel="noopener">http://devdocs.io</a></p><footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752" target="_blank" rel="noopener">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote><figure class="highlight javascript"><figcaption><span>fqfq</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> bachi</span><br></pre></td></tr></table></figure>]]></content>
-      
-      <categories>
-          
-          <category> Diary </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
+            <tag> 化語 </tag>
             
         </tags>
       
