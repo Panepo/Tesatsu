@@ -195,8 +195,8 @@ materialcdn:
 # Available value of "use":
 #     disqus | disqus_click | changyan | 163gentie
 comment:
-    use:
-    shortname: # duoshuo or disqus shortname
+    use: disqus
+    shortname: tesatsu
     changyan_appid:
     changyan_conf:
     changyan_thread_key_type: path
