@@ -28,12 +28,12 @@ url:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Paradox
-#scheme: Isolation
+#scheme: Paradox
+scheme: Isolation
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: "信仰は儚き人間の為に"
     theme_color: "#E65100"
     theme_sub_color: "#E65100"
     hyperlink_color: "#4527A0"
@@ -53,7 +53,7 @@ reading:
 
 # Thumbnail Settings
 thumbnail:
-    purecolor:
+    purecolor: "#F5F5F5"
     random_amount: 19
 
 # Background Settings
@@ -71,7 +71,7 @@ background:
 # Images Settings
 img:
     logo: "/Tesatsu/img/logo.png"
-    avatar: "/Tesatsu/img/karasu2.png"
+    avatar: "/Tesatsu/img/avatar/flan.png"
     daily_pic: "/Tesatsu/img/daily_pic.png"
     sidebar_header: "/Tesatsu/img/sidebar_header.png"
     random_thumbnail: "/Tesatsu/img/random/material-"
@@ -106,6 +106,9 @@ qrcode:
     enable: false
     use: plugin
 
+prettify:
+  enable: true
+  theme: "vibrant-ink"
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -122,12 +125,12 @@ toc:
 sns:
     email: Panepo
     facebook:
-    twitter: "https://twitter.com/panepo69"
+    twitter:
     googleplus:
     weibo:
     instagram:
     tumblr:
-    github: "https://github.com/Panepo"
+    github:
     linkedin:
     zhihu:
     bilibili:
@@ -146,9 +149,9 @@ sns_share:
 # Sidebar Customize
 sidebar:
     dropdown:
-        Email Me:
-            link: "#"
-            icon: email
+        About:
+            link: "/about"
+            icon: person
     homepage:
         use: true
         icon: home
@@ -162,10 +165,10 @@ sidebar:
         icon: chrome_reader_mode
         divider: false
     pages:
-        About:
-            link: "/about"
-            icon: person
-            divider: false
+        #About:
+        #    link: "/about"
+        #    icon: person
+        #    divider: false
     article_num:
         use: false
         divider: false
