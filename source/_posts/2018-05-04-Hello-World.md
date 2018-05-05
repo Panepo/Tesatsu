@@ -1,10 +1,18 @@
 ---
 title: Hello World
 date: 2018-05-04 13:57:56
-categories: 化語
-tags: 化語
+categories:
+  - 化語
+  - 寫眞
+tags:
+  - 化語
+  - 寫眞
 ---
 Hello World 對於程式設計師來說, 這是一定要的啦!
+
+這篇算是這裡的第一篇文章, 用這篇紀念一下.
+
+之後會慢慢把其他地方的文章轉錄過來, 不過不打算改發表日期所以這篇不會顯示最舊.
 
 {% asset_img DSCN1635.JPG 大觀峰日落 %}
 
