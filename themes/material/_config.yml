@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "/Tesatsu/img/favicon.png"
-    high_res_favicon: "/Tesatsu/img/favicon.png"
-    apple_touch_icon: "/Tesatsu/img/favicon.png"
+    favicon: "/Tesatsu/img/daily_pic.png"
+    high_res_favicon: "/Tesatsu/img/daily_pic.png"
+    apple_touch_icon: "/Tesatsu/img/daily_pic.png"
     keywords:
     site_verification:
         google:
@@ -36,7 +36,7 @@ uiux:
     slogan: "信仰は儚き人間の為に"
     theme_color: "#E65100"
     theme_sub_color: "#E65100"
-    hyperlink_color: "#4527A0"
+    hyperlink_color: "#E65100"
     button_color: "#E65100"
     android_chrome_color: "#4527A0"
     nprogress_color: "#29d"
@@ -53,7 +53,7 @@ reading:
 
 # Thumbnail Settings
 thumbnail:
-    purecolor: "#F5F5F5"
+    purecolor:
     random_amount: 19
 
 # Background Settings
@@ -70,7 +70,7 @@ background:
 
 # Images Settings
 img:
-    logo: "/Tesatsu/img/logo.png"
+    logo: "/Tesatsu/img/favicon.png"
     avatar: "/Tesatsu/img/avatar/flan.png"
     daily_pic: "/Tesatsu/img/daily_pic.png"
     sidebar_header: "/Tesatsu/img/sidebar_header.png"
@@ -123,14 +123,14 @@ toc:
 
 # SNS Menu
 sns:
-    email: Panepo
+    email:
     facebook:
-    twitter:
+    twitter: https://twitter.com/panepo69
     googleplus:
     weibo:
     instagram:
     tumblr:
-    github:
+    github: https://github.com/Panepo
     linkedin:
     zhihu:
     bilibili:
