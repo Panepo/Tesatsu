@@ -7,3 +7,5 @@ tags:
   - 寫真
 ---
 {% asset_img [img name] [title] %}
+
+{% img [url] [title] %}
