@@ -3,10 +3,35 @@
   
     
     <entry>
+      <title>Embed</title>
+      <link href="/Tesatsu/2018/05/12/Embed/"/>
+      <url>/Tesatsu/2018/05/12/Embed/</url>
+      <content type="html"><![CDATA[<p>昨天突然想到, 這 github pages 有沒有容量限制呢? 查了一下, 還真的有…</p><p><a href="https://help.github.com/articles/what-is-my-disk-quota/" target="_blank" rel="noopener">https://help.github.com/articles/what-is-my-disk-quota/</a></p><p>Github 官方每個 repositories 建議在 1GB 以下, 單個檔案大小在 100MB 以下, 不然會收到 email 通知改善.</p><p>這樣好了, 照片持續放遲早會爆掉, 所以只好另尋他處 …. 目前想到的是無限容量的 Google Photo, 只不過要讓這邊嵌入 Google Photo 的相片要費點功夫:</p><ul><li><p>首先要先把該相片的分享選項打開, 並取得分享連結.</p></li><li><p>再來到這網站利用分享連結擷取相片直連網址 <a href="https://ctrlq.org/google/photos/" target="_blank" rel="noopener">https://ctrlq.org/google/photos/</a></p></li></ul><p>有了直連網址後把 Google Photo 當圖床使用了.</p>]]></content>
+      
+      <categories>
+          
+          <category> 手札 </category>
+          
+          <category> 程設 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 手札 </tag>
+            
+            <tag> 程設 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Centaur&#39;s Worries</title>
       <link href="/Tesatsu/2018/05/09/Centaur-s-Worries/"/>
       <url>/Tesatsu/2018/05/09/Centaur-s-Worries/</url>
-      <content type="html"><![CDATA[<img src="/Tesatsu/2018/05/09/Centaur-s-Worries/2018-05-09.jpg" title="Centaur" alt="s Worries"><p>最近在看的作品, 很有意思的書.</p><p>作品有著獨特的世界觀, 相仿於我們人類的社會不過卻充斥著各式各樣的亞人種. 人馬, 翼人, 角人, 人魚等等. 內容主要講述一群女高中生們的日常生活故事(主角是個人馬 JK), 女生之間的悄悄話, 話劇表演, 戀愛話題, 對未來的憧憬… 作品描述在這樣一個奇妙世界裡的學園生活.</p><p>本作很有意思的地方在於人馬生活在人類社會的各種描寫, 比如說由於體型較為龐大: 住宅, 家具, 廁所等等皆須改裝. 本作中人馬是要穿褲子(?)的, 下半馬身部分皆被衣物覆蓋, 實在很好奇是要怎麼穿上去? 學校生活當然也有游泳課, 而人馬也有特製的泳衣, 有興趣的可以去看看人馬泳衣會是甚麼樣子的.</p><p>人馬的各種生活也相當有趣, 像是睡覺. 有別於我的想像, 本作人馬是可以躺著睡覺的, 骨骼的分布和肌肉肌腱的方向應該是沒辦法才對… 另外就是感覺本作的人馬身體異常柔軟, 所以也可以使用馬桶! 以前都沒想過亞人該怎麼上廁所, 畢竟一般奇幻作品對這種日常的描寫甚少.</p><p>喜歡這種細膩描寫設定的人可以去翻看看本作.</p>]]></content>
+      <content type="html"><![CDATA[<p>最近在看的作品, 很有意思的書.</p><p>作品有著獨特的世界觀, 相仿於我們人類的社會不過卻充斥著各式各樣的亞人種. 人馬, 翼人, 角人, 人魚等等. 內容主要講述一群女高中生們的日常生活故事(主角是個人馬 JK), 女生之間的悄悄話, 話劇表演, 戀愛話題, 對未來的憧憬… 作品描述在這樣一個奇妙世界裡的學園生活.</p><p>本作很有意思的地方在於人馬生活在人類社會的各種描寫, 比如說由於體型較為龐大: 住宅, 家具, 廁所等等皆須改裝. 本作中人馬是要穿褲子(?)的, 下半馬身部分皆被衣物覆蓋, 實在很好奇是要怎麼穿上去? 學校生活當然也有游泳課, 而人馬也有特製的泳衣, 有興趣的可以去看看人馬泳衣會是甚麼樣子的.</p><p>人馬的各種生活也相當有趣, 像是睡覺. 有別於我的想像, 本作人馬是可以躺著睡覺的, 骨骼的分布和肌肉肌腱的方向應該是沒辦法才對… 另外就是感覺本作的人馬身體異常柔軟, 所以也可以使用馬桶! 以前都沒想過亞人該怎麼上廁所, 畢竟一般奇幻作品對這種日常的描寫甚少.</p><p>喜歡這種細膩描寫設定的人可以去翻看看本作.</p>]]></content>
       
       <categories>
           
@@ -27,7 +52,7 @@
       <title>Sorcière de Laplace</title>
       <link href="/Tesatsu/2018/05/07/Sorciere-de-Laplace/"/>
       <url>/Tesatsu/2018/05/07/Sorciere-de-Laplace/</url>
-      <content type="html"><![CDATA[<img src="/Tesatsu/2018/05/07/Sorciere-de-Laplace/2018-05-07.png" title="拉普拉斯的魔女"><p>很有趣的書名, 作者是東野圭吾.</p><p>拉普拉斯是念工科的人都知道的數學家. 他提出過一個很有趣的假設: 假設有位賢者知道宇宙中每個原子確切的位置和動量, 那麼就可以用牛頓定律來展現宇宙事件的整個過程, 過去以及未來.</p><p>後世則把這位智者稱作拉普拉斯之魔, 在文學作品及 ACG 中都出現過, 像是薔薇少女中的那隻兔子; 作品中拉普拉斯之魔通常作為全知的角色出現, 書本前幾章節有位有著預測未來的能力的少女登場; 讓我接下來繼續看下去, 這本書會怎麼樣的發展.</p><ul><li>2018-05-10 update</li></ul><p>本書中出現的拉普拉斯之魔有兩位, 都是經過腦手術的人工產物; 能力也不像是各家作品中的那麼全知全能, 只能藉由眼睛觀察再預測物理現象; 也有說有心智的生物動作無法預測, 人心當然也沒辦法, 是間接再說跨海大橋要有幾線道嗎? XD</p>]]></content>
+      <content type="html"><![CDATA[<p>很有趣的書名, 作者是東野圭吾.</p><p>拉普拉斯是念工科的人都知道的數學家. 他提出過一個很有趣的假設: 假設有位賢者知道宇宙中每個原子確切的位置和動量, 那麼就可以用牛頓定律來展現宇宙事件的整個過程, 過去以及未來.</p><p>後世則把這位智者稱作拉普拉斯之魔, 在文學作品及 ACG 中都出現過, 像是薔薇少女中的那隻兔子; 作品中拉普拉斯之魔通常作為全知的角色出現, 書本前幾章節有位有著預測未來的能力的少女登場; 讓我接下來繼續看下去, 這本書會怎麼樣的發展.</p><ul><li>2018-05-10 update</li></ul><p>本書中出現的拉普拉斯之魔有兩位, 都是經過腦手術的人工產物; 能力也不像是各家作品中的那麼全知全能, 只能藉由眼睛觀察再預測物理現象; 也有說有心智的生物動作無法預測, 人心當然也沒辦法, 是間接再說跨海大橋要有幾線道嗎? XD</p>]]></content>
       
       <categories>
           
@@ -73,7 +98,7 @@
       <title>Expect</title>
       <link href="/Tesatsu/2018/04/25/Expect/"/>
       <url>/Tesatsu/2018/04/25/Expect/</url>
-      <content type="html"><![CDATA[<img src="/Tesatsu/2018/04/25/Expect/2018-04-25.jpg" title="Expect"><p>雖然是搞笑漫畫, 但是最後這幾句寫得還不錯啊.</p>]]></content>
+      <content type="html"><![CDATA[<p>雖然是搞笑漫畫, 但是最後這幾句寫得還不錯啊.</p>]]></content>
       
       <categories>
           
@@ -94,7 +119,7 @@
       <title>Pseudo paradise</title>
       <link href="/Tesatsu/2018/03/31/Pseudo-paradise/"/>
       <url>/Tesatsu/2018/03/31/Pseudo-paradise/</url>
-      <content type="html"><![CDATA[<img src="/Tesatsu/2018/03/31/Pseudo-paradise/2018-03-31.png" title="[title]"><blockquote><p>Dolls in the pseudo paradise</p></blockquote><p>It is the word what I describe myself when playing Ragernarok Online.</p>]]></content>
+      <content type="html"><![CDATA[<blockquote><p>Dolls in the pseudo paradise</p></blockquote><p>It is the word what I describe myself when playing Ragernarok Online.</p>]]></content>
       
       <categories>
           
@@ -246,6 +271,48 @@
     </entry>
     
     <entry>
+      <title>Extend</title>
+      <link href="/Tesatsu/2018/01/22/Extend/"/>
+      <url>/Tesatsu/2018/01/22/Extend/</url>
+      <content type="html"><![CDATA[<img src="https://lh3.googleusercontent.com/Zgo0J2kjr2N5eqIkBahSBRnUKcC6hlbeGZQkOYANmrbi8va25uiTIOJPhuWIF0SkXHy-ueYE3y0v2TyoWdBB0SjX55KOEyM8gHt4KadMc-RiZsBfJTKfZ8vaqCClUkSLLcIOK1U7vQ=w2400" title="Extend">]]></content>
+      
+      <categories>
+          
+          <category> 寫真 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 寫真 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Overnight</title>
+      <link href="/Tesatsu/2018/01/13/Overnight/"/>
+      <url>/Tesatsu/2018/01/13/Overnight/</url>
+      <content type="html"><![CDATA[<img src="https://lh3.googleusercontent.com/oMzxLoTsKGnf4UFfAazuOqwWSBs8Wg5nbKKvAEjiJHFaMDX6aGEzcM9gLrqGjsiLZ7rcdRNDuryEYYivxZnSrC5VCGMp_S_ep2ZcOKVZ71jk9_Oo4Jywytgbq6yDYPgkFl88H1fXJA=w2400" title="Overnight">]]></content>
+      
+      <categories>
+          
+          <category> 寫真 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 寫真 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Passport lost</title>
       <link href="/Tesatsu/2017/06/09/Passport-lost/"/>
       <url>/Tesatsu/2017/06/09/Passport-lost/</url>
@@ -274,7 +341,7 @@
       <title>Passion</title>
       <link href="/Tesatsu/2010/11/15/Passion/"/>
       <url>/Tesatsu/2010/11/15/Passion/</url>
-      <content type="html"><![CDATA[<p>John’s Epic GSL Season 2 Finals Speech<br><a href="http://www.youtube.com/watch?v=eSZWSG2eH3M" target="_blank" rel="noopener">http://www.youtube.com/watch?v=eSZWSG2eH3M</a></p><p>From PTT StarCraft 看板<br>English: xephon<br>Translate: Panepo</p><p>I’m gonna be talking my own things now as there isn’t anything important to translate.</p><p>我現在要來講些我自己的事因為現在沒甚麼重要的需要翻譯.<br>(ps. 說這些話的是個翻譯)</p><p>First of all I’d like to say I have a great respect for NesTea not just because he won the tournament but because this guy had the courage to do what he wanted to do and proved he was right.</p><p>首先我要說我非常尊敬 NesTea, 不僅僅是他贏得這次比賽, 而且他有勇氣去做他想做的並證明他是對的.<br>(ps. NesTea 29 歲, 這年紀對電競選手來說非常的大, 10年努力最終於29歲奪冠.)</p><p>I’m saying this because too many people even in Korea consider playing games is a waste of time. I, myself, was unemployed for 2 years, but a year and a half before I joined GOM. All I did was play games at home and my friends would say that I’m wasting my life. Well…who’s laughing now? I asked them “Can you honestly say that you like your job?” and I asked them “Do you have a fan who draws a fan-art just for you?” That shuts them up.</p><p>我說這些是因為很多人, 甚至在韓國, 認為玩遊戲是浪費時間. 我呢, 曾經失業兩年, 然後再一年半前我加入 GOM. 這段時間我所做的事就是在家玩遊戲, 而我的朋友說我在浪費人生. 如今, 是誰笑了? 我問他們 “你們能成心說出你熱愛你的工作嗎?” 我接著問 “你們能有 fan 特地為你畫了張圖(fan-art)嗎?” 這都讓他們閉嘴了.<br>(ps. GOM: 這次負責轉播的電視台)</p><p>So everytime you feel ashamed of being a nerd and your friends, teachers, neighbours and even parents think gaming is a waste of time you’ll remember; There’s no such thing as wasting life as long as you have the courage to do what you like and be passionate about it. You’ll remember, if NesTea listened to all those critics he wouldn’t be standing there with a trophy and you’ll remember that even if you feel nobody around you supports you that I, Jay, Artosis and Tasteless, everyone in GOM will support you.</p><p>所以每當你羞愧作為一個宅, 並且被你的朋友, 老師, 鄰居甚至家人說玩遊戲是浪費時間時你要記住: 世上沒有事情是浪費生命, 只要你有勇氣去做你熱愛的事. 請你記得, NesTea 要是聽了那些閒言閒語, 他將不會拿這冠軍獎盃站在這. 請你記得, 即使你認為周遭的人都不支持你時, 我, Jay, Artosis, Tasteless 和 GOM 所有人都會支持你.</p><p>Why? Because we believe in esports.</p><p>為什麼? 因為我們相信 esports</p><img src="/Tesatsu/2010/11/15/Passion/john.jpg" title="Passion">]]></content>
+      <content type="html"><![CDATA[<p>John’s Epic GSL Season 2 Finals Speech<br><a href="http://www.youtube.com/watch?v=eSZWSG2eH3M" target="_blank" rel="noopener">http://www.youtube.com/watch?v=eSZWSG2eH3M</a></p><p>From PTT StarCraft 看板<br>English: xephon<br>Translate: Panepo</p><p>I’m gonna be talking my own things now as there isn’t anything important to translate.</p><p>我現在要來講些我自己的事因為現在沒甚麼重要的需要翻譯.<br>(ps. 說這些話的是個翻譯)</p><p>First of all I’d like to say I have a great respect for NesTea not just because he won the tournament but because this guy had the courage to do what he wanted to do and proved he was right.</p><p>首先我要說我非常尊敬 NesTea, 不僅僅是他贏得這次比賽, 而且他有勇氣去做他想做的並證明他是對的.<br>(ps. NesTea 29 歲, 這年紀對電競選手來說非常的大, 10年努力最終於29歲奪冠.)</p><p>I’m saying this because too many people even in Korea consider playing games is a waste of time. I, myself, was unemployed for 2 years, but a year and a half before I joined GOM. All I did was play games at home and my friends would say that I’m wasting my life. Well…who’s laughing now? I asked them “Can you honestly say that you like your job?” and I asked them “Do you have a fan who draws a fan-art just for you?” That shuts them up.</p><p>我說這些是因為很多人, 甚至在韓國, 認為玩遊戲是浪費時間. 我呢, 曾經失業兩年, 然後再一年半前我加入 GOM. 這段時間我所做的事就是在家玩遊戲, 而我的朋友說我在浪費人生. 如今, 是誰笑了? 我問他們 “你們能成心說出你熱愛你的工作嗎?” 我接著問 “你們能有 fan 特地為你畫了張圖(fan-art)嗎?” 這都讓他們閉嘴了.<br>(ps. GOM: 這次負責轉播的電視台)</p><p>So everytime you feel ashamed of being a nerd and your friends, teachers, neighbours and even parents think gaming is a waste of time you’ll remember; There’s no such thing as wasting life as long as you have the courage to do what you like and be passionate about it. You’ll remember, if NesTea listened to all those critics he wouldn’t be standing there with a trophy and you’ll remember that even if you feel nobody around you supports you that I, Jay, Artosis and Tasteless, everyone in GOM will support you.</p><p>所以每當你羞愧作為一個宅, 並且被你的朋友, 老師, 鄰居甚至家人說玩遊戲是浪費時間時你要記住: 世上沒有事情是浪費生命, 只要你有勇氣去做你熱愛的事. 請你記得, NesTea 要是聽了那些閒言閒語, 他將不會拿這冠軍獎盃站在這. 請你記得, 即使你認為周遭的人都不支持你時, 我, Jay, Artosis, Tasteless 和 GOM 所有人都會支持你.</p><p>Why? Because we believe in esports.</p><p>為什麼? 因為我們相信 esports</p>]]></content>
       
       <categories>
           
