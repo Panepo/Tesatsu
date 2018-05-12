@@ -1,12 +1,8 @@
 ---
 title: Passport lost
 date: 2017-06-09 00:38:59
-categories:
-  - 手札
-  - 轉錄
-tags:
-  - 手札
-  - 轉錄
+categories: [手札,轉錄]
+tags: [手札,轉錄]
 ---
 在海外掉護照的話，首先要做的事
 
