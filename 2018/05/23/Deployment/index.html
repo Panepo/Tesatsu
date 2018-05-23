@@ -426,15 +426,22 @@
                 Deployment
             </p>
             <p>這篇為使用 Travis CI 自動佈署 web application 到 Github pages 的方法來做個紀錄.</p>
-<h3 id="Travis-CI-設定"><a href="#Travis-CI-設定" class="headerlink" title="Travis CI 設定"></a>Travis CI 設定</h3><ul>
-<li>申請 Tarvis CI 帳號</li>
-<li>將 github 資料庫和 travis ci 做連結</li>
-<li>增加 .travis.yml 檔案至 Github 資料庫</li>
-</ul>
-<h3 id="travis-yml-設定"><a href="#travis-yml-設定" class="headerlink" title=".travis.yml 設定"></a>.travis.yml 設定</h3><ul>
+<h3 id="Github-設定"><a href="#Github-設定" class="headerlink" title="Github 設定"></a>Github 設定</h3><ul>
 <li><p>首先要準備一組 personal access token 給 Travis CI. 到 Github 的 settings 頁面下的 personal access token 產生一組有 repo 權限的 token.</p>
 </li>
-<li><p>接下來安裝官方提供的 ruby 套件 travis command line tool.<br><code>gem install travis</code></p>
+<li><p>建立 gh-pages 分支, Github pages 會自動將此分支的所有資料 deploy 到 <code>https://&lt;Github id&gt;.github.io/&lt;Repo name&gt;/</code> 底下.</p>
+</li>
+</ul>
+<h3 id="Travis-CI-設定"><a href="#Travis-CI-設定" class="headerlink" title="Travis CI 設定"></a>Travis CI 設定</h3><ul>
+<li><p>申請 Tarvis CI 帳號</p>
+</li>
+<li><p>將 Github 資料庫和 Travis CI 做連結</p>
+</li>
+<li><p>增加 .travis.yml 檔案至 Github 資料庫</p>
+</li>
+</ul>
+<h3 id="travis-yml-設定"><a href="#travis-yml-設定" class="headerlink" title=".travis.yml 設定"></a>.travis.yml 設定</h3><ul>
+<li><p>先安裝官方提供的 ruby 套件 travis command line tool.<br><code>gem install travis</code></p>
 <p>使用命令列工具登入 GitHub<br><code>travis login</code></p>
 <p>使用命令列工具將剛產生出來的 token 加密並寫入 Travis CI 設定檔<br><code>travis encrypt &#39;GIT_NAME=&quot;&lt;Github ID&gt;&quot; GIT_EMAIL=&lt;Github email&gt; &#39;GH_TOKEN=&lt;Token&gt;&#39; --add</code></p>
 </li>
