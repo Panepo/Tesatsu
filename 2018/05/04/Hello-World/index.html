@@ -432,7 +432,45 @@
 <p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p>
 <p>照片攝於去年 9 月日本九州大觀峰.</p>
 <p>登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p>
+<div id="googleMap7245" style="
+            height: 450px;
+            width: 100%;
+            margin: 0px;
+            padding: 0px
+            ">
+</div>
+<style>.gmnoprint img {max-width: none !important;}</style>
+<script defer="defer">
+  window.hexoGmaps = window.hexoGmaps || { maps: {}};
+  window.hexoGmaps.maps['initgoogleMap7245'] = function init() {
+    var mapOptions = {
+       'scrollwheel': false,
+       'zoom': 13,
+       'center': new window.google.maps.LatLng( 32.996765 , 131.049611 ),
+     },
+     target = document.getElementById('googleMap7245'),
+     map = new window.google.maps.Map(target, mapOptions);
+      
+   
 
+  }
+  function makeMaps() {
+    for (var map in window.hexoGmaps.maps) {
+       console.log('map #', map);
+       window.hexoGmaps.maps[map]();
+    }
+  }
+  function loadScript() {
+    window.hexoGmaps.googleScriptLoaded = true;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=AIzaSyCfQ64zXVkp6QwAMFd8BXjJQTp6McM2xMI';
+    document.body.appendChild(script);
+  }
+  if (!window.hexoGmaps.googleScriptLoaded) {
+    loadScript();
+  }
+</script>
         </div>
     
 </div>

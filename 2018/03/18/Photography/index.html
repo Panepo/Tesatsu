@@ -427,6 +427,46 @@
             </p>
             <p>實景普普, 拍成照片意外得不錯…</p>
 <img src="https://lh3.googleusercontent.com/So5uTEDDh5OdifRL5SvnyxdW2Rlr2cfuNdVjMp4TwdxYGUNrpcKK8Y5I3M2NV9AVqkpbP_1JnE9WpBPMSZAyiwCzKpzsDV0cTQ-HcYv9PpCuV1CefhhSXIe7CjK8g4VrNn2qPnNBhg=w2400" title="Photography">
+<p>攝於立善寺</p>
+<div id="googleMap9051" style="
+            height: 450px;
+            width: 100%;
+            margin: 0px;
+            padding: 0px
+            ">
+</div>
+<style>.gmnoprint img {max-width: none !important;}</style>
+<script defer="defer">
+  window.hexoGmaps = window.hexoGmaps || { maps: {}};
+  window.hexoGmaps.maps['initgoogleMap9051'] = function init() {
+    var mapOptions = {
+       'scrollwheel': false,
+       'zoom': 16,
+       'center': new window.google.maps.LatLng( 24.789 , 121.198 ),
+     },
+     target = document.getElementById('googleMap9051'),
+     map = new window.google.maps.Map(target, mapOptions);
+      
+   
+
+  }
+  function makeMaps() {
+    for (var map in window.hexoGmaps.maps) {
+       console.log('map #', map);
+       window.hexoGmaps.maps[map]();
+    }
+  }
+  function loadScript() {
+    window.hexoGmaps.googleScriptLoaded = true;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=AIzaSyCfQ64zXVkp6QwAMFd8BXjJQTp6McM2xMI';
+    document.body.appendChild(script);
+  }
+  if (!window.hexoGmaps.googleScriptLoaded) {
+    loadScript();
+  }
+</script>
         </div>
     
 </div>
