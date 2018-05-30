@@ -1,8 +1,8 @@
 ---
 title: {{ title }}
 date: {{ date }}
-categories: [寫真, ]
-tags: [寫真, ]
+categories: [手札, 化語, 跫響, 吟遊, 程設, 寫真]
+tags: [手札, 化語, 跫響, 吟遊, 程設, 寫真]
 ---
 {% asset_img {{ date }}.jpg {{ title }} %}
 
