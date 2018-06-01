@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "/Tesatsu/img/daily_pic.png"
-    high_res_favicon: "/Tesatsu/img/daily_pic.png"
-    apple_touch_icon: "/Tesatsu/img/daily_pic.png"
+    favicon: "/Tesatsu/img/avatar/github.png"
+    high_res_favicon: "/Tesatsu/img/avatar/github.png"
+    apple_touch_icon: "/Tesatsu/img/avatar/github.png"
     keywords:
     site_verification:
         google:
