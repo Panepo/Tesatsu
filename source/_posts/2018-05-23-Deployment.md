@@ -35,7 +35,7 @@ tags: [手札, 程設]
 
 最後文件檔的配置如下:
 
-{% codeblock .travis.yml %}
+{% codeblock %}
 language: node_js
 
 node_js:
