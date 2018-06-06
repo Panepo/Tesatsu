@@ -12,7 +12,7 @@
     
     <title>
         
-            Cave of Steel | 
+            Docker installation | 
         
         鳥居の向こうの夢蒔絵
     </title>
@@ -38,7 +38,7 @@
     <meta name="theme-color" content="#4527A0">
     <meta name="author" content="Panepo">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content=",跫響">
+    <meta name="keywords" content=",手札,程設">
 
     <!-- Site Verification -->
     
@@ -67,18 +67,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://panepo.github.io/Tesatsu">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Cave of Steel | 鳥居の向こうの夢蒔絵">
+    <meta property="og:title" content="Docker installation | 鳥居の向こうの夢蒔絵">
     <meta property="og:image" content="/Tesatsu/img/avatar/github.png" />
     <meta property="og:description" content="">
-    <meta property="og:article:tag" content="跫響"> 
+    <meta property="og:article:tag" content="手札"> <meta property="og:article:tag" content="程設"> 
 
     
-        <meta property="article:published_time" content="Jul 22, 2014" />
+        <meta property="article:published_time" content="Jun 05, 2018" />
         <meta property="article:modified_time" content="Jun 06, 2018" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Cave of Steel | 鳥居の向こうの夢蒔絵">
+    <meta name="twitter:title" content="Docker installation | 鳥居の向こうの夢蒔絵">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/Tesatsu/img/avatar/github.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -86,7 +86,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://panepo.github.io/Tesatsu/Tesatsu/2014/07/22/Cave-of-Steel/index.html" />
+        <link rel="canonical" href="http://panepo.github.io/Tesatsu/Tesatsu/2018/06/05/Docker-installation/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -112,9 +112,9 @@
         },
         "description": "信仰は儚き人間の為に"
     },
-    "headline": "Cave of Steel",
-    "url": "http://panepo.github.io/Tesatsu/Tesatsu/2014/07/22/Cave-of-Steel/index.html",
-    "datePublished": "Jul 22, 2014",
+    "headline": "Docker installation",
+    "url": "http://panepo.github.io/Tesatsu/Tesatsu/2018/06/05/Docker-installation/index.html",
+    "datePublished": "Jun 05, 2018",
     "dateModified": "Jun 06, 2018",
     "description": "",
     "mainEntityOfPage": {
@@ -423,14 +423,28 @@
     
         <div class="post-content_wrapper">
             <p class="post-title">
-                Cave of Steel
+                Docker installation
             </p>
-            <img src="/Tesatsu/2014/07/22/Cave-of-Steel/2014-07-22.jpeg" title="Cave of Steel">
-<p>先來一篇最近比較有感而發的書, 這是艾西莫夫機器人系列的第一篇. 故事發生在兩千年以後的地球, 那時地球人滿為患, 為了生存效率, 地球人集體像螞蟻般, 聚居在大型城市之中, 終年不見天日, 人們稱這些大城市叫 “鋼穴”.</p>
-<p>故事的內容不是我有感而發的地方, 而是作者所描述的未來, 感覺正在一一實現.</p>
-<p>第一是反機器人暴動, 劇中的機器人科技已經發達到一般服務業的工作可被取代; 故事中的一般人因為工作被搶走, 拒絕被機器人服務, 進而開始發動破壞機器人的暴動. 總覺得這在不久的地球後也將出現, 越來越多的工作將被機器人取代, 而且不是兩千年後.</p>
-<p>第二則是地底都市 “鋼穴” 相比起往天空發展, 往地底發展是更加容易的. 我的上班通勤路線, 高鐵自板橋前進入地下以後, 一直到台北車站都在地下. 再來是轉捷運直到公司旁的捷運站, 也都全程在地下.台北地下街, 地下商場也都相當發達, 哪天真會有地底都市的出現. (台北應該不可能,當初沒這種規劃加上身處地震帶.)</p>
-<p>只不過當初看到這段時覺得蠻悲哀的, 人們為了生存把自己關在鋼穴裡: 一輩子沒看過太陽, 一輩子沒被雨淋過. 這種生活到底是好還是壞, 我也不知道.</p>
+            <p>This is the note for install Docker on win10</p>
+<h3 id="Win-10-requirements"><a href="#Win-10-requirements" class="headerlink" title="Win 10 requirements"></a>Win 10 requirements</h3><ul>
+<li>Windows 10 Enterprise, Professional, or Education</li>
+<li>64-bit Processor with Second Level Address Translation (SLAT).</li>
+<li>CPU support for VM Monitor Mode Extension (VT-c on Intel CPU’s).</li>
+<li>Minimum of 4 GB memory.</li>
+</ul>
+<h3 id="Pre-install"><a href="#Pre-install" class="headerlink" title="Pre-install"></a>Pre-install</h3><p>In order for Docker for Windows to function properly your machine needs:</p>
+<ul>
+<li><p>Hyper-V installed and working<br>Open a PowerShell console as Administrator and run the following command:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All</span><br></pre></td></tr></table></figure>
+<p>When the installation has completed, reboot.<br>After reboot, from the start menu, type in “Turn Windows features on or off” and hit enter. In the subequent screen, verify Hyper-V is enabled and has a checkmark.</p>
+</li>
+<li><p>Virtualization enabled<br>Enabled virtualizationin BIOS</p>
+</li>
+</ul>
+<h3 id="installation"><a href="#installation" class="headerlink" title="installation"></a>installation</h3><ul>
+<li>Download Docker CE for windows from docker store</li>
+<li>Install and run</li>
+</ul>
 
         </div>
     
@@ -450,8 +464,8 @@
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://panepo.github.io/Tesatsu/2014/07/22/Cave-of-Steel/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://panepo.github.io/Tesatsu/2014/07/22/Cave-of-Steel/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://panepo.github.io/Tesatsu/2018/06/05/Docker-installation/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://panepo.github.io/Tesatsu/2018/06/05/Docker-installation/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 <script type="text/ls-javascript" id="disqus-thread-script">
@@ -481,21 +495,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/Tesatsu/2017/06/09/Passport-lost/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Newer
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/Tesatsu/2014/01/09/Erepublik/" id="post_nav-older" class="next-content">
+        <a href="/Tesatsu/2018/06/04/Pride/" id="post_nav-older" class="next-content">
             Older
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
