@@ -7,34 +7,24 @@ tags: [手札, 程設]
 這篇為使用 Travis CI 自動佈署 web application 到 Github pages 的方法來做個紀錄.
 
 ### Github 設定
-
 - 首先要準備一組 personal access token 給 Travis CI. 到 Github 的 settings 頁面下的 personal access token 產生一組有 repo 權限的 token.
-
 - 建立 gh-pages 分支, Github pages 會自動將此分支的所有資料 deploy 到 `https://<Github id>.github.io/<Repo name>/` 底下.
 
 ### Travis CI 設定
-
 - 申請 Tarvis CI 帳號
-
 - 將 Github 資料庫和 Travis CI 做連結
-
 - 增加 .travis.yml 檔案至 Github 資料庫
 
 ### .travis.yml 設定
-
 - 先安裝官方提供的 ruby 套件 travis command line tool.
   `gem install travis`
-  
   使用命令列工具登入 GitHub
   `travis login`
-
   使用命令列工具將剛產生出來的 token 加密並寫入 Travis CI 設定檔
   `travis encrypt 'GIT_NAME="<Github ID>" GIT_EMAIL=<Github email> 'GH_TOKEN=<Token>' --add`
-  
 - 再來是讓 Travis CI 自動 build, 並讓生成的檔案往 Github 資料庫中的 gh-pages 分支 push, 這些都寫在設定檔中的 install 和 script 區塊.
 
 最後文件檔的配置如下:
-
 {% codeblock %}
 language: node_js
 
