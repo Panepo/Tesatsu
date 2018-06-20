@@ -12,7 +12,7 @@
     
     <title>
         
-            Grid | 
+            Jupyter Notebook on Docker | 
         
         鳥居の向こうの夢蒔絵
     </title>
@@ -38,7 +38,7 @@
     <meta name="theme-color" content="#4527A0">
     <meta name="author" content="Panepo">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content=",寫真">
+    <meta name="keywords" content=",手札,程設">
 
     <!-- Site Verification -->
     
@@ -67,18 +67,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://panepo.github.io/Tesatsu">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Grid | 鳥居の向こうの夢蒔絵">
+    <meta property="og:title" content="Jupyter Notebook on Docker | 鳥居の向こうの夢蒔絵">
     <meta property="og:image" content="/Tesatsu/img/avatar/github.png" />
     <meta property="og:description" content="">
-    <meta property="og:article:tag" content="寫真"> 
+    <meta property="og:article:tag" content="手札"> <meta property="og:article:tag" content="程設"> 
 
     
-        <meta property="article:published_time" content="May 19, 2018" />
+        <meta property="article:published_time" content="Jun 20, 2018" />
         <meta property="article:modified_time" content="Jun 20, 2018" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Grid | 鳥居の向こうの夢蒔絵">
+    <meta name="twitter:title" content="Jupyter Notebook on Docker | 鳥居の向こうの夢蒔絵">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/Tesatsu/img/avatar/github.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -86,7 +86,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://panepo.github.io/Tesatsu/Tesatsu/2018/05/19/Grid/index.html" />
+        <link rel="canonical" href="http://panepo.github.io/Tesatsu/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -112,9 +112,9 @@
         },
         "description": "信仰は儚き人間の為に"
     },
-    "headline": "Grid",
-    "url": "http://panepo.github.io/Tesatsu/Tesatsu/2018/05/19/Grid/index.html",
-    "datePublished": "May 19, 2018",
+    "headline": "Jupyter Notebook on Docker",
+    "url": "http://panepo.github.io/Tesatsu/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/index.html",
+    "datePublished": "Jun 20, 2018",
     "dateModified": "Jun 20, 2018",
     "description": "",
     "mainEntityOfPage": {
@@ -423,68 +423,16 @@
     
         <div class="post-content_wrapper">
             <p class="post-title">
-                Grid
+                Jupyter Notebook on Docker
             </p>
-            <img src="https://lh3.googleusercontent.com/5jrXhJiybCA2KZCYGqe4Nyy8_z04i7yryezs1SCsy5f81IAkuajKfaXYoGPD8IpBb3CAQUWFanGmTfScU4feLi7OfLPEWaTcEOfeI2BF_XGHPoz0fXUZPtBevIhnh_3ApTj5gyDtHw=w2400" title="Grid">
-<p>攝於桃園農業博覽會</p>
-<div id="googleMap6806" style="
-            height: 450px;
-            width: 100%;
-            margin: 0px;
-            padding: 0px
-            ">
-</div>
-<style>.gmnoprint img {max-width: none !important;}</style>
-<script defer="defer">
-  window.hexoGmaps = window.hexoGmaps || { maps: {}};
-  window.hexoGmaps.maps['initgoogleMap6806'] = function init() {
-    var mapOptions = {
-       'scrollwheel': false,
-       'zoom': 16,
-       'center': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),
-     },
-     target = document.getElementById('googleMap6806'),
-     map = new window.google.maps.Map(target, mapOptions);
-      
-     
-     
-     var opts0 = {
-        'position': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),
-        'map': map,
-        'title': '農業博覽會',
-        'zIndex' : 0,
-        'icon': ''
-      };
+            <p>This is the note for running jupyter notebook on docker.</p>
+<p>Jupyter docker stacks provide several docker images, they are <code>base-notebook</code>, <code>minimal-notebook</code>, <code>all-spark-notebook</code>, <code>pyspark-notebook</code>, <code>scipy-notebook</code>, <code>datascience-notebook</code>, <code>tensorflow-notebook</code> and <code>r-notebook</code><br><a href="https://github.com/jupyter/docker-stacks" target="_blank" rel="noopener">https://github.com/jupyter/docker-stacks</a></p>
+<p>Let this post runs <code>base-notebook</code> for example:<br><code>docker run --rm -P jupyter/base-notebook</code><br><code>--rm</code> means automatically remove the container when it exists. <code>-P</code> means publish all exposed ports to random ports.</p>
+<p>Let see what is runs by inputing this command:<br><code>docker ps</code><br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">CONTAINER ID        IMAGE                   COMMAND                  CREATED             STATUS              PORTS                     NAMES</span><br><span class="line">3464b0694c54        jupyter/base-notebook   &quot;tini -g -- start-no…&quot;   3 minutes ago       Up 3 minutes        0.0.0.0:32768-&gt;8888/tcp   gallant_chebyshev</span><br></pre></td></tr></table></figure><br>We can see that the port 32768 is exposed to the container port 8888, and visit <code>http://localhost:32768</code> vis browser.</p>
+<p>The token of juypter notebook is showned on the screen, just copy it and past on the browser:<br><code>http://localhost:32768/?token=[token]</code></p>
+<p>To fix the exposed port of container, we can replace <code>-P</code> to <code>-p 18888:8888</code>, this command will fix the exposed port to 18888.</p>
+<p>To terminate the jupyer notebook, use <code>docker stop [CONTAINER ID]</code></p>
 
-     var infowindow0 = new window.google.maps.InfoWindow({
-       content: '農業博覽會'
-     });
-
-     var marker0 = new window.google.maps.Marker(opts0);
-
-     marker0.addListener('click', function(){
-       infowindow0.open(map, marker0)
-     })
-   
-
-  }
-  function makeMaps() {
-    for (var map in window.hexoGmaps.maps) {
-       console.log('map #', map);
-       window.hexoGmaps.maps[map]();
-    }
-  }
-  function loadScript() {
-    window.hexoGmaps.googleScriptLoaded = true;
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=AIzaSyCfQ64zXVkp6QwAMFd8BXjJQTp6McM2xMI';
-    document.body.appendChild(script);
-  }
-  if (!window.hexoGmaps.googleScriptLoaded) {
-    loadScript();
-  }
-</script>
         </div>
     
 </div>
@@ -503,8 +451,8 @@
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://panepo.github.io/Tesatsu/2018/05/19/Grid/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://panepo.github.io/Tesatsu/2018/05/19/Grid/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://panepo.github.io/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://panepo.github.io/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 <script type="text/ls-javascript" id="disqus-thread-script">
@@ -534,21 +482,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/Tesatsu/2018/05/22/Letter/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Newer
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/Tesatsu/2018/05/12/Embed/" id="post_nav-older" class="next-content">
+        <a href="/Tesatsu/2018/06/15/Over-the-Waves/" id="post_nav-older" class="next-content">
             Older
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
