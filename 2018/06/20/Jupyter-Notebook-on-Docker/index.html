@@ -74,7 +74,7 @@
 
     
         <meta property="article:published_time" content="Jun 20, 2018" />
-        <meta property="article:modified_time" content="Jun 20, 2018" />
+        <meta property="article:modified_time" content="Jun 21, 2018" />
     
 
     <!-- The Twitter Card protocol -->
@@ -115,7 +115,7 @@
     "headline": "Jupyter Notebook on Docker",
     "url": "http://panepo.github.io/Tesatsu/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/index.html",
     "datePublished": "Jun 20, 2018",
-    "dateModified": "Jun 20, 2018",
+    "dateModified": "Jun 21, 2018",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -432,6 +432,12 @@
 <p>The token of juypter notebook is showned on the screen, just copy it and past on the browser:<br><code>http://localhost:32768/?token=[token]</code></p>
 <p>To fix the exposed port of container, we can replace <code>-P</code> to <code>-p 18888:8888</code>, this command will fix the exposed port to 18888.</p>
 <p>To terminate the jupyer notebook, use <code>docker stop [CONTAINER ID]</code></p>
+<h3 id="Build-your-docker-image"><a href="#Build-your-docker-image" class="headerlink" title="Build your docker image"></a>Build your docker image</h3><p>To customize the docker image, a file named <code>Dockerfile</code> is needed, which contains the script to generate your customized image. Here’s my example which has additional Opencv, Tensorflow and Keras installed. Besides, copy the notebook directionary to the container.<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">FROM jupyter/scipy-notebook</span><br><span class="line"></span><br><span class="line">LABEL maintainer=&quot;Panepo &lt;panepo@github.io&gt;&quot;</span><br><span class="line"></span><br><span class="line"># install tensorflow</span><br><span class="line">RUN conda install --quiet --yes -c anaconda tensorflow=1.8</span><br><span class="line"></span><br><span class="line"># install keras</span><br><span class="line">RUN conda install --quiet --yes -c anaconda keras=2.2</span><br><span class="line"></span><br><span class="line"># install opencv</span><br><span class="line">RUN conda install --quiet --yes -c conda-forge opencv=3.4.1</span><br><span class="line"></span><br><span class="line">RUN conda clean -tipsy &amp;&amp; \</span><br><span class="line">    fix-permissions $CONDA_DIR &amp;&amp; \</span><br><span class="line">    fix-permissions /home/$NB_USER</span><br><span class="line"></span><br><span class="line">WORKDIR /app</span><br><span class="line"></span><br><span class="line">ADD ./notebook /app</span><br></pre></td></tr></table></figure><br>Run this command to build docker image:<br><code>docker build -t [image name] .</code></p>
+<h3 id="Upload-your-docker-image-to-dockerhub"><a href="#Upload-your-docker-image-to-dockerhub" class="headerlink" title="Upload your docker image to dockerhub"></a>Upload your docker image to dockerhub</h3><p>First, login to dockerhub<br><code>docker login</code></p>
+<p>Then run the image you want to push<br><code>docker run --rm [image name]</code></p>
+<p>Lunch another terminal, find the container id by this command<br><code>docker ps</code></p>
+<p>Then commit as git<br><code>docker commit -m &quot;[commit message]&quot; [container id] [repository]</code></p>
+<p>Finally, push it to dockerhub<br><code>docker push [repository]</code></p>
 
         </div>
     
