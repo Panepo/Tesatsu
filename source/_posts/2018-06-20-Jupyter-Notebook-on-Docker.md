@@ -31,3 +31,46 @@ The token of juypter notebook is showned on the screen, just copy it and past on
 To fix the exposed port of container, we can replace `-P` to `-p 18888:8888`, this command will fix the exposed port to 18888.
 
 To terminate the jupyer notebook, use `docker stop [CONTAINER ID]`
+
+### Build your docker image
+To customize the docker image, a file named `Dockerfile` is needed, which contains the script to generate your customized image. Here's my example which has additional Opencv, Tensorflow and Keras installed. Besides, copy the notebook directionary to the container.
+{% codeblock %}
+FROM jupyter/scipy-notebook
+
+LABEL maintainer="Panepo <panepo@github.io>"
+
+# install tensorflow
+RUN conda install --quiet --yes -c anaconda tensorflow=1.8
+
+# install keras
+RUN conda install --quiet --yes -c anaconda keras=2.2
+
+# install opencv
+RUN conda install --quiet --yes -c conda-forge opencv=3.4.1
+
+RUN conda clean -tipsy && \
+    fix-permissions $CONDA_DIR && \
+    fix-permissions /home/$NB_USER
+
+WORKDIR /app
+
+ADD ./notebook /app
+{% endcodeblock %}
+Run this command to build docker image:
+`docker build -t [image name] .`
+
+### Upload your docker image to dockerhub
+First, login to dockerhub
+`docker login`
+
+Then run the image you want to push
+`docker run --rm [image name]`
+
+Lunch another terminal, find the container id by this command
+`docker ps`
+
+Then commit as git
+`docker commit -m "[commit message]" [container id] [repository]`
+
+Finally, push it to dockerhub
+`docker push [repository]`
