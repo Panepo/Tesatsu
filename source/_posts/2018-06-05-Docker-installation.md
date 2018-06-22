@@ -1,5 +1,5 @@
 ---
-title: Docker installation
+title: Docker Installation
 categories:
   - 手札
   - 程設
@@ -29,6 +29,7 @@ In order for Docker for Windows to function properly your machine needs:
 - Virtualization enabled
   Enabled virtualization in BIOS
 
-### installation
+### Installation
 - Download Docker CE for windows from docker store
+  https://store.docker.com/editions/community/docker-ce-desktop-windows
 - Install and run
