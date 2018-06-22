@@ -27,7 +27,7 @@ In order for Docker for Windows to function properly your machine needs:
   After reboot, from the start menu, type in “Turn Windows features on or off” and hit enter. In the subequent screen, verify Hyper-V is enabled and has a checkmark.
 
 - Virtualization enabled
-  Enabled virtualizationin BIOS
+  Enabled virtualization in BIOS
 
 ### installation
 - Download Docker CE for windows from docker store
