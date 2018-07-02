@@ -32,6 +32,8 @@ To fix the exposed port of container, we can replace `-P` to `-p 18888:8888`, th
 
 To terminate the jupyer notebook, use `docker stop [CONTAINER ID]`
 
+To copy files to container, use `docker cp [FILE PATH] [CONTAINER ID]:/home/jovyan/work`
+
 ### Build your docker image
 To customize the docker image, a file named `Dockerfile` is needed, which contains the script to generate your customized image. Here's my example which has additional Opencv, Tensorflow and Keras installed. Besides, copy the notebook directionary to the container.
 {% codeblock %}
