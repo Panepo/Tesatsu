@@ -6,7 +6,7 @@ tags:
   - 跫響
 date: 2018-05-09 12:07:50
 ---
-{% asset_img 2018-05-09.jpg "Centaur's Worries" %}
+<center>{% asset_img 2018-05-09.jpg "Centaur's Worries" %}</center>
 
 最近在看的作品, 很有意思的書.
 

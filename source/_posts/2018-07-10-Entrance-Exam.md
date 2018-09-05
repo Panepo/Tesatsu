@@ -9,7 +9,7 @@ tags:
 date: 2018-07-10 15:26:35
 ---
 據說這是日本慶應小學入學考的試題, 設計得很有趣呢.
-{% asset_img 2018-07-10.png Entrance %}
+<center>{% asset_img 2018-07-10.png Entrance %}</center>
 翻譯如下:
 {% blockquote %}
 第一題, 空格中要填甚麼中文字? 親 人 中  (   ) 小
