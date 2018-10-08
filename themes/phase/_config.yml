@@ -1,0 +1,19 @@
+menu:
+  鳥居の向こうの夢蒔絵: /
+
+addthis:
+  enable: true
+  pubid:
+  facebook: true
+  twitter: true
+  google: true
+  pinterest: true
+
+facebook:
+google_plus:
+twitter:
+github: https://github.com/Panepo/Tesatsu
+
+fancybox: true
+google_analytics: UA-106126363-2
+rss:
