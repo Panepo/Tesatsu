@@ -1,8 +1,10 @@
 ---
 title: Gong Sha Xiao
 categories:
+  - 化語
   - 跫響
 tags:
+  - 化語
   - 跫響
 date: 2018-07-30 09:23:17
 ---
