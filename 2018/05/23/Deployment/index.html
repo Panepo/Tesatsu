@@ -1,4 +1,72 @@
-<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>Deployment | 鳥居の向こうの夢蒔絵</title><link rel="stylesheet" type="text/css" href="//fonts.neworld.org/css?family=Source+Code+Pro"><link rel="stylesheet" type="text/css" href="/Tesatsu/css/style.css?v=2.0.1"><link rel="stylesheet" type="text/css" href="/Tesatsu/css/highlight.css?v=2.0.1"><link rel="Shortcut Icon" href="/Tesatsu/favicon.ico"><link rel="bookmark" href="/Tesatsu/favicon.ico"><link rel="apple-touch-icon" href="/Tesatsu/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/Tesatsu/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Deployment</h1><a id="logo" href="/Tesatsu/.">鳥居の向こうの夢蒔絵</a><p class="description"></p></div><div id="nav-menu"><a href="/Tesatsu/." class="current"><i class="fa fa-home"> Home</i></a><a href="/Tesatsu/archives/"><i class="fa fa-archive"> Archive</i></a></div><div id="search-form"><div id="result-mask" class="hide"></div><label><input id="search-key" type="text" autocomplete="off" placeholder="Arama"></label><div id="result-wrap" class="hide"><div id="search-result"></div></div><div class="hide"><template id="search-tpl"><div class="item"><a href="/{path}" title="{title}"><div class="title">{title}</div><div class="time">{date}</div><div class="tags">{tags}</div></a></div></template></div></div></div><div id="layout" class="layout-g"><div class="layout-l"><div class="content_container"><div class="post"><h1 class="post-title">Deployment</h1><div class="post-meta"><a href="/Tesatsu/2018/05/23/Deployment/#comments" class="comment-count"><i data-disqus-identifier="2018/05/23/Deployment/" class="disqus-comment-count"></i>Guestbook</a><p><span class="date">May 23, 2018</span><span><a href="/Tesatsu/categories/手札/" class="category">手札</a><a href="/Tesatsu/categories/手札/程設/" class="category">程設</a></span></p></div><div class="post-content"><p>這篇為使用 Travis CI 自動佈署 web application 到 Github pages 的方法來做個紀錄.</p>
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Deployment | 鳥居の向こうの夢蒔絵</title>
+  <meta name="author" content="Panepo">
+
+  
+  <meta name="description" content="這篇為使用 Travis CI 自動佈署 web application 到 Github pages 的方法來做個紀錄.
+Github 設定
+首先要準備一組 personal access token 給 Travis CI. 到 Github 的 settings 頁面下的 personal a">
+  
+  
+
+  <link rel="alternate" href="/Tesatsu/atom.xml" title="鳥居の向こうの夢蒔絵" type="application/atom+xml">
+  <link rel="stylesheet" href="/Tesatsu/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-106126363-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+
+<body>
+  <header id="header" class="inner"><nav>
+  <ul>
+    
+      <li><a href="/Tesatsu/">鳥居の向こうの夢蒔絵</a></li>
+    
+  </ul>
+</nav></header>
+  <div id="content" class="inner"><article class="post">
+  
+    <div class="gallery">
+  <div class="photoset">
+    
+      <img src="">
+    
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
+  
+  <header>
+    
+  
+    <h1 class="title">Deployment</h1>
+  
+
+    <time datetime="2018-05-23T01:46:32.000Z">
+  <span class="day">23</span><span class="month">May</span>
+</time>
+  </header>
+  <div class="entry-content">
+    
+      <p>這篇為使用 Travis CI 自動佈署 web application 到 Github pages 的方法來做個紀錄.</p>
 <h3 id="Github-設定"><a href="#Github-設定" class="headerlink" title="Github 設定"></a>Github 設定</h3><ul>
 <li>首先要準備一組 personal access token 給 Travis CI. 到 Github 的 settings 頁面下的 personal access token 產生一組有 repo 權限的 token.</li>
 <li>建立 gh-pages 分支, Github pages 會自動將此分支的所有資料 deploy 到 <code>https://&lt;Github id&gt;.github.io/&lt;Repo name&gt;/</code> 底下.</li>
@@ -13,17 +81,61 @@
 <li>再來是讓 Travis CI 自動 build, 並讓生成的檔案往 Github 資料庫中的 gh-pages 分支 push, 這些都寫在設定檔中的 install 和 script 區塊.</li>
 </ul>
 <p>最後文件檔的配置如下:<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">language: node_js</span><br><span class="line"></span><br><span class="line">node_js:</span><br><span class="line">  - &quot;8.9.1&quot;</span><br><span class="line"></span><br><span class="line">env:</span><br><span class="line">  global:</span><br><span class="line">    secure: XN7bTWNHQyFk9Mq656K9iYCp3apSwVECA1PGQQUnrdpjfZXDTvDlxhbN65euShbH2tsKxPRnXq47wzkKw38NS2TonrF05cUiA4O49sd8Nifh3YJe9ynx9NfmLjq22qpP0Ul9+d9NFGIkiactMC22ho8KcEYXs9KEx8r4gytkdvNC0dqYzmI9bPx9TNg5k1MmAKwzwB/Sy2MVudhJGUPMMhDD8i2zUS/ollrnuK6CG+UGu39/2/IyEtrcQZ5/jm6m4Bo+ofnOro8+9x/y/RlzGGjsjvBDVl7Jodd6Nuu4FLQjsD6fOzrV+mgFZKU+nE4/8Qc9HiM2cT7DqWMOy05Lx2XqN48/gerv7qPeglEIqIhHGmz0poAgc0TCp552Ys8TFMhpbuUvBeIxxbzCjFD5hgTpgFHnVo+F7PEOTEBapRnK2H+5PNRgJsT1vtsQw1wXf3VxwUHsa7F+UO2sD6QpJGG1xJZWGx4eSLWVHxLEfCr76vEWXadoNtZ8VkjInuYMtllSf7J8nECSoCJKYarYlXtiGgzHhtItLPmH9QMHtgc2RNyliL6z4zc8EeAuKDT0lZYYpyvplzHbgSyidLxi3X/wsx4cwjU3n1oag8A9JFK3iY745ctXv3SjhWrPPsQUpuVkZVQwnLxU2geTVbYzNFBs8cL2h8I6XIFRPVgPkA4=</span><br><span class="line">    </span><br><span class="line">before_install:</span><br><span class="line">  - export TZ=Asia/Taipei</span><br><span class="line"></span><br><span class="line">install:</span><br><span class="line">  - npm install</span><br><span class="line">  - npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line">script:</span><br><span class="line">  # Set Git config</span><br><span class="line">  - git config --global user.name &quot;$GIT_NAME&quot;</span><br><span class="line">  - git config --global user.email &quot;$GIT_EMAIL&quot;</span><br><span class="line">  - git config --global push.default simple</span><br><span class="line">  - git clone --depth 1 --branch gh-pages https://$GH_TOKEN@github.com/Panepo/Tesatsu public</span><br><span class="line">  # Generate static pages</span><br><span class="line">  - hexo generate</span><br><span class="line">  - cd public</span><br><span class="line">  - git add -A .</span><br><span class="line">  - MESSAGE=`date +\ %Y-%m-%d\ %H:%M:%S`</span><br><span class="line">  - git commit -m &quot;Travis CI auto deploy:$MESSAGE&quot;</span><br><span class="line">  - git push --quiet</span><br></pre></td></tr></table></figure></p>
-</div><div class="tags"><a href="/Tesatsu/tags/手札/">手札</a><a href="/Tesatsu/tags/程設/">程設</a></div><div class="post-share"></div><div class="post-nav"><a href="/Tesatsu/2018/05/25/Anemone/" class="pre">Anemone</a><a href="/Tesatsu/2018/05/22/Letter/" class="next">Letter</a></div><div id="comments"><div id="disqus_thread"></div></div></div></div></div><div class="layout-r"><div id="sidebar"><div class="search-pla"></div><div id="toc" class="widget"><div class="widget-title"><i class="fa fa-fei">Contents</i></div><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Github-設定"><span class="toc-text">Github 設定</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Travis-CI-設定"><span class="toc-text">Travis CI 設定</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#travis-yml-設定"><span class="toc-text">.travis.yml 設定</span></a></li></ol></div><div class="widget"><div class="widget-title"><i class="fa fa-biao"> Tags</i></div><div class="tagcloud"><a href="/Tesatsu/tags/手札/" style="font-size: 15px;">手札</a> <a href="/Tesatsu/tags/轉錄/" style="font-size: 15px;">轉錄</a> <a href="/Tesatsu/tags/跫響/" style="font-size: 15px;">跫響</a> <a href="/Tesatsu/tags/化語/" style="font-size: 15px;">化語</a> <a href="/Tesatsu/tags/寫真/" style="font-size: 15px;">寫真</a> <a href="/Tesatsu/tags/吟遊/" style="font-size: 15px;">吟遊</a> <a href="/Tesatsu/tags/程設/" style="font-size: 15px;">程設</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-archive"> Archive</i></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/10/">October 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2014/01/">January 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2013/12/">December 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2010/11/">November 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2010/05/">May 2010</a></li></ul></div></div></div></div><a id="totop" href="#top"></a><div id="footer"><div class="footer-info"><p><a href="/Tesatsu/about/">About</a></p><p><span> Copyright &copy;<a href="/Tesatsu/." rel="nofollow">Panepo.</a></span><span> Theme by<a rel="nofollow" target="_blank" href="https://github.com/chaooo/hexo-theme-BlueLake"> BlueLake.</a></span><span> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></span></p></div></div></div><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create','UA-106126363-2','auto');ga('send','pageview');
-</script><script type="text/javascript" src="/Tesatsu/js/search.json.js?v=2.0.1"></script><script type="text/javascript" src="/Tesatsu/js/toctotop.js?v=2.0.1" async></script><script>var disqus_shortname = 'tesatsu';
-var disqus_identifier = '2018/05/23/Deployment/';
-var disqus_title = 'Deployment';
-var disqus_url = 'http://panepo.github.io/Tesatsu/2018/05/23/Deployment/';
-(function() {
-  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();</script><script id="dsq-count-scr" src="//tesatsu.disqus.com/count.js" async></script><script type="text/javascript" src="//tesatsu.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></body></html>
+
+    
+    
+    <footer class="meta">
+      
+  <div class="cats">
+<a href="/Tesatsu/categories/手札/">手札</a><a href="/Tesatsu/categories/手札/程設/">程設</a></div>
+
+      
+  <div class="tags">
+<a href="/Tesatsu/tags/手札/">手札</a><a href="/Tesatsu/tags/程設/">程設</a></div>
+
+      
+    </footer>
+    
+  </div>
+  
+</article></div>
+  <footer id="footer" class="inner"><div class="social alignright">
+  
+  
+  
+    <a class="twitter" href="http://twitter.com/https://twitter.com/panepo69" title="Twitter">Twitter</a>
+  
+  
+    <a class="github" href="https://github.com/https://github.com/Panepo/Tesatsu" title="GitHub">GitHub</a>
+  
+  <a class="rss" href="/Tesatsu/atom.xml" title="RSS">RSS</a>
+</div>
+<p>
+  
+  &copy; 2018 Panepo
+  
+</p>
+<div class="clearfix"></div></footer>
+  <script src="/Tesatsu/js/jquery.imagesloaded.min.js"></script>
+<script src="/Tesatsu/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/Tesatsu/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/Tesatsu/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+<div id="phasebeam">
+  <canvas></canvas>
+  <canvas></canvas>
+  <canvas></canvas>
+</div>
+<script src="/Tesatsu/js/phasebeam.js"></script>
+</body>
+</html>
