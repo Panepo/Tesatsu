@@ -12,8 +12,6 @@
     
     <title>
         
-            Jupyter Notebook on Docker | 
-        
         鳥居の向こうの夢蒔絵
     </title>
 
@@ -38,7 +36,7 @@
     <meta name="theme-color" content="#4527A0">
     <meta name="author" content="Panepo">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content=",手札,程設">
+    <meta name="keywords" content="">
 
     <!-- Site Verification -->
     
@@ -67,18 +65,15 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://panepo.github.io/Tesatsu">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Jupyter Notebook on Docker | 鳥居の向こうの夢蒔絵">
+    <meta property="og:title" content="鳥居の向こうの夢蒔絵">
     <meta property="og:image" content="/Tesatsu/img/avatar/github.png" />
     <meta property="og:description" content="">
-    <meta property="og:article:tag" content="手札"> <meta property="og:article:tag" content="程設"> 
-
     
-        <meta property="article:published_time" content="Jun 20, 2018" />
-        <meta property="article:modified_time" content="Dec 13, 2018" />
+
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Jupyter Notebook on Docker | 鳥居の向こうの夢蒔絵">
+    <meta name="twitter:title" content="鳥居の向こうの夢蒔絵">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/Tesatsu/img/avatar/github.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -86,43 +81,13 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://panepo.github.io/Tesatsu/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/index.html" />
+        <link rel="canonical" href="http://panepo.github.io/Tesatsu/Tesatsu/page/7/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
-
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "publisher": {
-        "@type": "Organization",
-        "name": "鳥居の向こうの夢蒔絵",
-        "logo": "/Tesatsu/img/avatar/github.png"
-    },
-    "author": {
-        "@type": "Person",
-        "name": "Panepo",
-        "image": {
-            "@type": "ImageObject",
-            "url": "/Tesatsu/img/avatar/github.png"
-        },
-        "description": "信仰は儚き人間の為に"
-    },
-    "headline": "Jupyter Notebook on Docker",
-    "url": "http://panepo.github.io/Tesatsu/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/index.html",
-    "datePublished": "Jun 20, 2018",
-    "dateModified": "Dec 13, 2018",
-    "description": "",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "http://panepo.github.io/Tesatsu"
-    }
-}
-</script>
 
 
     
@@ -379,29 +344,25 @@
 
                     
 
-                    <!-- Post TOC -->
+                    <!-- Index Module -->
+<div class="material-index mdl-grid">
+    
+    <div class="locate-thumbnail-symbol"></div>
 
+    <!-- Pin on top -->
     
 
-
-
-<!-- Layouts -->
-
-    <!-- Post Module -->
-    <div class="material-post_container">
-
-        <div class="material-post mdl-grid">
-            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-
-                <!-- Post Header(Thumbnail & Title) -->
-                
-
-
-    <!-- Isolation Post Header -->
-    <!-- Post thumbnail -->
+    <!-- Normal Post -->
+    
+        
+            
+            
+                <!-- Isolation Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post_entry Header -->
     
         <!-- Post Header Info -->
-        <div class="post-header_info without-thumbnail">
+        <div class="post_entry-header_info without-thumbnail">
             <!-- Author Avatar & Name -->
             <img src="/Tesatsu/img/avatar/flan.png" class="avatar-img" width="44px" height="44px" alt="Panepo's avatar">
             <span class="name-span">Panepo</span>
@@ -412,110 +373,57 @@
     
         </div>
 
+    <!-- Post_entry Content -->
+    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+        <!-- Post Title -->
+        <p class="post_entry-title">
+            <a href="/Tesatsu/2010/05/31/Show-off/">Show off</a>
+        </p>
 
+        <!-- Post Excerpt -->
+        <p class="post_entry-excerpt">
+            
+                嗯, 該怎麼說呢…
+炫耀的人通常會覺得這些事情很正常, 很普通, 是自己掙來的, 既然有這些條件與付出, 那麼贏得美人歸或是跳下愛情的...
+            
+            &nbsp;&nbsp;&nbsp;
+            <span>
+                <a href="/Tesatsu/2010/05/31/Show-off/" target="_self">Read more</a>
+            </span>
+        </p>
 
-                
-
-                <!-- Post Content -->
-                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
-    
-
-    
-        <div class="post-content_wrapper">
-            <p class="post-title">
-                Jupyter Notebook on Docker
-            </p>
-            <p>This is the note for running jupyter notebook on docker.</p>
-<p>Jupyter docker stacks provide several docker images, they are <code>base-notebook</code>, <code>minimal-notebook</code>, <code>all-spark-notebook</code>, <code>pyspark-notebook</code>, <code>scipy-notebook</code>, <code>datascience-notebook</code>, <code>tensorflow-notebook</code> and <code>r-notebook</code><br><a href="https://github.com/jupyter/docker-stacks" target="_blank" rel="noopener">https://github.com/jupyter/docker-stacks</a></p>
-<p>Let this post runs <code>base-notebook</code> for example:<br><code>docker run --rm -P jupyter/base-notebook</code><br><code>--rm</code> means automatically remove the container when it exists. <code>-P</code> means publish all exposed ports to random ports.</p>
-<p>Let see what is runs by inputing this command:<br><code>docker ps</code><br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">CONTAINER ID        IMAGE                   COMMAND                  CREATED             STATUS              PORTS                     NAMES</span><br><span class="line">3464b0694c54        jupyter/base-notebook   &quot;tini -g -- start-no…&quot;   3 minutes ago       Up 3 minutes        0.0.0.0:32768-&gt;8888/tcp   gallant_chebyshev</span><br></pre></td></tr></table></figure><br>We can see that the port 32768 is exposed to the container port 8888, and visit <code>http://localhost:32768</code> vis browser.</p>
-<p>The token of juypter notebook is showned on the screen, just copy it and past on the browser:<br><code>http://localhost:32768/?token=[token]</code></p>
-<p>To fix the exposed port of container, we can replace <code>-P</code> to <code>-p 18888:8888</code>, this command will fix the exposed port to 18888.</p>
-<p>To terminate the jupyer notebook, use <code>docker stop [CONTAINER ID]</code></p>
-<p>To copy files to container, use <code>docker cp [FILE PATH] [CONTAINER ID]:/home/jovyan/work</code></p>
-<h3 id="Build-your-docker-image"><a href="#Build-your-docker-image" class="headerlink" title="Build your docker image"></a>Build your docker image</h3><p>To customize the docker image, a file named <code>Dockerfile</code> is needed, which contains the script to generate your customized image. Here’s my example which has additional Opencv, Tensorflow and Keras installed. Besides, copy the notebook directionary to the container.<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">FROM jupyter/scipy-notebook</span><br><span class="line"></span><br><span class="line">LABEL maintainer=&quot;Panepo &lt;panepo@github.io&gt;&quot;</span><br><span class="line"></span><br><span class="line"># install tensorflow</span><br><span class="line">RUN conda install --quiet --yes -c anaconda tensorflow=1.8</span><br><span class="line"></span><br><span class="line"># install keras</span><br><span class="line">RUN conda install --quiet --yes -c anaconda keras=2.2</span><br><span class="line"></span><br><span class="line"># install opencv</span><br><span class="line">RUN conda install --quiet --yes -c conda-forge opencv=3.4.1</span><br><span class="line"></span><br><span class="line">RUN conda clean -tipsy &amp;&amp; \</span><br><span class="line">    fix-permissions $CONDA_DIR &amp;&amp; \</span><br><span class="line">    fix-permissions /home/$NB_USER</span><br><span class="line"></span><br><span class="line">WORKDIR /app</span><br><span class="line"></span><br><span class="line">ADD ./notebook /app</span><br></pre></td></tr></table></figure><br>Run this command to build docker image:<br><code>docker build -t [image name] .</code></p>
-<h3 id="Upload-your-docker-image-to-dockerhub"><a href="#Upload-your-docker-image-to-dockerhub" class="headerlink" title="Upload your docker image to dockerhub"></a>Upload your docker image to dockerhub</h3><p>First, login to dockerhub<br><code>docker login</code></p>
-<p>Then run the image you want to push<br><code>docker run --rm [image name]</code></p>
-<p>Lunch another terminal, find the container id by this command<br><code>docker ps</code></p>
-<p>Then commit as git<br><code>docker commit -m &quot;[commit message]&quot; [container id] [repository]</code></p>
-<p>Finally, push it to dockerhub<br><code>docker push [repository]</code></p>
-
-        </div>
-    
-</div>
-
-
-                
-                    <!-- Paradox Post Info -->
-                    
-                
-
-                <!-- Post Comments -->
-                
-                    
-    <!-- 使用 DISQUS -->
-<div id="disqus-comment">
-    <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_config = function () {
-        this.page.url = 'http://panepo.github.io/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://panepo.github.io/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-</script>
-<script type="text/ls-javascript" id="disqus-thread-script">
-    queue.offer(function() {
-            (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document;
-                var s = d.createElement('script');
-                s.src = '//tesatsu.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', + new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        });
-</script>
-
-</div>
-<style>
-    #disqus-comment{
-        background-color: #eee;
-        padding: 2pc;
-    }
-</style>
-
-                
-            </div>
-
-            <!-- Post Prev & Next Nav -->
-            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-    <!-- Prev Nav -->
-    
-        <a href="/Tesatsu/2018/07/10/Entrance-Exam/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Newer
-        </a>
-    
-
-    <!-- Section Spacer -->
-    <div class="section-spacer"></div>
-
-    <!-- Next Nav -->
-    
-        <a href="/Tesatsu/2018/06/15/Over-the-Waves/" id="post_nav-older" class="next-content">
-            Older
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_forward</i>
-            </button>
-        </a>
-    
-</nav>
-
-        </div>
+        <!-- Post Tags -->
+        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/轉錄/">轉錄</a></li></ul>
     </div>
 
+    <!-- Post_entry Footer -->
+    <div class="post_entry-footer">
+        <div class="post_entry-footer-border"></div>
+        <div class="post_entry-footer-info">
+            <div class="post_entry-footer-date">
+                May 31, 2010
+            </div>
+            <div class="post_entry-footer-comment">
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+        
+    
+
+    
+    <!-- Index nav -->
+        <nav class="material-nav mdl-cell mdl-cell--12-col">
+            <a class="extend prev" rel="prev" href="/Tesatsu/page/6/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_back</i></button></a><a class="page-number" href="/Tesatsu/">1</a><a class="page-number" href="/Tesatsu/page/5/">5</a><a class="page-number" href="/Tesatsu/page/6/">6</a><span class="page-number current">7</span>
+        </nav>
+    
+
+    
+</div>
 
 
                     
