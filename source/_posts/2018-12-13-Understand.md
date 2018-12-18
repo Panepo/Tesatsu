@@ -1,9 +1,9 @@
 ---
 title: Understand
 categories:
-  - 手札
+  - 化語
 tags:
-  - 手札
+  - 化語
 date: 2018-12-13 17:45:07
 ---
 在未來科技展的時候.....
