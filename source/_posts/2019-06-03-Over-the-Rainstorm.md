@@ -112,7 +112,7 @@ date: 2019-06-03 13:24:23
 目前技能點法如下, 不過很多是亂點來玩的, 像是尖叫. ( ´ ▽ ` )
 實際上只要把上面列的幾個點出來就好囉.
 
-<center>{% asset_img skill.jpg skill %}</center>
+<center>{% asset_img skill.png skill %}</center>
 
 ### 裝備選擇
 
