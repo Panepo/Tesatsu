@@ -25,6 +25,8 @@ date: 2019-06-03 13:24:23
 攻擊技能以拿弓遠程攻擊為主, 因此對上會使用光壁的敵人相當頭痛. ( ´ ▽ ` )
 完全不考慮拿鞭子戰鬥, 像是奧義箭亂舞都不考慮囉, 因為根本沒有封印鞭和海克鞭. (oﾟдﾟo)
 
+<center>{% asset_img 4.jpg wanderer %} {% asset_img 5.jpg wanderer %}</center>
+
 {% blockquote %}
 {% asset_img SkillRainStorm.PNG 大暴雨 %} 大暴雨(Severe Rainstorm)
 - 裝備弓時，以指定地點為中心施放11x11範圍的持續性箭雨
@@ -68,6 +70,8 @@ date: 2019-06-03 13:24:23
 殘響引爆範圍只有 1 格而且傷害會分散, 實戰根本沒有用途; 不過倒是可以重複埋在副本王出來的格子上來個一次引爆.
 重金屬音樂強制無屬性, 獨立延遲 4 秒又是純魔法傷害而且傷害倍率也不高.
 所以目前狀況下都不考慮.
+
+<center>{% asset_img 6.jpg wanderer %} {% asset_img 7.jpg wanderer %} {% asset_img 8.jpg wanderer %}</center>
 
 ### 輔助技能
 
