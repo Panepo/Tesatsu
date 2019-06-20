@@ -132,14 +132,15 @@ date: 2019-06-03 13:24:23
 唯一想到的就只有高級輔助紋章魔力劍了, 多少補點普攻的傷害.
 
 {% blockquote %}
-頭上: 新手頭盔 / {% link 神秘垂死天鹅 https://rd.fharr.com/item-18981.html %}
+頭上: 新手頭盔 / {% link 神秘垂死天鹅 https://rd.fharr.com/item-18981.html %} / {% link 經典羽毛帽 https://rd.fharr.com/item-19296.html %} / {% link 地獄南瓜帽 https://rd.fharr.com/item-18810.html %}
 頭中: {% link 惡魔小獸角 https://rd.fharr.com/item-18503.html %} / {% link 熾天使花冠 https://rd.fharr.com/item-19138.html %}
 頭下: {% link 夢魘古城旁觀者 https://rd.fharr.com/item-19101.html %} / {% link 熊貓氣球  https://rd.fharr.com/item-18962.html %}
 套裝: 帝國套({% link 帝國羽翼髮飾 https://rd.fharr.com/item-18823.html %}, {% link 皇家衛士頸鍊 https://rd.fharr.com/item-19246.html %}) / 賭徒套({% link 賭徒之印  https://rd.fharr.com/item-5918.html %}, {% link 紅心王牌 https://rd.fharr.com/item-19306.html %})
 卡片: 潘貝勒克 / 狡蛛 / 暴力腔棘魚 / 奇爾
 {% endblockquote %}
-新手頭盔全能力值 +20 可以大大提升攻擊速度, 減少詠唱時間; 而且 A,D +20 也大大提升大暴雨的傷害, 實在很難換掉.. (oﾟдﾟo)
-而俗稱戰死頭的神秘垂死天鵝則是最終選擇.
+新手頭盔全能力值 +25 可以大大提升攻擊速度, 減少詠唱時間; 而且 A,D +20 也大大提升大暴雨的傷害, 實在很難換掉.. (oﾟдﾟo)
+地獄南瓜帽則有變身無視防禦的功能, 雖然持續時間不長, 不過道也是個提昇傷害的手段...
+而俗稱戰死頭的神秘垂死天鵝和經典羽毛帽則是後期選擇.
 另外因為多了箭雨風暴的關係, 平時打副本非常的缺 SP; 可是這邊又沒有{% link 盧恩繩結髮圈 https://rd.fharr.com/item-5585.html %}或是{% link 武神之盔 https://rd.fharr.com/item-18652.html %}, 就多喝點水吧... (oﾟдﾟo)
 頭中頭下前期可以用惡魔小獸角, 夢靨古城觀察者或是熊貓氣球, 之後在換成帝國套, 賭徒套或是花冠; 不過因為我還沒摳摳換帝國套, 賭徒套或是花冠, 哪邊好我也不清楚.
 
@@ -150,10 +151,13 @@ date: 2019-06-03 13:24:23
 魔王的外袍有著 -10% 延遲的效果, 艾克賽利翁外套可以自選三張設計圖; 不過都比不上那件罵人祖宗十八代的惡言外袍, 後期的選擇.
 
 {% blockquote %}
-披風: 新手披風 / {% link 巴基力的斗篷 https://rd.fharr.com/item-2324.html %}
+披風: 新手披風 / {% link 巴基力的斗篷 https://rd.fharr.com/item-2324.html %} / {% link 艾克賽利翁推進翼 https://rd.fharr.com/item-20773.html %} / {% link 戰死者斗篷 https://rd.fharr.com/item-20749.html %} / 墮天使之翼(韓版) / {% link 三角狂獅獸之外皮 https://rd.fharr.com/item-2544.html %}
 卡片: 花妖精 / 幽劍 / 惡波
 {% endblockquote %}
-新手披風可以增加 15% 攻擊速度, 用於稱 aspd 193 很有幫助; 而巴批是搭配惡言外袍使用.
+新手披風可以增加 15% 攻擊速度, 用於稱 aspd 193 很有幫助.
+巴批是搭配惡言外袍使用, 三角狂獅獸之外皮是搭配經典羽毛帽使用.
+艾克賽利翁推進翼和艾克賽利翁外套有著套裝效果減延遲, 同時也可以自選三張設計圖.
+高精練的戰死者斗篷提供了相當不錯的攻擊速度和輸出, 不過可以附魔名弓的墮天使之翼更好, 當然價格也更貴.
 
 {% blockquote %}
 鞋子: 新手鞋子 / {% link 時光靈巧戰靴 https://rd.fharr.com/item-22008.html %} / {% link 時光超越者之靴 https://rd.fharr.com/item-22202.html %}
