@@ -16,7 +16,7 @@ date: 2019-06-03 13:24:23
 
 不過首先要說的是 "好孩子不要學, 姊姊是有練過的!" 畢竟是冷門職業輸出不太行, 輔助功能和比起包緊緊的詩人來說也不好; 人家光一個布萊奇就輔助價值滿分, 風車價值也高; 不時都有朋友說這是花瓶職業不要練要我改練遊俠或是魅影, 那麼這個花瓶職業有甚麼優點值得推廣呢? 就是可愛, 可愛就是正義! 轉換為日版外觀後有著全 RO 最可愛的衣服!
 
-<center>{% asset_img 1.jpg wanderer %}</center>
+<center>{% asset_img 1.jpg wanderer %} {% asset_img r1.jpg wanderer %} {% asset_img r2.jpg wanderer %}</center>
 
 另外我沒在打架, 打架的問題不要問我. ( ´ ▽ ` )
 
@@ -138,7 +138,7 @@ date: 2019-06-03 13:24:23
 套裝: 帝國套({% link 帝國羽翼髮飾 https://rd.fharr.com/item-18823.html %}, {% link 皇家衛士頸鍊 https://rd.fharr.com/item-19246.html %}) / 賭徒套({% link 賭徒之印  https://rd.fharr.com/item-5918.html %}, {% link 紅心王牌 https://rd.fharr.com/item-19306.html %})
 卡片: 潘貝勒克 / 狡蛛 / 暴力腔棘魚 / 奇爾
 {% endblockquote %}
-新手頭盔全能力值 +25 可以大大提升攻擊速度, 減少詠唱時間; 而且 A,D +20 也大大提升大暴雨的傷害, 實在很難換掉.. (oﾟдﾟo)
+新手頭盔全能力值 +25 可以大大提升攻擊速度, 減少詠唱時間; 而且 A,D +25 也大大提升大暴雨的傷害, 實在很難換掉.. (oﾟдﾟo)
 地獄南瓜帽則有變身無視防禦的功能, 雖然持續時間不長, 不過道也是個提昇傷害的手段...
 而俗稱戰死頭的神秘垂死天鵝和經典羽毛帽則是後期選擇.
 另外因為多了箭雨風暴的關係, 平時打副本非常的缺 SP; 可是這邊又沒有{% link 盧恩繩結髮圈 https://rd.fharr.com/item-5585.html %}或是{% link 武神之盔 https://rd.fharr.com/item-18652.html %}, 就多喝點水吧... (oﾟдﾟo)
