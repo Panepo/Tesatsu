@@ -35,7 +35,7 @@ date: 2019-06-12 20:19:27
 ### 裝備選擇
 
 {% blockquote %}
-武器: 邪惡長弓 / 封印月弓
+武器: {% link 邪惡長弓 https://rd.fharr.com/item-18121.html %} / 封印月弓
 卡片: 巴基利 / 要塞巫師
 {% endblockquote %}
 
