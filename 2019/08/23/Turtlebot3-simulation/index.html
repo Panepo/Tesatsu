@@ -12,7 +12,7 @@
     
     <title>
         
-            Hello World | 
+            Turtlebot3 simulation | 
         
         鳥居の向こうの夢蒔絵
     </title>
@@ -38,7 +38,7 @@
     <meta name="theme-color" content="#4527A0">
     <meta name="author" content="Panepo">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content=",化語,寫真">
+    <meta name="keywords" content=",手札,程設">
 
     <!-- Site Verification -->
     
@@ -67,18 +67,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://panepo.github.io/Tesatsu">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Hello World | 鳥居の向こうの夢蒔絵">
+    <meta property="og:title" content="Turtlebot3 simulation | 鳥居の向こうの夢蒔絵">
     <meta property="og:image" content="/Tesatsu/img/avatar/github.png" />
     <meta property="og:description" content="">
-    <meta property="og:article:tag" content="化語"> <meta property="og:article:tag" content="寫真"> 
+    <meta property="og:article:tag" content="手札"> <meta property="og:article:tag" content="程設"> 
 
     
-        <meta property="article:published_time" content="May 04, 2018" />
+        <meta property="article:published_time" content="Aug 23, 2019" />
         <meta property="article:modified_time" content="Aug 23, 2019" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="Hello World | 鳥居の向こうの夢蒔絵">
+    <meta name="twitter:title" content="Turtlebot3 simulation | 鳥居の向こうの夢蒔絵">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/Tesatsu/img/avatar/github.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -86,7 +86,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://panepo.github.io/Tesatsu/Tesatsu/2018/05/04/Hello-World/index.html" />
+        <link rel="canonical" href="http://panepo.github.io/Tesatsu/Tesatsu/2019/08/23/Turtlebot3-simulation/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -112,9 +112,9 @@
         },
         "description": "信仰は儚き人間の為に"
     },
-    "headline": "Hello World",
-    "url": "http://panepo.github.io/Tesatsu/Tesatsu/2018/05/04/Hello-World/index.html",
-    "datePublished": "May 04, 2018",
+    "headline": "Turtlebot3 simulation",
+    "url": "http://panepo.github.io/Tesatsu/Tesatsu/2019/08/23/Turtlebot3-simulation/index.html",
+    "datePublished": "Aug 23, 2019",
     "dateModified": "Aug 23, 2019",
     "description": "",
     "mainEntityOfPage": {
@@ -423,54 +423,31 @@
     
         <div class="post-content_wrapper">
             <p class="post-title">
-                Hello World
+                Turtlebot3 simulation
             </p>
-            <p>Hello World 對於程式設計師來說, 這是一定要的啦!</p>
-<p>這篇算是這裡的第一篇文章, 用這篇紀念一下.</p>
-<p>之後會慢慢把其他地方的文章轉錄過來, 不過不打算改發表日期所以這篇不會顯示最舊.</p>
-<img src="https://lh3.googleusercontent.com/jFECwc3QjUjZGMhevPdVmng_8Cr5IzBYfy-WHArynC34u4-k3sa01jxXfFlGVwa2xf9fhdJ_MjNAGFfJQxIit4ze_bYQHc08_eNBpEi4mW5tF26Kv-J_5sM7Djlvjm5-WakYXsETow=w2400" title="大觀峰日落">
-<p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p>
-<p>照片攝於去年 9 月日本九州大觀峰.</p>
-<p>登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p>
-<div id="googleMap1229" style="
-            height: 450px;
-            width: 100%;
-            margin: 0px;
-            padding: 0px
-            ">
-</div>
-<style>.gmnoprint img {max-width: none !important;}</style>
-<script defer="defer">
-  window.hexoGmaps = window.hexoGmaps || { maps: {}};
-  window.hexoGmaps.maps['initgoogleMap1229'] = function init() {
-    var mapOptions = {
-       'scrollwheel': false,
-       'zoom': 13,
-       'center': new window.google.maps.LatLng( 32.996765 , 131.049611 ),
-     },
-     target = document.getElementById('googleMap1229'),
-     map = new window.google.maps.Map(target, mapOptions);
-      
-   
+            <p>This is the note for set up development environment of Turtlebot3 simualtion on Ubuntu 16.04 LTS</p>
+<ol>
+<li><p>Install command for dependent packages</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-keyboard ros-kinetic-teleop-twist-joy ros-kinetic-laser-proc ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan ros-kinetic-rosserial-python ros-kinetic-rosserial-server ros-kinetic-rosserial-arduino ros-kinetic-rosserial-client ros-kinetic-rosserial-msgs ros-kinetic-amcl ros-kinetic-map-server ros-kinetic-move-base ros-kinetic-urdf ros-kinetic-xacro ros-kinetic-compressed-image-transport ros-kinetic-rqt-image-view ros-kinetic-gmapping ros-kinetic-navigation</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Install Turtlebot3 packages</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd ~/catkin_ws/src/</span><br><span class="line">git clone https://github.com/ROBOTIS-GIT/turtlebot3.git</span><br><span class="line">git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git</span><br><span class="line">git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git</span><br><span class="line">cd ~/catkin_ws &amp;&amp; catkin_make</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Set simulation parameters to ./bashrc</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">EXPORT TURTLEBOT3_MODEL=waffle</span><br><span class="line">export ROS_HOSTNAME=localhost</span><br><span class="line">export ROS_MASTER_URI=http://$&#123;ROS_HOSTNAME&#125;:11311</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Start SLAM and navigation simulation</p>
+<ul>
+<li><p>Build the map by SLAM</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">roslaunch turtlebot3_gazebo turtlebot3_world.launch</span><br><span class="line">roslaunch turtlebot3_gazebo turtlebot3_simulation.launch</span><br><span class="line">roslaunch turtlebot3_slam turtlebot3_slam.launch</span><br><span class="line">rosrun map_server map_saver -f ~/map</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Start navigation</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">roslaunch turtlebot3_gazebo turtlebot3_world.launch</span><br><span class="line">roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ol>
 
-  }
-  function makeMaps() {
-    for (var map in window.hexoGmaps.maps) {
-       console.log('map #', map);
-       window.hexoGmaps.maps[map]();
-    }
-  }
-  function loadScript() {
-    window.hexoGmaps.googleScriptLoaded = true;
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=AIzaSyCfQ64zXVkp6QwAMFd8BXjJQTp6McM2xMI';
-    document.body.appendChild(script);
-  }
-  if (!window.hexoGmaps.googleScriptLoaded) {
-    loadScript();
-  }
-</script>
         </div>
     
 </div>
@@ -489,8 +466,8 @@
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://panepo.github.io/Tesatsu/2018/05/04/Hello-World/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://panepo.github.io/Tesatsu/2018/05/04/Hello-World/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://panepo.github.io/Tesatsu/2019/08/23/Turtlebot3-simulation/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://panepo.github.io/Tesatsu/2019/08/23/Turtlebot3-simulation/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 <script type="text/ls-javascript" id="disqus-thread-script">
@@ -520,21 +497,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/Tesatsu/2018/05/07/Sorciere-de-Laplace/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Newer
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/Tesatsu/2018/04/25/Expect/" id="post_nav-older" class="next-content">
+        <a href="/Tesatsu/2019/08/22/ROS-environment/" id="post_nav-older" class="next-content">
             Older
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
