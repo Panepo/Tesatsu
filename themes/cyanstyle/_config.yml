@@ -1,0 +1,27 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+
+# Content
+excerpt_link: More
+prev: Prev
+next: Next
+reply: Reply
+fancybox: true
+
+# Sidebar
+widgets:
+- search
+- recent_posts
+- tag
+- tagcloud
+
+# Miscellaneous
+google_analytics: UA-106126363-2
+duoshuo_shortname:
+rss:
+google_site_verification:
+baidu_site_verification:
+favicon:
+music:

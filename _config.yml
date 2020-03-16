@@ -4,7 +4,7 @@
 
 # Site
 title: 鳥居の向こうの夢蒔絵
-subtitle:
+subtitle: 信仰は儚き人間の為に
 description:
 keywords:
 author: Panepo
@@ -75,7 +75,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: material
+theme: cyanstyle
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
