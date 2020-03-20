@@ -75,6 +75,63 @@ ga('send', 'pageview');
       <div id="main" class="wrapper">
         <div id="primary" class="site-content"><div id="content" role="main">
   
+    <article id="post-AlphaStar" class="post-AlphaStar post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/Tesatsu/2019/01/25/AlphaStar/">AlphaStar</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/01/25/AlphaStar/" data-id="ck7zxop3w006u4jr0jni5k7n7" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <p>因為目標不是星海二，而是一個更大的問題：POMDP</p>
+<p>美國國防部四十年前就想作一個東西，能力是可以在戰爭的時候提供決策<br>古時候 AI 研究的終極目標就是：軍事應用。投了超多錢都沒什麼成果<br>現在回頭看知道原因是資料、硬體、還有理論都沒到位</p>
+<p>圍棋在 AI 是個很簡單的問題<br>因為他是 fully-observed，參加者可以獲得賽局的所有資訊<br>而且採取一個動作所獲得的結果都是 deteministic，不帶隨機性<br>當然，你的對手會作什麼你不知道，這邊的隨機性指的不是對手的動作<br>而是當你選擇一個動作的時候，這個動作的效果帶有隨機性<br>舉例來說，假設你選擇在某處落子，結果落子的那隻手有帕金森氏症一直抖<br>實際落下去的地方不是你指定的點，而是隨機落在指定點的附近</p>
+<p>這種問題是「完全觀測、無隨機性」的問題，是很好解的<br>但是實際上的問題都不是這種，現實世界的問題幾乎都是 partial-observed<br>你在戰場上並不知道對手把兵力藏在哪裡，你採取的動作結果也未必穩定<br>而是帶有隨機性的 markov decision problem<br>這樣的問題叫作 POMDP（partial-observed markov decision problem）<br>這種問題超難，做了幾十年，沒有任何能搬上實際應用的成果</p>
+<p>現實世界很多這種問題都超有價值，像是軍事、商業<br>星海二是 partial-observed，但不帶隨機性，這是遊戲設計故意的<br>因為要發展電競，所以不希望結果帶有運氣，所以動作的結果都是 deterministic<br>古時候星海一架跑台打高地，命中率帶有隨機性<br>後來把這個隨機性拿掉了，改成一定命中但傷害較少，也是這個原因<br>但即使如此，能解一個 partial-observed game 也是超巨大的一步</p>
+<p>因為目標其實是想要知道、驗證「這個人工智慧演算法到底有多聰明」<br>所以如果給他無限的手速，就無法驗證這一點<br>他的目的根本不是要打贏人類，而是要「用策略打贏人類」<br>所以給超高手速沒有意義，無法驗證演算法在策略上的程度<br>給過低的手速導致穩輸也沒有什麼意義，一樣無法驗證這點</p>
+<p>當 DeepMind 在星海二有超好表現之後<br>國防部是不是有可能端著大筆的現金去找他們<br>給他們一個帶有隨機性的戰略模擬軟體叫他們攻略看看<br>用來打商業戰的價值也無法估計的高，民間公司也有可能找來<br>商機太大了……</p>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/Tesatsu/2019/01/25/AlphaStar/">
+    <time datetime="2019-01-25T09:42:19.000Z" class="entry-date">
+        2019-01-25
+    </time>
+</a>
+    
+  <span class="article-delim">&#8226;</span>
+  <div class="article-category">
+  <a class="article-category-link" href="/Tesatsu/categories/手札/">手札</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/吟遊/">吟遊</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/吟遊/程設/">程設</a>
+  </div>
+
+    
+  <span class="article-delim">&#8226;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
+
+    </footer>
+</article>
+
+
+
+
+
+
+  
     <article id="post-Battery-charger" class="post-Battery-charger post type-post status-publish format-standard hentry">
     <!---->
 
@@ -90,7 +147,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/01/14/Battery-charger/" data-id="ck7zni05a006q4vsj3u8sb45t" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/01/14/Battery-charger/" data-id="ck7zxop3u006q4jr0106og3kw" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -153,7 +210,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/01/08/Moon/" data-id="ck7zni058006m4vsjs62jotl5" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/01/08/Moon/" data-id="ck7zxop3s006m4jr03tqnwl4p" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -214,7 +271,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/01/04/Tensorflow-GPU/" data-id="ck7zni056006i4vsjfpblwrgr" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/01/04/Tensorflow-GPU/" data-id="ck7zxop3q006i4jr00o68pehz" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -290,7 +347,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/21/Haiti/" data-id="ck7zni054006e4vsjrsisb36l" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/21/Haiti/" data-id="ck7zxop3p006e4jr0ye2x6096" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -396,7 +453,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/20/Mutsuki/" data-id="ck7zni053006a4vsj233ii7t4" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/20/Mutsuki/" data-id="ck7zxop3o006a4jr01kupqmz9" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -472,7 +529,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/18/Dunno/" data-id="ck7zni04w00664vsj7qj0rwu0" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/18/Dunno/" data-id="ck7zxop3h00664jr05nmjliv9" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -524,7 +581,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/13/Understand/" data-id="ck7zni04v00624vsj0e8v8dcj" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/13/Understand/" data-id="ck7zxop3g00624jr0q71rvw92" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -576,7 +633,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/06/Growing/" data-id="ck7zni04u005y4vsjnja7l3dc" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/06/Growing/" data-id="ck7zxop3f005y4jr0gythdf40" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -631,7 +688,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/04/Landmine/" data-id="ck7zni04s005u4vsjfep2znx8" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/04/Landmine/" data-id="ck7zxop3d005u4jr0see5t4hy" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -694,60 +751,6 @@ ga('send', 'pageview');
 
 
   
-    <article id="post-Change" class="post-Change post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/Tesatsu/2018/11/05/Change/">Change</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/11/05/Change/" data-id="ck7zni04q005q4vsjpxonv78o" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <center></center>
-
-<p>好囉, 用<code>material-ui</code>代替掉<code>material design lite</code>徹底把 Yayoi 換皮成功, 前端又往前走了一步.</p>
-<p>我絕對不是在說 diablo M 是網易遊戲換皮喔! 絕對沒有在說熬夜看 Blizzcon 結果暴雪端了一盤大便給我吃.</p>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/Tesatsu/2018/11/05/Change/">
-    <time datetime="2018-11-05T02:37:09.000Z" class="entry-date">
-        2018-11-05
-    </time>
-</a>
-    
-  <span class="article-delim">&#8226;</span>
-  <div class="article-category">
-  <a class="article-category-link" href="/Tesatsu/categories/手札/">手札</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/吟遊/">吟遊</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/吟遊/程設/">程設</a>
-  </div>
-
-    
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
-
-    </footer>
-</article>
-
-
-
-
-
-
-  
   
     <nav id="pagination">
       <nav id="page-nav">
@@ -774,6 +777,10 @@ ga('send', 'pageview');
       <ul>
         
           <li>
+            <a href="/Tesatsu/2020/03/20/Typescript/">Typescript</a>
+          </li>
+        
+          <li>
             <a href="/Tesatsu/2020/03/13/ROS2-environment/">ROS2 environment</a>
           </li>
         
@@ -789,10 +796,6 @@ ga('send', 'pageview');
             <a href="/Tesatsu/2019/08/22/ROS-environment/">ROS environment</a>
           </li>
         
-          <li>
-            <a href="/Tesatsu/2019/07/20/Lino-King/">Lino King</a>
-          </li>
-        
       </ul>
     </div>
   </aside>
@@ -802,7 +805,7 @@ ga('send', 'pageview');
   <aside class="widget">
     <h3 class="widget-title">Tags</h3>
     <div class="widget-content">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/化語/">化語</a><span class="tag-list-count">21</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a><span class="tag-list-count">17</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/寫真/">寫真</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/手札/">手札</a><span class="tag-list-count">31</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/程設/">程設</a><span class="tag-list-count">23</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/跫響/">跫響</a><span class="tag-list-count">16</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/轉錄/">轉錄</a><span class="tag-list-count">10</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/化語/">化語</a><span class="tag-list-count">22</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a><span class="tag-list-count">17</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/寫真/">寫真</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/手札/">手札</a><span class="tag-list-count">31</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/程設/">程設</a><span class="tag-list-count">24</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/跫響/">跫響</a><span class="tag-list-count">16</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/轉錄/">轉錄</a><span class="tag-list-count">10</span></li></ul>
     </div>
   </aside>
 
