@@ -75,6 +75,71 @@ ga('send', 'pageview');
       <div id="main" class="wrapper">
         <div id="primary" class="site-content"><div id="content" role="main">
   
+    <article id="post-Deployment" class="post-Deployment post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/Tesatsu/2018/05/23/Deployment/">Deployment</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/05/23/Deployment/" data-id="ck7zni035002b4vsj26smaobt" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <p>這篇為使用 Travis CI 自動佈署 web application 到 Github pages 的方法來做個紀錄.</p>
+<h3 id="Github-設定"><a href="#Github-設定" class="headerlink" title="Github 設定"></a>Github 設定</h3><ul>
+<li>首先要準備一組 personal access token 給 Travis CI. 到 Github 的 settings 頁面下的 personal access token 產生一組有 repo 權限的 token.</li>
+<li>建立 gh-pages 分支, Github pages 會自動將此分支的所有資料 deploy 到 <code>https://&lt;Github id&gt;.github.io/&lt;Repo name&gt;/</code> 底下.</li>
+</ul>
+<h3 id="Travis-CI-設定"><a href="#Travis-CI-設定" class="headerlink" title="Travis CI 設定"></a>Travis CI 設定</h3><ul>
+<li>申請 Tarvis CI 帳號</li>
+<li>將 Github 資料庫和 Travis CI 做連結</li>
+<li>增加 .travis.yml 檔案至 Github 資料庫</li>
+</ul>
+<h3 id="travis-yml-設定"><a href="#travis-yml-設定" class="headerlink" title=".travis.yml 設定"></a>.travis.yml 設定</h3><ul>
+<li>先安裝官方提供的 ruby 套件 travis command line tool.<br><code>gem install travis</code><br>使用命令列工具登入 GitHub<br><code>travis login</code><br>使用命令列工具將剛產生出來的 token 加密並寫入 Travis CI 設定檔<br><code>travis encrypt &#39;GIT_NAME=&quot;&lt;Github ID&gt;&quot; GIT_EMAIL=&lt;Github email&gt; &#39;GH_TOKEN=&lt;Token&gt;&#39; --add</code></li>
+<li>再來是讓 Travis CI 自動 build, 並讓生成的檔案往 Github 資料庫中的 gh-pages 分支 push, 這些都寫在設定檔中的 install 和 script 區塊.</li>
+</ul>
+<p>最後文件檔的配置如下:<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">language: node_js</span><br><span class="line"></span><br><span class="line">node_js:</span><br><span class="line">  - &quot;8.9.1&quot;</span><br><span class="line"></span><br><span class="line">env:</span><br><span class="line">  global:</span><br><span class="line">    secure: XN7bTWNHQyFk9Mq656K9iYCp3apSwVECA1PGQQUnrdpjfZXDTvDlxhbN65euShbH2tsKxPRnXq47wzkKw38NS2TonrF05cUiA4O49sd8Nifh3YJe9ynx9NfmLjq22qpP0Ul9+d9NFGIkiactMC22ho8KcEYXs9KEx8r4gytkdvNC0dqYzmI9bPx9TNg5k1MmAKwzwB/Sy2MVudhJGUPMMhDD8i2zUS/ollrnuK6CG+UGu39/2/IyEtrcQZ5/jm6m4Bo+ofnOro8+9x/y/RlzGGjsjvBDVl7Jodd6Nuu4FLQjsD6fOzrV+mgFZKU+nE4/8Qc9HiM2cT7DqWMOy05Lx2XqN48/gerv7qPeglEIqIhHGmz0poAgc0TCp552Ys8TFMhpbuUvBeIxxbzCjFD5hgTpgFHnVo+F7PEOTEBapRnK2H+5PNRgJsT1vtsQw1wXf3VxwUHsa7F+UO2sD6QpJGG1xJZWGx4eSLWVHxLEfCr76vEWXadoNtZ8VkjInuYMtllSf7J8nECSoCJKYarYlXtiGgzHhtItLPmH9QMHtgc2RNyliL6z4zc8EeAuKDT0lZYYpyvplzHbgSyidLxi3X/wsx4cwjU3n1oag8A9JFK3iY745ctXv3SjhWrPPsQUpuVkZVQwnLxU2geTVbYzNFBs8cL2h8I6XIFRPVgPkA4=</span><br><span class="line">    </span><br><span class="line">before_install:</span><br><span class="line">  - export TZ=Asia/Taipei</span><br><span class="line"></span><br><span class="line">install:</span><br><span class="line">  - npm install</span><br><span class="line">  - npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line">script:</span><br><span class="line">  # Set Git config</span><br><span class="line">  - git config --global user.name &quot;$GIT_NAME&quot;</span><br><span class="line">  - git config --global user.email &quot;$GIT_EMAIL&quot;</span><br><span class="line">  - git config --global push.default simple</span><br><span class="line">  - git clone --depth 1 --branch gh-pages https://$GH_TOKEN@github.com/Panepo/Tesatsu public</span><br><span class="line">  # Generate static pages</span><br><span class="line">  - hexo generate</span><br><span class="line">  - cd public</span><br><span class="line">  - git add -A .</span><br><span class="line">  - MESSAGE=`date +\ %Y-%m-%d\ %H:%M:%S`</span><br><span class="line">  - git commit -m &quot;Travis CI auto deploy:$MESSAGE&quot;</span><br><span class="line">  - git push --quiet</span><br></pre></td></tr></table></figure></p>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/Tesatsu/2018/05/23/Deployment/">
+    <time datetime="2018-05-23T01:46:32.000Z" class="entry-date">
+        2018-05-23
+    </time>
+</a>
+    
+  <span class="article-delim">&#8226;</span>
+  <div class="article-category">
+  <a class="article-category-link" href="/Tesatsu/categories/手札/">手札</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/程設/">程設</a>
+  </div>
+
+    
+  <span class="article-delim">&#8226;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
+
+    </footer>
+</article>
+
+
+
+
+
+
+  
     <article id="post-Letter" class="post-Letter post type-post status-publish format-standard hentry">
     <!---->
 
@@ -90,7 +155,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/05/22/Letter/" data-id="ck7wvy19r00261rso5l7bfmdn" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/05/22/Letter/" data-id="ck7zni03300264vsjc2xfy8mb" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -147,7 +212,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/05/19/Grid/" data-id="ck7wvy19q00231rsoh3b87mth" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/05/19/Grid/" data-id="ck7zni03100234vsjky0cdqa2" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -155,7 +220,7 @@ ga('send', 'pageview');
       
         <img src="https://lh3.googleusercontent.com/5jrXhJiybCA2KZCYGqe4Nyy8_z04i7yryezs1SCsy5f81IAkuajKfaXYoGPD8IpBb3CAQUWFanGmTfScU4feLi7OfLPEWaTcEOfeI2BF_XGHPoz0fXUZPtBevIhnh_3ApTj5gyDtHw=w2400" title="Grid">
 <p>攝於桃園農業博覽會</p>
-<div id="googleMap7813" style="
+<div id="googleMap8784" style="
             height: 450px;
             width: 100%;
             margin: 0px;
@@ -165,13 +230,13 @@ ga('send', 'pageview');
 <style>.gmnoprint img {max-width: none !important;}</style>
 <script defer="defer">
   window.hexoGmaps = window.hexoGmaps || { maps: {}};
-  window.hexoGmaps.maps['initgoogleMap7813'] = function init() {
+  window.hexoGmaps.maps['initgoogleMap8784'] = function init() {
     var mapOptions = {
        'scrollwheel': false,
        'zoom': 16,
        'center': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),
      },
-     target = document.getElementById('googleMap7813'),
+     target = document.getElementById('googleMap8784'),
      map = new window.google.maps.Map(target, mapOptions);
       
      
@@ -256,7 +321,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/05/12/Embed/" data-id="ck7wvy19o001y1rsotu4lojsc" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/05/12/Embed/" data-id="ck7zni030001y4vsjicb9n6ob" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -317,7 +382,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/05/09/Centaur-s-Worries/" data-id="ck7wvy19n001v1rsoa65dlhsx" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/05/09/Centaur-s-Worries/" data-id="ck7zni02z001v4vsjmm0vskka" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -384,7 +449,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/05/07/Sorciere-de-Laplace/" data-id="ck7wvy19m001s1rsokwyfqj8q" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/05/07/Sorciere-de-Laplace/" data-id="ck7zni02x001s4vsjsng95pnr" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -447,7 +512,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/05/04/Hello-World/" data-id="ck7wvy19l001n1rsok5rbzr0k" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/05/04/Hello-World/" data-id="ck7zni02v001n4vsjxwpl3du8" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -460,7 +525,7 @@ ga('send', 'pageview');
 <p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p>
 <p>照片攝於去年 9 月日本九州大觀峰.</p>
 <p>登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p>
-<div id="googleMap4256" style="
+<div id="googleMap8921" style="
             height: 450px;
             width: 100%;
             margin: 0px;
@@ -470,13 +535,13 @@ ga('send', 'pageview');
 <style>.gmnoprint img {max-width: none !important;}</style>
 <script defer="defer">
   window.hexoGmaps = window.hexoGmaps || { maps: {}};
-  window.hexoGmaps.maps['initgoogleMap4256'] = function init() {
+  window.hexoGmaps.maps['initgoogleMap8921'] = function init() {
     var mapOptions = {
        'scrollwheel': false,
        'zoom': 13,
        'center': new window.google.maps.LatLng( 32.996765 , 131.049611 ),
      },
-     target = document.getElementById('googleMap4256'),
+     target = document.getElementById('googleMap8921'),
      map = new window.google.maps.Map(target, mapOptions);
       
    
@@ -542,7 +607,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/04/25/Expect/" data-id="ck7wvy19j001k1rsoy25pj3zc" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/04/25/Expect/" data-id="ck7zni02t001k4vsjx44uskg9" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -594,7 +659,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/03/31/Pseudo-paradise/" data-id="ck7wvy19i001g1rsoz0bap2ue" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/03/31/Pseudo-paradise/" data-id="ck7zni02s001g4vsj4fyde7rr" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -648,7 +713,7 @@ ga('send', 'pageview');
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/03/18/Unknown/" data-id="ck7wvy19h001e1rsoywde2sfa" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/03/18/Unknown/" data-id="ck7zni02q001e4vsjzajwbc6z" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -657,7 +722,7 @@ ga('send', 'pageview');
         <img src="https://lh3.googleusercontent.com/CWcZo1K1wAi67h05mHBSs9hmMJi1z17jEbvifc5Te0P_5wn7kGztq_D0pIpJ-c8XU0WVKWO5-kUXAMoauig_jEDOJR8jjBSNBL5pRDZQ06TEE8TjZ_ytTjHxYmEDDBdmgc2Azo-wVg=w2400" title="Unknown">
 <p>不知道該下甚麼標題好 XD</p>
 <p>攝於桃園羅浮泰雅溫泉公園</p>
-<div id="googleMap97" style="
+<div id="googleMap473" style="
             height: 450px;
             width: 100%;
             margin: 0px;
@@ -667,13 +732,13 @@ ga('send', 'pageview');
 <style>.gmnoprint img {max-width: none !important;}</style>
 <script defer="defer">
   window.hexoGmaps = window.hexoGmaps || { maps: {}};
-  window.hexoGmaps.maps['initgoogleMap97'] = function init() {
+  window.hexoGmaps.maps['initgoogleMap473'] = function init() {
     var mapOptions = {
        'scrollwheel': false,
        'zoom': 16,
        'center': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),
      },
-     target = document.getElementById('googleMap97'),
+     target = document.getElementById('googleMap473'),
      map = new window.google.maps.Map(target, mapOptions);
       
      
@@ -743,97 +808,6 @@ ga('send', 'pageview');
 
 
   
-    <article id="post-Photography" class="post-Photography post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/Tesatsu/2018/03/18/Photography/">Photography</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/03/18/Photography/" data-id="ck7wvy19g00191rsow2woyi46" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <p>實景普普, 拍成照片意外得不錯…</p>
-<img src="https://lh3.googleusercontent.com/So5uTEDDh5OdifRL5SvnyxdW2Rlr2cfuNdVjMp4TwdxYGUNrpcKK8Y5I3M2NV9AVqkpbP_1JnE9WpBPMSZAyiwCzKpzsDV0cTQ-HcYv9PpCuV1CefhhSXIe7CjK8g4VrNn2qPnNBhg=w2400" title="Photography">
-<p>攝於立善寺</p>
-<div id="googleMap8578" style="
-            height: 450px;
-            width: 100%;
-            margin: 0px;
-            padding: 0px
-            ">
-</div>
-<style>.gmnoprint img {max-width: none !important;}</style>
-<script defer="defer">
-  window.hexoGmaps = window.hexoGmaps || { maps: {}};
-  window.hexoGmaps.maps['initgoogleMap8578'] = function init() {
-    var mapOptions = {
-       'scrollwheel': false,
-       'zoom': 16,
-       'center': new window.google.maps.LatLng( 24.789 , 121.198 ),
-     },
-     target = document.getElementById('googleMap8578'),
-     map = new window.google.maps.Map(target, mapOptions);
-      
-   
-
-  }
-  function makeMaps() {
-    for (var map in window.hexoGmaps.maps) {
-       console.log('map #', map);
-       window.hexoGmaps.maps[map]();
-    }
-  }
-  function loadScript() {
-    window.hexoGmaps.googleScriptLoaded = true;
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=AIzaSyCfQ64zXVkp6QwAMFd8BXjJQTp6McM2xMI';
-    document.body.appendChild(script);
-  }
-  if (!window.hexoGmaps.googleScriptLoaded) {
-    loadScript();
-  }
-</script>
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/Tesatsu/2018/03/18/Photography/">
-    <time datetime="2018-03-18T03:20:03.000Z" class="entry-date">
-        2018-03-18
-    </time>
-</a>
-    
-  <span class="article-delim">&#8226;</span>
-  <div class="article-category">
-  <a class="article-category-link" href="/Tesatsu/categories/寫真/">寫真</a>
-  </div>
-
-    
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/寫真/">寫真</a></li></ul>
-
-    </footer>
-</article>
-
-
-
-
-
-
-  
   
     <nav id="pagination">
       <nav id="page-nav">
@@ -864,6 +838,10 @@ ga('send', 'pageview');
           </li>
         
           <li>
+            <a href="/Tesatsu/2020/02/11/Imperial-examination/">Imperial examination</a>
+          </li>
+        
+          <li>
             <a href="/Tesatsu/2019/08/23/Turtlebot3-simulation/">Turtlebot3 simulation</a>
           </li>
         
@@ -875,10 +853,6 @@ ga('send', 'pageview');
             <a href="/Tesatsu/2019/07/20/Lino-King/">Lino King</a>
           </li>
         
-          <li>
-            <a href="/Tesatsu/2019/06/03/Over-the-Rainstorm/">Over the Rainstorm</a>
-          </li>
-        
       </ul>
     </div>
   </aside>
@@ -888,7 +862,7 @@ ga('send', 'pageview');
   <aside class="widget">
     <h3 class="widget-title">Tags</h3>
     <div class="widget-content">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/化語/">化語</a><span class="tag-list-count">21</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a><span class="tag-list-count">17</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/寫真/">寫真</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/手札/">手札</a><span class="tag-list-count">30</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/程設/">程設</a><span class="tag-list-count">23</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/跫響/">跫響</a><span class="tag-list-count">16</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/轉錄/">轉錄</a><span class="tag-list-count">9</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/化語/">化語</a><span class="tag-list-count">21</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a><span class="tag-list-count">17</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/寫真/">寫真</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/手札/">手札</a><span class="tag-list-count">31</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/程設/">程設</a><span class="tag-list-count">23</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/跫響/">跫響</a><span class="tag-list-count">16</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/轉錄/">轉錄</a><span class="tag-list-count">10</span></li></ul>
     </div>
   </aside>
 
