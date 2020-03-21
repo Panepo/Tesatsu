@@ -22,7 +22,7 @@ MHW 重弩可以說是攻防控場合體的最強勢武器了.
 輔助: ★★
 生存: ★★★
 {% endblockquote %}
-<center>{% asset_img hb-pierce.png 貫通重弩 %} {% asset_img hb-pierce2.png 貫通重弩 %}</center>
+<center>{% asset_img hb-pierce.jpg 貫通重弩 %} {% asset_img hb-pierce2.jpg 貫通重弩 %}</center>
 
 貫通彈有著高火力長射程的優勢, 為非 AT 隊伍的最佳遠程輸出手.
 
@@ -44,7 +44,7 @@ MHW 重弩可以說是攻防控場合體的最強勢武器了.
 輔助: ★
 生存: ★★★★
 {% endblockquote %}
-<center>{% asset_img hb-shotgun.png 散彈重弩 %} {% asset_img hb-shotgun2.png 散彈重弩 %}</center>
+<center>{% asset_img hb-shotgun.jpg 散彈重弩 %} {% asset_img hb-shotgun2.jpg 散彈重弩 %}</center>
 
 散彈有著最高的瞬間爆發力, 但是射程很短, AT 隊伍的最佳輸出手.
 
@@ -64,7 +64,7 @@ MHW 重弩可以說是攻防控場合體的最強勢武器了.
 輔助: ★★★
 生存: ★★★★★
 {% endblockquote %}
-<center>{% asset_img hb-bomb.png 徹甲重弩 %} {% asset_img hb-bomb2.png 徹甲重弩 %}</center>
+<center>{% asset_img hb-bomb.jpg 徹甲重弩 %} {% asset_img hb-bomb2.jpg 徹甲重弩 %}</center>
 
 逃課專用配裝, 輸出生存攻防一體的強大配裝, 缺點只有續航力很差.
 
