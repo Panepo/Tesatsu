@@ -15,27 +15,58 @@ date: 2020-03-27 15:15:54
 MHW 雙刀靈活性高, 攻擊速度快, 玩起來很爽快.
 
 ### 爆破雙刀
+<center>{% asset_img tb-blast.jpg 爆破雙刀 %} {% asset_img tb-blast2.jpg 爆破雙刀 %}</center>
 {% blockquote %}
 攻擊: ★★
 輔助:
 生存: ★★★★
-{% endblockquote %}
-<center>{% asset_img tb-blast.jpg 爆破雙刀 %} {% asset_img tb-blast2.jpg 爆破雙刀 %}</center>
 
+基礎攻擊: 326 [白60]
+會心率: 55 / 100
+屬性: 爆破 540
+期待傷害: 370 / 407
+期待屬性: 爆破 599 / 648
+{% endblockquote %}
+拿著碎龍雞腿的爆破雙刀, 剛上冰原不熟的時候按照 wiki 配的, 實際上也很少拿出來玩. 囧
+
+配裝採用炎王3 太古2 取得達人藝維持斬味和會心擊特殊引發爆破, 生存面依靠吃菇3.
+
+外觀是有日式暗殺者感覺的慘爪套.
 
 ### 睡眠雙刀
+<center>{% asset_img tb-sleep.jpg 爆破雙刀 %} {% asset_img tb-sleep2.jpg 爆破雙刀 %}</center>
 {% blockquote %}
 攻擊: ★
 輔助: ★★★★★
 生存: ★★★★
-{% endblockquote %}
-<center>{% asset_img tb-sleep.jpg 爆破雙刀 %} {% asset_img tb-sleep2.jpg 爆破雙刀 %}</center>
 
+基礎攻擊: 343 [白50]
+會心率: 55 / 100
+屬性: 睡眠 430
+期待傷害: 399 / 445
+期待屬性: 睡眠 524 / 602
+{% endblockquote %}
+聚魔所使用的極限打睡眠用雙刀配裝, 武器採用的是騷鳥雙刀, 雖然需要解放不過有著基礎高會心利於發動真特殊會心.
+
+配裝採用金火4 取得真特殊會心, 同時精靈加護5 也能提供不錯的生存能力, 另外還有吃菇3.
+
+外觀是以死亡為主體的屍套, 和永眠有點相關.
 
 ### 麻痺雙刀
+<center>{% asset_img tb-paralyze.jpg 麻痺雙刀 %} {% asset_img tb-paralyze2.jpg 麻痺雙刀 %}</center>
 {% blockquote %}
 攻擊: ★
 輔助: ★★★★★
 生存: ★★★★
+
+基礎攻擊: 319 [紫70]
+會心率: 35 / 85
+屬性: 麻痺 430
+期待傷害: 358 / 413
+期待屬性: 麻痺 490 / 576
 {% endblockquote %}
-<center>{% asset_img tb-paralyze.jpg 爆破雙刀 %} {% asset_img tb-paralyze2.jpg 爆破雙刀 %}</center>
+聚魔所使用的極限打麻痺用雙刀配裝, 武器採用的是甲蟲雙刀, 雖然需要解放不過有著長紫斬.
+
+配裝採用金火4 取得真特殊會心, 同時精靈加護5 也能提供不錯的生存能力, 另外還有吃菇3.
+
+外觀是以甲蟲為主體的甲蟲套.
