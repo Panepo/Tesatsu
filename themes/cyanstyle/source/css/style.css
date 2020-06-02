@@ -223,7 +223,7 @@ img {
 	line-height: 2.181818182;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: rgb(81, 165, 168); /* Widget Title */
+	color: rgb(50, 0, 255); /* Widget Title */
 }
 
 /* Shared Post Format styling */
@@ -759,10 +759,10 @@ section[role="banner"] {
 	margin-left: 2.571428571rem;
 }
 .widget-area .widget a {
-	color: rgb(0, 0, 0); /* Widget Link Normal*/
+	color: rgb(102, 0, 255); /* Widget Link Normal*/
 }
 .widget-area .widget a:hover {
-	color: rgb(81, 165, 168); /* Widget Link Hover*/
+	color: rgb(204, 0, 255); /* Widget Link Hover*/
 }
 
 }
@@ -942,12 +942,12 @@ article.sticky .featured-post {
 
 .entry-content a,
 .comment-content a {
-	color: rgb(81, 165, 168); /* Link in Article Content Normal */
+	color: rgb(102, 0, 255); /* Link in Article Content Normal */
 }
 
 .entry-content a:Hover,
 .comment-content a:Hover{
-	color: rgb(0, 0, 0); /* Link in Article Content Hover */
+	color: rgb(204, 0, 255); /* Link in Article Content Hover */
 }
 
 .entry-content ol,
@@ -990,7 +990,7 @@ article.sticky .featured-post {
     margin: 0 0 1.714285714rem;
     border-left: 4px solid #aaa;
     padding: 0 15px;
-    color: #257525;
+    color: #195719;
 }
 .entry-content blockquote>:first-child,
 .comment-content blockquote>:first-child {
@@ -1035,7 +1035,7 @@ article.sticky .featured-post {
 .comment-content dfn,
 .entry-content acronym,
 .comment-content acronym {
-	border-bottom: 1px dotted #252575;
+	border-bottom: 1px dotted #195719;
 	cursor: help;
 }
 .entry-content address,
@@ -1089,7 +1089,7 @@ img.aligncenter,
 .entry-content table,
 .comment-content table {
 	border-bottom: 1px solid #ededed;
-	color: #752525;
+	color: #571919;
 	font-size: 12px;
 	font-size: 0.857142857rem;
 	line-height: 2;
