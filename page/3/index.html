@@ -62,6 +62,82 @@
       <div id="main" class="wrapper">
         <div id="primary" class="site-content"><div id="content" role="main">
   
+    <article id="post-Tensorflow-GPU" class="post-Tensorflow-GPU post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/Tesatsu/2019/01/04/Tensorflow-GPU/">Tensorflow-GPU</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/01/04/Tensorflow-GPU/" data-id="ckb4un2fr00713locmry0wefz" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <p>This is the note for set up development environment of tensorflow-GPU with nvidia cuda.</p>
+<ol>
+<li><p>Install Anaconda</p>
+<p>The python version I use is 3.6</p>
+</li>
+<li><p>Install Nvidia driver</p>
+<p>The driver version I use us 417.35</p>
+</li>
+<li><p>Install CUDA 9.0</p>
+<p>From now(2019/1/4), tensorflow supports CUDA 9.0. You may check the compatility via this <a href="https://www.tensorflow.org/install/gpu" target="_blank" rel="noopener">link</a><br>The download link is <a href="https://developer.nvidia.com/cuda-toolkit-archive" target="_blank" rel="noopener">here</a>. There are four patches but seems not needed.</p>
+<center><img src="/Tesatsu/2019/01/04/Tensorflow-GPU/cuda.png" title="cuda"></center>
+</li>
+<li><p>Install cuDNN 7.0 for CUDA 9.0</p>
+<p>From now(2019/1/4), tensorflow supports cuDNN 7.2. You may check the compatility via this <a href="https://www.tensorflow.org/install/gpu" target="_blank" rel="noopener">link</a><br>The download link is <a href="https://developer.nvidia.com/cudnn" target="_blank" rel="noopener">here</a>.<br><center><img src="/Tesatsu/2019/01/04/Tensorflow-GPU/cudnn.png" title="cudnn"></center><br>When the downloading process is complete, extract the file and there are three folders inside cuda folder, move those three folders to CUDA install path.<br>The default CUDA install path is <code>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0</code></p>
+</li>
+<li><p>Set up system environment variables</p>
+<p>Add <code>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin</code> and <code>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp</code> to your <code>PATH</code> in system variables.</p>
+</li>
+<li><p>Install tensorflow-gpu 1.11</p>
+<p>Current version of tensorflow is too new that we should install older version.<br><code>pip install tensorflow-gpu==1.11</code></p>
+<p>Then verify if tensorflow-gpu is installed or not:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">from tensorflow.python.client import device_lib</span><br><span class="line">local_device_protos = device_lib.list_local_devices()</span><br><span class="line">print(local_device_protos)</span><br></pre></td></tr></table></figure>
+<p>If CPU and GPU are both detected as below, the installation is sucessfully.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">tensorflow:1.11.0</span><br><span class="line">[name: &quot;/device:CPU:0&quot;</span><br><span class="line">device_type: &quot;CPU&quot;</span><br><span class="line">memory_limit: 268435456</span><br><span class="line">locality &#123;</span><br><span class="line">&#125;</span><br><span class="line">incarnation: 15352562079212995961</span><br><span class="line">, name: &quot;/device:GPU:0&quot;</span><br><span class="line">device_type: &quot;GPU&quot;</span><br><span class="line">memory_limit: 3213551206</span><br><span class="line">locality &#123;</span><br><span class="line">  bus_id: 1</span><br><span class="line">  links &#123;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">incarnation: 18385036426934203187</span><br><span class="line">physical_device_desc: &quot;device: 0, name: GeForce GTX 950M, pci bus id: 0000:01:00.0, compute capability: 5.0&quot;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/Tesatsu/2019/01/04/Tensorflow-GPU/">
+    <time datetime="2019-01-04T08:18:01.000Z" class="entry-date">
+        2019-01-04
+    </time>
+</a>
+    
+  <span class="article-delim">&#8226;</span>
+  <div class="article-category">
+  <a class="article-category-link" href="/Tesatsu/categories/手札/">手札</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/程設/">程設</a>
+  </div>
+
+    
+  <span class="article-delim">&#8226;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
+
+    </footer>
+</article>
+
+
+
+
+
+
+  
     <article id="post-Haiti" class="post-Haiti post type-post status-publish format-standard hentry">
     <!---->
 
@@ -77,7 +153,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/21/Haiti/" data-id="ckaxp5002006t0qvt7hkv0g5m" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/21/Haiti/" data-id="ckb4un2fn006t3loc2ss9zbz1" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -183,7 +259,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/20/Mutsuki/" data-id="ckaxp5001006q0qvtncc98too" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/20/Mutsuki/" data-id="ckb4un2fl006q3lock2aem7t9" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -259,7 +335,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/18/Dunno/" data-id="ckaxp5000006m0qvtopolnhtc" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/18/Dunno/" data-id="ckb4un2fj006m3locimh7kwuz" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -311,7 +387,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/13/Understand/" data-id="ckaxp4zzy006i0qvtdkqnvh9z" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/13/Understand/" data-id="ckb4un2fh006i3locoxz1zbb2" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -363,7 +439,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/06/Growing/" data-id="ckaxp4zzw006e0qvttv3rkcxa" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/06/Growing/" data-id="ckb4un2fd006e3locey037zml" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -418,7 +494,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/04/Landmine/" data-id="ckaxp4zzv006a0qvt1p25vu5b" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/12/04/Landmine/" data-id="ckb4un2fc006a3loc9tbf8tin" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -496,7 +572,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/11/05/Change/" data-id="ckaxp4zzu00660qvtwxic9jd1" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/11/05/Change/" data-id="ckb4un2fa00663lociclahvsi" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -550,7 +626,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/11/01/Star/" data-id="ckaxp4zzs00620qvtpd23joe4" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/11/01/Star/" data-id="ckb4un2f900623locpfm9yqt8" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -604,7 +680,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/10/29/Problem/" data-id="ckaxp4zzr005y0qvt5jn51poy" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/10/29/Problem/" data-id="ckb4un2f8005y3locfa8y37b2" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -657,59 +733,6 @@
 
 
   
-    <article id="post-Earthquake" class="post-Earthquake post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/Tesatsu/2018/10/23/Earthquake/">Earthquake</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2018/10/23/Earthquake/" data-id="ckaxp4zzq005u0qvt42p20cl5" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <p>剛剛在公司小房間內休息, 突然間地震震起來整個房間咖喀作響, 手機也在發出警示音(奇怪我平常應該都是開完全靜音), 害我整個嚇一大跳.</p>
-<p>搖晃程度還好但是聲響很大, 所以想說還是按照所教的先把門打開以免發生危險; 手伸去門把往下一拉, 挖樂居然打不開!? 這種震度就會把門震到歪掉打不開了嗎? 等下難道要和外面的同事求救嗎? XD</p>
-<p>後來仔細一看, 居然門鎖被鎖上了, 我不記得進來前有鎖門呀, 難道是因為地震… 總之只是虛驚一場.</p>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/Tesatsu/2018/10/23/Earthquake/">
-    <time datetime="2018-10-23T05:22:53.000Z" class="entry-date">
-        2018-10-23
-    </time>
-</a>
-    
-  <span class="article-delim">&#8226;</span>
-  <div class="article-category">
-  <a class="article-category-link" href="/Tesatsu/categories/手札/">手札</a>
-  </div>
-
-    
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/手札/">手札</a></li></ul>
-
-    </footer>
-</article>
-
-
-
-
-
-
-  
   
     <nav id="pagination">
       <nav id="page-nav">
@@ -736,6 +759,10 @@
       <ul>
         
           <li>
+            <a href="/Tesatsu/2020/06/07/Katana/">Katana</a>
+          </li>
+        
+          <li>
             <a href="/Tesatsu/2020/06/02/Sort/">Sort</a>
           </li>
         
@@ -751,10 +778,6 @@
             <a href="/Tesatsu/2020/03/27/Twin-Blades/">Twin Blades</a>
           </li>
         
-          <li>
-            <a href="/Tesatsu/2020/03/20/Typescript/">Typescript</a>
-          </li>
-        
       </ul>
     </div>
   </aside>
@@ -764,7 +787,7 @@
   <aside class="widget">
     <h3 class="widget-title">Tags</h3>
     <div class="widget-content">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/化語/">化語</a><span class="tag-list-count">23</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a><span class="tag-list-count">24</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/寫真/">寫真</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/手札/">手札</a><span class="tag-list-count">40</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/程設/">程設</a><span class="tag-list-count">25</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/跫響/">跫響</a><span class="tag-list-count">16</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/轉錄/">轉錄</a><span class="tag-list-count">12</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/化語/">化語</a><span class="tag-list-count">23</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a><span class="tag-list-count">25</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/寫真/">寫真</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/手札/">手札</a><span class="tag-list-count">41</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/程設/">程設</a><span class="tag-list-count">25</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/跫響/">跫響</a><span class="tag-list-count">16</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/轉錄/">轉錄</a><span class="tag-list-count">12</span></li></ul>
     </div>
   </aside>
 
@@ -773,7 +796,7 @@
   <aside class="widget">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget-content tagcloud">
-      <a href="/Tesatsu/tags/化語/" style="font-size: 14px;">化語</a> <a href="/Tesatsu/tags/吟遊/" style="font-size: 16px;">吟遊</a> <a href="/Tesatsu/tags/寫真/" style="font-size: 10px;">寫真</a> <a href="/Tesatsu/tags/手札/" style="font-size: 20px;">手札</a> <a href="/Tesatsu/tags/程設/" style="font-size: 18px;">程設</a> <a href="/Tesatsu/tags/跫響/" style="font-size: 12px;">跫響</a> <a href="/Tesatsu/tags/轉錄/" style="font-size: 10px;">轉錄</a>
+      <a href="/Tesatsu/tags/化語/" style="font-size: 15px;">化語</a> <a href="/Tesatsu/tags/吟遊/" style="font-size: 17.5px;">吟遊</a> <a href="/Tesatsu/tags/寫真/" style="font-size: 10px;">寫真</a> <a href="/Tesatsu/tags/手札/" style="font-size: 20px;">手札</a> <a href="/Tesatsu/tags/程設/" style="font-size: 17.5px;">程設</a> <a href="/Tesatsu/tags/跫響/" style="font-size: 12.5px;">跫響</a> <a href="/Tesatsu/tags/轉錄/" style="font-size: 10px;">轉錄</a>
     </div>
   </aside>
 
