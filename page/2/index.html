@@ -1,830 +1,1077 @@
 <!DOCTYPE html>
-<html>
-<head><meta name="generator" content="Hexo 3.9.0">
-  <meta charset="utf-8">
+<html style="display: none;" lang="en">
+    <head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.4.0 -->
+    <script>window.materialVersion = "1.4.0"</script>
 
-  
+    <!-- Title -->
+    
+    <title>
+        
+        鳥居の向こうの夢蒔絵
+    </title>
 
-  
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    
+    
+    
+    
+    
+        <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    
+    
+    
+    
+    
+    
 
-  
-  
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#4527A0">
+    <meta name="author" content="Panepo">
+    <meta name="description" itemprop="description" content>
+    <meta name="keywords" content>
 
-  
-  <title>鳥居の向こうの夢蒔絵</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="鳥居の向こうの夢蒔絵">
-<meta property="og:url" content="http://panepo.github.io/Tesatsu/page/2/index.html">
-<meta property="og:site_name" content="鳥居の向こうの夢蒔絵">
-<meta property="og:locale" content="en">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="鳥居の向こうの夢蒔絵">
-  
-  
-    <link rel="icon" href="/Tesatsu/css/images/favicon.ico">
-  
-  <link rel="stylesheet" href="/Tesatsu/css/style.css">
-  
+    <!-- Site Verification -->
+    
+    
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/Tesatsu/img/avatar/github.png">
+    <link rel="icon" sizes="192x192" href="/Tesatsu/img/avatar/github.png">
+    <link rel="apple-touch-icon" href="/Tesatsu/img/avatar/github.png">
+
+    <!--iOS -->
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="480">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="鳥居の向こうの夢蒔絵">
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://panepo.github.io/Tesatsu">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="鳥居の向こうの夢蒔絵">
+    <meta property="og:image" content="/Tesatsu/img/avatar/github.png">
+    <meta property="og:description" content>
+    
+
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:title" content="鳥居の向こうの夢蒔絵">
+    <meta name="twitter:description" content>
+    <meta name="twitter:image" content="/Tesatsu/img/avatar/github.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="http://panepo.github.io/Tesatsu">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="http://panepo.github.io/Tesatsu/Tesatsu/page/2/index.html">
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
 
 
+
+    
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.en.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(key){try{localStorage.removeItem(key)}catch(e){}};lsloader.setLS=function(key,val){try{localStorage.setItem(key,val)}catch(e){}};lsloader.getLS=function(key){var val="";try{val=localStorage.getItem(key)}catch(e){val=""}return val};versionString="/*"+materialVersion+"*/";lsloader.clean=function(){try{var keys=[];for(var i=0;i<localStorage.length;i++){keys.push(localStorage.key(i))}keys.forEach(function(key){var data=lsloader.getLS(key);if(data&&data.indexOf(versionString)===-1){lsloader.removeLS(key)}})}catch(e){}};lsloader.clean();lsloader.load=function(jsname,jspath,cssonload){cssonload=cssonload||function(){};var code;code=this.getLS(jsname);if(code&&code.indexOf(versionString)===-1){this.removeLS(jsname);this.requestResource(jsname,jspath,cssonload);return}if(code){var versionNumber=code.split(versionString)[0];if(versionNumber!=jspath){console.log("reload:"+jspath);this.removeLS(jsname);this.requestResource(jsname,jspath,cssonload);return}code=code.split(versionString)[1];if(/\.js?.+$/.test(versionNumber)){this.jsRunSequence.push({name:jsname,code:code});this.runjs(jspath,jsname,code)}else{document.getElementById(jsname).appendChild(document.createTextNode(code));cssonload()}}else{this.requestResource(jsname,jspath,cssonload)}};lsloader.requestResource=function(name,path,cssonload){var that=this;if(/\.js?.+$/.test(path)){this.iojs(path,name,function(path,name,code){that.setLS(name,path+versionString+code);that.runjs(path,name,code)})}else if(/\.css?.+$/.test(path)){this.iocss(path,name,function(code){document.getElementById(name).appendChild(document.createTextNode(code));that.setLS(name,path+versionString+code)},cssonload)}};lsloader.iojs=function(path,jsname,callback){var that=this;that.jsRunSequence.push({name:jsname,code:""});try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(path,jsname,xhr.response);return}}that.jsfallback(path,jsname)}};xhr.send(null)}catch(e){that.jsfallback(path,jsname)}};lsloader.iocss=function(path,jsname,callback,cssonload){var that=this;try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(xhr.response);cssonload();return}}that.cssfallback(path,jsname,cssonload)}};xhr.send(null)}catch(e){that.cssfallback(path,jsname,cssonload)}};lsloader.iofonts=function(path,jsname,callback,cssonload){var that=this;try{var xhr=new XMLHttpRequest;xhr.open("get",path,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){callback(xhr.response);cssonload();return}}that.cssfallback(path,jsname,cssonload)}};xhr.send(null)}catch(e){that.cssfallback(path,jsname,cssonload)}};lsloader.runjs=function(path,name,code){if(!!name&&!!code){for(var k in this.jsRunSequence){if(this.jsRunSequence[k].name==name){this.jsRunSequence[k].code=code}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var script=document.createElement("script");script.appendChild(document.createTextNode(this.jsRunSequence[0].code));script.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(script);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var that=this;var script=document.createElement("script");script.src=this.jsRunSequence[0].path;script.type="text/javascript";this.jsRunSequence[0].status="loading";script.onload=function(){that.jsRunSequence.shift();if(that.jsRunSequence.length>0){that.runjs()}};document.body.appendChild(script)}};lsloader.tagLoad=function(path,name){this.jsRunSequence.push({name:name,code:"",path:path,status:"failed"});this.runjs()};lsloader.jsfallback=function(path,name){if(!!this.jsnamemap[name]){return}else{this.jsnamemap[name]=name}for(var k in this.jsRunSequence){if(this.jsRunSequence[k].name==name){this.jsRunSequence[k].code="";this.jsRunSequence[k].status="failed";this.jsRunSequence[k].path=path}}this.runjs()};lsloader.cssfallback=function(path,name,cssonload){if(!!this.cssnamemap[name]){return}else{this.cssnamemap[name]=1}var link=document.createElement("link");link.type="text/css";link.href=path;link.rel="stylesheet";link.onload=link.onerror=cssonload;var root=document.getElementsByTagName("script")[0];root.parentNode.insertBefore(link,root)};lsloader.runInlineScript=function(scriptId,codeId){var code=document.getElementById(codeId).innerText;this.jsRunSequence.push({name:scriptId,code:code});this.runjs()};lsloader.loadCombo=function(jslist){var updateList="";var requestingModules={};for(var k in jslist){var LS=this.getLS(jslist[k].name);if(!!LS){var version=LS.split(versionString)[0];var code=LS.split(versionString)[1]}else{var version=""}if(version==jslist[k].path){this.jsRunSequence.push({name:jslist[k].name,code:code,path:jslist[k].path})}else{this.jsRunSequence.push({name:jslist[k].name,code:null,path:jslist[k].path,status:"comboloading"});requestingModules[jslist[k].name]=true;updateList+=(updateList==""?"":";")+jslist[k].path}}var that=this;if(!!updateList){var xhr=new XMLHttpRequest;xhr.open("get",combo+updateList,true);xhr.onreadystatechange=function(){if(xhr.readyState==4){if(xhr.status>=200&&xhr.status<300||xhr.status==304){if(xhr.response!=""){that.runCombo(xhr.response,requestingModules);return}}else{for(var i in that.jsRunSequence){if(requestingModules[that.jsRunSequence[i].name]){that.jsRunSequence[i].status="failed"}}that.runjs()}}};xhr.send(null)}this.runjs()};lsloader.runCombo=function(comboCode,requestingModules){comboCode=comboCode.split("/*combojs*/");comboCode.shift();for(var k in this.jsRunSequence){if(!!requestingModules[this.jsRunSequence[k].name]&&!!comboCode[0]){this.jsRunSequence[k].status="comboJS";this.jsRunSequence[k].code=comboCode[0];this.setLS(this.jsRunSequence[k].name,this.jsRunSequence[k].path+versionString+comboCode[0]);comboCode.shift()}}this.runjs()}})();</script>
+
+    <!-- Import CSS & jQuery -->
+    
+        <style id="css/material.min.css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("css/material.min.css","/Tesatsu/css/material.min.css?fJTiM/K1J3dWIruo3pxtAw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";})</script>
+        <style id="css/style.min.css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("css/style.min.css","/Tesatsu/css/style.min.css?oCSEO3ST+aEypEwttTDI9g==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";})</script>
+        
+            <style id="/css/fontawesome.min.css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("/css/fontawesome.min.css","/Tesatsu/css/fontawesome.min.css?JpVQUwzBJ7aqWjWSWn3mzg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";})</script>
+        
+        
+        <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  }
+
+  a {
+    color: #E65100;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #E65100 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #E65100 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #E65100 !important;
+  }
+
+  .toTop {
+    background: #E65100 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #E65100;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #E65100;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #E65100;
+  }
+
+  .post-toc a:hover {
+    color: #E65100;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+        <script>lsloader.load("js/jquery.min.js","/Tesatsu/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==")</script>
+    
+    
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-106126363-2', 'auto');ga('send', 'pageview');
+</script>
+
+    <!-- Custom Head -->
+    
 </head>
-</html>
-<body class="home blog custom-background custom-font-enabled single-author">
-  <div id="page" class="hfeed site">
-      <header id="masthead" class="site-header" role="banner">
-    <hgroup>
-      <h1 class="site-title">
-        <a href="/Tesatsu/" title="鳥居の向こうの夢蒔絵" rel="home">鳥居の向こうの夢蒔絵</a>
-      </h1>
-      
-        <h2 class="site-description">
-          <a href="/Tesatsu/" id="subtitle">信仰は儚き人間の為に</a>
-        </h2>
-      
-    </hgroup>
 
-    <nav id="site-navigation" class="main-navigation" role="navigation">
-            <button class="menu-toggle">菜单</button>
-            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
-            <div class="menu-main-container">
-                <ul id="menu-main" class="nav-menu">
+
+    
+        <body id="scheme-Isolation" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
                 
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/Tesatsu/">Home</a></li>
-                
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/Tesatsu/archives">Archives</a></li>
-                
-                </ul>
+                    <!-- Isolation Header -->
+                    <header class="header">
+    <div class="header-wrapper">
+        <!-- Header Copyright -->
+        <div class="header-copyright">
+            <div class="header-site">
+                ©&nbsp;
+                <script type="text/javascript">
+                    var fd = new Date();
+                    document.write(fd.getFullYear());
+                </script>
+                &nbsp;鳥居の向こうの夢蒔絵
             </div>
-    </nav>
+            <!--
+            I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+            It will not impact the appearance and can give developers a lot of support :)
+
+            很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+            它不会影响美观并可以给开发者很大的支持。 :)
+            -->
+            <div>
+                Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a>
+                <br>
+                Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a>
+            </div>
+        </div>
+
+        <!-- Header Title -->
+        <span class="header-title header-item">
+            <a href="/Tesatsu/" title="鳥居の向こうの夢蒔絵">
+                鳥居の向こうの夢蒔絵
+            </a>
+        </span>
+
+        <p class="header-slogan header-item">
+        
+            
+                信仰は儚き人間の為に
+            
+        
+        </p>
+
+        <!-- Header Nav -->
+        <nav class="header-nav header-item">
+            <span class="header-nav-item">
+                <a href="/Tesatsu/" title="Home">
+                    <span>Home</span>
+                </a>
+            </span>
+
+            <!-- Pages  -->
+            
+            
+        </nav>
+
+        <!-- Header SNS -->
+        <div class="header-item header-sns_list">
+    <!-- Twitter -->
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/Panepo/Tesatsu" target="_blank">
+            <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+        </a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Telegram -->
+    
+</div>
+
+    </div>
 </header>
 
-      <div id="main" class="wrapper">
-        <div id="primary" class="site-content"><div id="content" role="main">
-  
-    <article id="post-Turtlebot3-simulation" class="post-Turtlebot3-simulation post type-post status-publish format-standard hentry">
-    <!---->
+                
 
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/Tesatsu/2019/08/23/Turtlebot3-simulation/">Turtlebot3 simulation</a>
-    </h1>
-  
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
 
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+
+                    <!-- Index Module -->
+<div class="material-index mdl-grid">
+    
+    <div class="locate-thumbnail-symbol"></div>
+
+    <!-- Pin on top -->
+    
+
+    <!-- Normal Post -->
+    
         
-        <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/08/23/Turtlebot3-simulation/" data-id="ckbbltg5y00811qmu8c76ye10" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <p>This is the note for set up development environment of Turtlebot3 simualtion on Ubuntu 16.04 LTS</p>
-<ol>
-<li><p>Install command for dependent packages</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-keyboard ros-kinetic-teleop-twist-joy ros-kinetic-laser-proc ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan ros-kinetic-rosserial-python ros-kinetic-rosserial-server ros-kinetic-rosserial-arduino ros-kinetic-rosserial-client ros-kinetic-rosserial-msgs ros-kinetic-amcl ros-kinetic-map-server ros-kinetic-move-base ros-kinetic-urdf ros-kinetic-xacro ros-kinetic-compressed-image-transport ros-kinetic-rqt-image-view ros-kinetic-gmapping ros-kinetic-navigation</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Install Turtlebot3 packages</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd ~/catkin_ws/src/</span><br><span class="line">git clone https://github.com/ROBOTIS-GIT/turtlebot3.git</span><br><span class="line">git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git</span><br><span class="line">git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git</span><br><span class="line">cd ~/catkin_ws &amp;&amp; catkin_make</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Set simulation parameters to ./bashrc</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">EXPORT TURTLEBOT3_MODEL=waffle</span><br><span class="line">export ROS_HOSTNAME=localhost</span><br><span class="line">export ROS_MASTER_URI=http://$&#123;ROS_HOSTNAME&#125;:11311</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Start SLAM and navigation simulation</p>
-<ul>
-<li><p>Build the map by SLAM</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">roslaunch turtlebot3_gazebo turtlebot3_world.launch</span><br><span class="line">roslaunch turtlebot3_gazebo turtlebot3_simulation.launch</span><br><span class="line">roslaunch turtlebot3_slam turtlebot3_slam.launch</span><br><span class="line">rosrun map_server map_saver -f ~/map</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Start navigation</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">roslaunch turtlebot3_gazebo turtlebot3_world.launch</span><br><span class="line">roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-</li>
-</ol>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/Tesatsu/2019/08/23/Turtlebot3-simulation/">
-    <time datetime="2019-08-23T02:32:25.000Z" class="entry-date">
-        2019-08-23
-    </time>
-</a>
-    
-  <span class="article-delim">&#8226;</span>
-  <div class="article-category">
-  <a class="article-category-link" href="/Tesatsu/categories/手札/">手札</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/程設/">程設</a>
-  </div>
-
-    
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
-
-    </footer>
-</article>
-
-
-
-
-
-
-  
-    <article id="post-ROS-environment" class="post-ROS-environment post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/Tesatsu/2019/08/22/ROS-environment/">ROS environment</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/08/22/ROS-environment/" data-id="ckbbltg5v007x1qmuyk1snfnd" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <p>This is the note for set up development environment of ROS (robot operation system) on Ubuntu 16.04 LTS</p>
-<ol>
-<li><p>NTP(Network Time Protocol) Configuration (Optional)</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get install -y chrony ntpdate</span><br><span class="line">sudo ntpdate -q ntp.ubuntu.com</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Adding Source List</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo sh -c &apos;echo &quot;deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main&quot; &gt; /etc/apt/sources.list.d/ros-latest.list&apos;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Setting up the Key</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Updating the Package Index</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get update &amp;&amp; sudo apt-get upgrade -y</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Installing ROS Kinetic Kame</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get install ros-kinetic-desktop-full</span><br><span class="line">sudo apt-get install ros-kinetic-rqt*</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Initializing rosdep</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo rosdep init</span><br><span class="line">rosdep update</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Installing rosinstall</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-rosinstall</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Load the Environment File</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">source /opt/ros/kinetic/setup.bash</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Creating and Initializing a Workspace Folder</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mkdir -p ~/catkin_ws/src</span><br><span class="line">cd ~/catkin_ws/src</span><br><span class="line">catkin_init_workspace</span><br><span class="line">cd ~/catkin_ws/</span><br><span class="line">catkin_make</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Load the Environment File</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">source ~/catkin_ws/devel/setup.bash</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>Remember to put 8 and 10 to .bashrc file.</p>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/Tesatsu/2019/08/22/ROS-environment/">
-    <time datetime="2019-08-22T05:32:18.000Z" class="entry-date">
-        2019-08-22
-    </time>
-</a>
+                <!-- Isolation Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post_entry Header -->
     
-  <span class="article-delim">&#8226;</span>
-  <div class="article-category">
-  <a class="article-category-link" href="/Tesatsu/categories/手札/">手札</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/程設/">程設</a>
-  </div>
+        <!-- Post Header Info -->
+        <div class="post_entry-header_info without-thumbnail">
+            <!-- Author Avatar & Name -->
+            <img src="/Tesatsu/img/avatar/flan.png" class="avatar-img" width="44px" height="44px" alt="Panepo's avatar">
+            <span class="name-span">Panepo</span>
+        </div>
 
+        <!-- Null Thumbnail -->
+        <div class="post_thumbnail-null">
     
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
+        </div>
 
-    </footer>
-</article>
+    <!-- Post_entry Content -->
+    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+        <!-- Post Title -->
+        <p class="post_entry-title">
+            <a href="/Tesatsu/2019/08/23/Turtlebot3-simulation/">Turtlebot3 simulation</a>
+        </p>
 
-
-
-
-
-
-  
-    <article id="post-Lino-King" class="post-Lino-King post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/Tesatsu/2019/07/20/Lino-King/">Lino King</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
+        <!-- Post Excerpt -->
+        <p class="post_entry-excerpt">
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/07/20/Lino-King/" data-id="ckbbltg5u007u1qmus3gl4ao8" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <center><img src="/Tesatsu/2019/07/20/Lino-King/1.jpg" title="poster"> <img src="/Tesatsu/2019/07/20/Lino-King/2.jpg" title="poster"> </center>
-
-<p>居然 25 年了啊 …. 時間過得真是快. 25 年前也是在聽著 circle of life 的音樂, 只可惜這次不是看英文發音的, 中文歌詞為了配合旋律時在改得太奇怪了.</p>
-<p>後來再回去翻以前的影片, 片頭居然完全重製成現實版, 動作分鏡都一樣.</p>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/Tesatsu/2019/07/20/Lino-King/">
-    <time datetime="2019-07-20T06:27:57.000Z" class="entry-date">
-        2019-07-20
-    </time>
-</a>
-    
-  <span class="article-delim">&#8226;</span>
-  <div class="article-category">
-  <a class="article-category-link" href="/Tesatsu/categories/化語/">化語</a>, <a class="article-category-link" href="/Tesatsu/categories/化語/跫響/">跫響</a>
-  </div>
-
-    
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/化語/">化語</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/跫響/">跫響</a></li></ul>
-
-    </footer>
-</article>
-
-
-
-
-
-
-  
-    <article id="post-Over-the-Rainstorm" class="post-Over-the-Rainstorm post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/Tesatsu/2019/06/03/Over-the-Rainstorm/">Over the Rainstorm</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
+                This is the note for set up development environment of Turtlebot3 simualti...
             
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/06/03/Over-the-Rainstorm/" data-id="ckbbltg5q007p1qmuugkxzu3m" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <p>夕立を越えて ~ 大暴雨型舞孃</p>
-<h3 id="寫在前面"><a href="#寫在前面" class="headerlink" title="寫在前面"></a>寫在前面</h3><p>這篇與其說是心得, 比較偏向遊玩的紀錄和推廣. (*´∀`)</p>
-<p>不過首先要說的是 “好孩子不要學, 姊姊是有練過的!” 畢竟是冷門職業輸出不太行, 輔助功能和比起包緊緊的詩人來說也不好; 人家光一個布萊奇就輔助價值滿分, 風車價值也高; 不時都有朋友說這是花瓶職業不要練要我改練遊俠或是魅影, 那麼這個花瓶職業有甚麼優點值得推廣呢? 就是可愛, 可愛就是正義! 轉換為日版外觀後有著全 RO 最可愛的衣服!</p>
-<center><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/1.jpg" title="wanderer"> <img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/r1.jpg" title="wanderer"> <img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/r2.jpg" title="wanderer"></center>
-
-<p>另外我沒在打架, 打架的問題不要問我. ( ´ ▽ ` )</p>
-<h3 id="攻擊技能"><a href="#攻擊技能" class="headerlink" title="攻擊技能"></a>攻擊技能</h3><p>攻擊技能以拿弓遠程攻擊為主, 因此對上會使用光壁的敵人相當頭痛. ( ´ ▽ ` )<br>完全不考慮拿鞭子戰鬥, 像是奧義箭亂舞都不考慮囉, 因為根本沒有封印鞭和海克鞭. (oﾟдﾟo)</p>
-<center><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/4.jpg" title="wanderer"> <img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/5.jpg" title="wanderer"></center>
-
-<blockquote><p><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillRainStorm.PNG" title="大暴雨"> 大暴雨(Severe Rainstorm)</p>
-<ul>
-<li>裝備弓時，以指定地點為中心施放11x11範圍的持續性箭雨<br>依[(施展者的DEX+AGI)x(技能等級÷5)x(施展者BASE等級÷100)]的%數造成ATK傷害<br>施展時消耗20枝箭矢，一共持續12段的打擊<br>有視種族、屬性卡片，有視箭矢屬性，有視目標物理防禦<br>固定詠唱 0.5 秒 變動詠唱 3.5 秒<br>共通延遲 1 秒 獨立延遲 7 秒</li>
-</ul>
-</blockquote>
-<p>主要的傷害技能之一, 大範圍的持續傷害. 傷害部分除了撐 ATK 外, 稱高 AGI 和 DEX 也有相當效果, 而時光靴附魔鷹眼能將火力推至更高境界. 詠唱部分, 素質無詠對弓箭手通常沒有問題, 固詠 0.5 秒可以由<a href="https://rd.fharr.com/item-22008.html" target="_blank" rel="noopener">時光靈巧戰靴</a>或是<a href="https://rd.fharr.com/item-22202.html" target="_blank" rel="noopener">時光超越者之靴</a>來消除. (還可以附魔鷹眼, 一舉兩得.)</p>
-<p>獨立延遲 7 秒相當久 &amp; 大暴雨作用期間不可以切換武器和箭矢 &amp; 無法作用於地領上, 最好不要亂放. 另外有一個小技巧，最遠射程放的大暴雨最外圈可以打到視線外的怪.</p>
-<blockquote><p><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillArrowStorm.png" title="箭雨風暴"> 箭雨風暴(Arrowstorm)</p>
-<ul>
-<li>裝備弓時，以指定目標為中心施放11x11範圍的大範圍箭雨, 造成1800%的ATK傷害.<br>依[(施展者BASE等級÷100)]的%數追加傷害.<br>施展時消耗10枝箭矢<br>有視種族、屬性卡片，有視箭矢屬性，有視目標物理防禦<br>變動詠唱 3.8 秒<br>共通延遲 0 秒 獨立延遲 3.2 秒</li>
-</ul>
-</blockquote>
-<p>兔子仙境2 獨有的海克和封印武器帶的技能, 主要的傷害技能之二, 大範圍的瞬間傷害. 和大暴雨比起來沒甚麼缺點的遊俠招牌技能, 而且沒有共通延遲, 建議以箭雨風暴 &gt; 大暴雨的順序來施放.</p>
-<blockquote><p><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillDouble.png" title="二連矢"> 二連矢(Double Strafing)</p>
-<ul>
-<li>裝備弓時，對指定目標造成380%的ATK傷害.<br>施展時消耗1枝箭矢<br>有視種族、屬性卡片，有視箭矢屬性，有視目標物理防禦</li>
-</ul>
-</blockquote>
-<p>舞孃弱勢到連一轉弓箭手的技能都要拿出來用.（￣▽￣）不過在有兩顆<a href="https://rd.fharr.com/item-28573.html" target="_blank" rel="noopener">翡翠戒指</a>和<a href="https://rd.fharr.com/item-28392.html" target="_blank" rel="noopener">影子弓箭手耳環</a>後可以把這技能大大強化: 雙翡翠可以把二連矢的傷害倍率提升到 1710%, 而影子弓箭手耳環在使用二連矢的時候還可以額外觸發增傷的效果. 所以可以作為在大暴雨和箭雨風暴都在冷卻的時候使用.</p>
-<p>至於其他攻擊技能..<br><blockquote><p><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillSound1.jpg" title="殘響"> 殘響: 設置音波陷阱, 對接觸到的敵人造成物理和魔法傷害.<br><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillSound2.jpg" title="重金屬音樂"> 重金屬音樂: 對指定對象造成魔法傷害並附加混亂.</p>
-</blockquote><br>殘響引爆範圍只有 1 格而且傷害會分散, 實戰根本沒有用途; 不過倒是可以重複埋在副本王出來的格子上來個一次引爆.<br>重金屬音樂強制無屬性, 獨立延遲 4 秒又是純魔法傷害而且傷害倍率也不高.<br>所以目前狀況下都不考慮.</p>
-<center><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/6.jpg" title="wanderer"> <img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/7.jpg" title="wanderer"> <img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/8.jpg" title="wanderer"></center>
-
-<h3 id="輔助技能"><a href="#輔助技能" class="headerlink" title="輔助技能"></a>輔助技能</h3><p>以下輔助技能都要帶一把鞭子才可以使用, 有增加攻擊速度的<a href="https://rd.fharr.com/item-1989.html" target="_blank" rel="noopener">彩帶執鞭</a>或是加素質的<a href="https://rd.fharr.com/item-1972.html" target="_blank" rel="noopener">電鰻鞭</a>都不錯, 特殊取向的可以使用<a href="https://rd.fharr.com/item-1972.html" target="_blank" rel="noopener">女王的鞭子</a>. （￣▽￣）<br>兔子仙境2 增加了不少輔助技能的持續時間, 使用上方便了不少不用一值切鞭子來跳舞.<br>雖然輔助上比不過主教, 不過舞孃和龍火盧恩相性蠻搭的, 有豐年頌, 雷拉多露水和為您服務可以增加 HP 和 SP 以提升龍火傷害.</p>
-<center><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/2.jpg" title="wanderer"></center>
-
-<blockquote><p><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillDance1.jpg" title="搖擺舞"> 搖擺舞: 增加自己和隊友的攻擊和移動速度.<br><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillDance2.jpg" title="月光小夜曲"> 月光小夜曲: 增加自己和隊友的 MATK.<br><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillDance3.jpg" title="戀人交響曲"> 戀人交響曲: 增加自己和隊友的 MDEF.</p>
-</blockquote>
-<p>搖擺舞是舞孃的招牌技能, 可以增加攻擊速度和移動速度. 攻擊速度有助於對攻擊速度到 193, 移動速度也因為兔子仙境2 獨有的設定而可以疊加, 放了以後騎鳥跑超快的啦. (*´∀`)<br>月光小夜曲和法師組隊時可以用; 戀人交響曲則用途低落, 增加的是素質 MDEF 無助於抵抗冰凍和石化. 以上三組獨奏效果會互相覆蓋.</p>
-<blockquote><p><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillDance4.png" title="豐年頌"> 豐年頌: 增加最大 HP 和每秒 HP 回復.<br><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillDeath.jpg" title="死亡峽谷"> 死亡峽谷: 復活陣亡的同伴.</p>
-</blockquote>
-<p>豐年頌可以增加最大 HP, 死亡峽谷能無視地獄的權復活陣亡的同伴, 不過玩到現在沒看到有 boss 會放, 所以帶天葉就好了. （￣▽￣）<br>以上兩組技能都要消耗一個淚水.</p>
-<blockquote><p><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillDanceM1.png" title="雷拉多露水"> 雷拉多露水: 三轉合奏, 增加最大 HP.<br><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillDanceM2.png" title="魔力之歌"> 魔力之歌: 三轉合奏, 增加每秒 SP 回復.<br><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillDanceM3.png" title="與狼共舞"> 與狼共舞: 三轉合奏, 增加攻擊速度和減少固詠</p>
-</blockquote>
-<p>雷拉多露水能夠增加最大 HP, 但是比起豐年頌還來得少, 效果可重複. 魔力之歌能夠增加每秒 SP 回復, 可是回得很少.<br>與狼共舞能夠增加攻擊速度和減少固詠, 官方版本更新已經能在額外增加遠距離傷害, 這邊不知道甚麼時候會跟進. (oﾟдﾟo)<br>以上三組獨奏效果會互相覆蓋, 視野內有另一位詩舞就可以施放, 夥伴不需要點技能也可以用.</p>
-<blockquote><p><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillDance23.jpg" title="為您服務"> 為您服務: 範圍內的所有玩家除了自己增加 SP 和減少 SP 消耗<br><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillDance21.jpg" title="哼唱曲"> 哼唱曲: 範圍內的所有玩家除了自己增加命中率<br><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/SkillDance22.jpg" title="幸運之吻"> 幸運之吻: 範圍內的所有玩家除了自己增加暴擊率和暴擊傷害</p>
-</blockquote>
-<p>以上為二轉獨奏技能, 放了以後就只能跳舞和使用三轉演奏技能.<br>由於這邊沒有套用到新版的二轉歌舞更新, 必須要悟靈士施放靈魂後才能對自己生效.</p>
-<p>目前技能點法如下, 不過很多是亂點來玩的, 像是尖叫. ( ´ ▽ ` )<br>實際上只要把上面列的幾個點出來就好囉.</p>
-<center><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/skill.png" title="skill"></center>
-
-<h3 id="裝備選擇"><a href="#裝備選擇" class="headerlink" title="裝備選擇"></a>裝備選擇</h3><blockquote><p>武器: 封印月弓 / 海克月弓<br>卡片: 邪弓 / 深淵 / 真浪跡 / 巴基利</p>
-</blockquote>
-<p>由於這兩把弓帶有箭雨風暴, 所以完全不建議使用其他弓, 就算有減大暴雨延遲的<a href="https://rd.fharr.com/item-18123.html" target="_blank" rel="noopener">風暴之弓</a>和<a href="https://rd.fharr.com/item-18170.html" target="_blank" rel="noopener">納西斯弓</a>都不考慮.<br>另外誰可以告訴我封印月弓和海克月弓上面帶增加 MATK 的效果是為了甚麼? (oﾟдﾟo)<br>殘響和重金屬音樂的問題上面都寫了, 而且這弓也不增加這兩個技能的傷害.<br>舞孃又不像魅影有自動魅影念咒的自詠玩法, 難道要做攻擊紋章來 cosplay 法師嗎? ( ´ ▽ ` )<br>可是紋章又沒有物魔混合傷害的聖槍, 而且還要額外再撐減固詠…<br>唯一想到的就只有高級輔助紋章魔力劍了, 多少補點普攻的傷害.</p>
-<blockquote><p>頭上: 新手頭盔 / <a href="https://rd.fharr.com/item-18981.html" target="_blank" rel="noopener">神秘垂死天鹅</a> / <a href="https://rd.fharr.com/item-19296.html" target="_blank" rel="noopener">經典羽毛帽</a> / <a href="https://rd.fharr.com/item-18810.html" target="_blank" rel="noopener">地獄南瓜帽</a><br>頭中: <a href="https://rd.fharr.com/item-18503.html" target="_blank" rel="noopener">惡魔小獸角</a> / <a href="https://rd.fharr.com/item-19138.html" target="_blank" rel="noopener">熾天使花冠</a><br>頭下: <a href="https://rd.fharr.com/item-19101.html" target="_blank" rel="noopener">夢魘古城旁觀者</a> / <a href="https://rd.fharr.com/item-18962.html" target="_blank" rel="noopener">熊貓氣球</a><br>套裝: 帝國套(<a href="https://rd.fharr.com/item-18823.html" target="_blank" rel="noopener">帝國羽翼髮飾</a>, <a href="https://rd.fharr.com/item-19246.html" target="_blank" rel="noopener">皇家衛士頸鍊</a>) / 賭徒套(<a href="https://rd.fharr.com/item-5918.html" target="_blank" rel="noopener">賭徒之印</a>, <a href="https://rd.fharr.com/item-19306.html" target="_blank" rel="noopener">紅心王牌</a>)<br>卡片: 潘貝勒克 / 狡蛛 / 暴力腔棘魚 / 奇爾</p>
-</blockquote>
-<p>新手頭盔全能力值 +25 可以大大提升攻擊速度, 減少詠唱時間; 而且 A,D +25 也大大提升大暴雨的傷害, 實在很難換掉.. (oﾟдﾟo)<br>地獄南瓜帽則有變身無視防禦的功能, 雖然持續時間不長, 不過道也是個提昇傷害的手段…<br>而俗稱戰死頭的神秘垂死天鵝和經典羽毛帽則是後期選擇.<br>另外因為多了箭雨風暴的關係, 平時打副本非常的缺 SP; 可是這邊又沒有<a href="https://rd.fharr.com/item-5585.html" target="_blank" rel="noopener">盧恩繩結髮圈</a>或是<a href="https://rd.fharr.com/item-18652.html" target="_blank" rel="noopener">武神之盔</a>, 就多喝點水吧… (oﾟдﾟo)<br>頭中頭下前期可以用惡魔小獸角, 夢靨古城觀察者或是熊貓氣球, 之後在換成帝國套, 賭徒套或是花冠; 不過因為我還沒摳摳換帝國套, 賭徒套或是花冠, 哪邊好我也不清楚.</p>
-<blockquote><p>衣服: <a href="https://rd.fharr.com/item-2374.html" target="_blank" rel="noopener">魔王的外袍</a> / <a href="https://rd.fharr.com/item-15128.html" target="_blank" rel="noopener">艾克賽利翁外套</a> / <a href="https://rd.fharr.com/item-15147.html" target="_blank" rel="noopener">惡言外袍</a><br>卡片: 馬克 / 幽暗夢靨</p>
-</blockquote>
-<p>魔王的外袍有著 -10% 延遲的效果, 艾克賽利翁外套可以自選三張設計圖; 不過都比不上那件罵人祖宗十八代的惡言外袍, 後期的選擇.</p>
-<blockquote><p>披風: 新手披風 / <a href="https://rd.fharr.com/item-2324.html" target="_blank" rel="noopener">巴基力的斗篷</a> / <a href="https://rd.fharr.com/item-20773.html" target="_blank" rel="noopener">艾克賽利翁推進翼</a> / <a href="https://rd.fharr.com/item-20749.html" target="_blank" rel="noopener">戰死者斗篷</a> / 墮天使之翼(韓版) / <a href="https://rd.fharr.com/item-2544.html" target="_blank" rel="noopener">三角狂獅獸之外皮</a><br>卡片: 花妖精 / 幽劍 / 惡波</p>
-</blockquote>
-<p>新手披風可以增加 15% 攻擊速度, 用於稱 aspd 193 很有幫助.<br>巴批是搭配惡言外袍使用, 三角狂獅獸之外皮是搭配經典羽毛帽使用.<br>艾克賽利翁推進翼和艾克賽利翁外套有著套裝效果減延遲, 同時也可以自選三張設計圖.<br>高精練的戰死者斗篷提供了相當不錯的攻擊速度和輸出, 不過可以附魔名弓的墮天使之翼更好, 當然價格也更貴.</p>
-<blockquote><p>鞋子: 新手鞋子 / <a href="https://rd.fharr.com/item-22008.html" target="_blank" rel="noopener">時光靈巧戰靴</a> / <a href="https://rd.fharr.com/item-22202.html" target="_blank" rel="noopener">時光超越者之靴</a><br>卡片: 禮物包裝者 / 武士火槍兵 / 闇‧劍士賽尼亞</p>
-</blockquote>
-<p>新手鞋子有 ATK+50, 而且新手頭盔有防斷詠, 初期不用鞋子消除大暴雨固詠還堪用.<br>時光靈巧戰靴和時光超越者之靴則是中後期的選擇, 同時也是最關鍵的裝備可以抵消大暴雨的 0.5 秒固詠. 附魔選擇名弓鷹眼，前者增加遠傷，後者發動時 DEX+200 能讓大暴雨傷害暴增.</p>
-<blockquote><p>裝飾品: <a href="https://rd.fharr.com/item-2899.html" target="_blank" rel="noopener">音波擴增器</a> / <a href="https://rd.fharr.com/item-2910.html" target="_blank" rel="noopener">巴庫暴龍符紋</a> / <a href="https://rd.fharr.com/item-2991.html" target="_blank" rel="noopener">混沌之墜</a> &amp; <a href="https://rd.fharr.com/item-2990.html" target="_blank" rel="noopener">和諧之墜</a> / <a href="https://rd.fharr.com/item-2992.html" target="_blank" rel="noopener">漩渦之墜</a> / <a href="https://rd.fharr.com/item-28483.html" target="_blank" rel="noopener">國王守護之戒</a> / <a href="https://rd.fharr.com/item-28573.html" target="_blank" rel="noopener">翡翠戒指</a><br>卡片: 魔王的集中精隨 3 / 黃金甲蟲 / 機械變形蟲 / 氣泡蟲</p>
-</blockquote>
-<p>音波擴增器: 為前期無法素質無詠時可以用, 裝上兩顆瞬間無詠.<br>巴庫暴龍符文: 便宜的增加攻擊速度 &amp; 傷害的裝備.<br>混沌之墜 &amp; 和諧之墜: 套裝效果全能力 +5, 和諧有帶回魔, 渾沌有帶增傷.<br>漩渦之墜: 比上面少了大量的 AGI 和 DEX 加成, 但是多了一個洞.<br>晚禱鐘核心04: 搭配愛的記憶，雙套裝效果直接 DEX+20, 可是這邊沒有愛的記憶 … （￣▽￣）<br>國王戒指: 搭配君主卡可以變身無視防禦.<br>翡翠戒指: 最後的選擇, AGI VIT DEX +10, ATK+100, 大暴雨增傷 &amp; 二連矢巨幅增傷.</p>
-<blockquote><p>影子裝備: 影子舞孃全套</p>
-</blockquote>
-<p>全套能帶有 50% 無視防禦, 搭配惡言巴批套可以對人類惡魔和不死種族的敵人達到完全無視防禦.<br>我在想應該不會拿到魔劍卡, 所以做這樣選擇.</p>
-<h3 id="配點和打法"><a href="#配點和打法" class="headerlink" title="配點和打法"></a>配點和打法</h3><p>大概設想了兩種, 打法和配裝有些許不同. 不過由於我帝國賭徒或是花冠都沒有, 哪邊好我也不知道. （￣▽￣）</p>
-<p>第一個是 ADL 型: A120 D120 L108, 剩下給 V 和 I.<br>在甚麼都沒有的前期, 由於箭雨風暴和大暴雨的冷卻相當長, 期間只能走位或是普攻, ADL 型搭配時光超越者之靴可以拿到不少效果. 不過由於 I 相對低, 前期不穿新手頭盔可能沒辦法達到素質無詠. 之後頭中頭下可以補上帝國套或是賭徒套無痛轉換.<br>優點在於普攻全暴擊 &amp; 暴擊無視 boss 的敏捷提升, 之後 +20 用於觸發海克的自詠大暴雨也很適合.<br>紋章建議使用二刀連擊, 集中和魔力劍.</p>
-<p>第二個是花冠型: A120 I120 D120, 剩下給 V 和 L.<br>為了搭配花冠而調整的素質, 箭雨風暴和大暴雨的冷卻期間改用雙翡翠增傷的二連矢.<br>優點在於箭雨風暴和大暴雨的傷害會比上者還要痛, 只是對付敏捷提升的 boss 可能就要丟泥沼地.<br>紋章建議使用泥沼地和集中.</p>
-<p>大概就是這樣囉, 有甚麼更好的配裝配點歡迎指教.<br>舞孃比起遊俠基因盧恩那些強勢職業是弱勢不少, 不過重點是可愛就是正義! 希望外觀黨的玩家一起加入舞蹈的行列.</p>
-<center><img src="/Tesatsu/2019/06/03/Over-the-Rainstorm/3.jpg" title="wanderer"></center>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/Tesatsu/2019/06/03/Over-the-Rainstorm/">
-    <time datetime="2019-06-03T05:24:23.000Z" class="entry-date">
-        2019-06-03
-    </time>
-</a>
-    
-  <span class="article-delim">&#8226;</span>
-  <div class="article-category">
-  <a class="article-category-link" href="/Tesatsu/categories/手札/">手札</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/吟遊/">吟遊</a>
-  </div>
-
-    
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/手札/">手札</a></li></ul>
-
-    </footer>
-</article>
-
-
-
-
-
-
-  
-    <article id="post-Minazuki" class="post-Minazuki post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/Tesatsu/2019/05/06/Minazuki/">Minazuki</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/05/06/Minazuki/" data-id="ckbbltg5p007m1qmuw8skg29d" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <p><a href="https://panepo.github.io/Tesatsu/2018/12/20/Mutsuki/">睦月系列</a>應該是第二大的專案, 水無月(Minazuki)總算初版完成.</p>
-<p>為一深度學習實作專案, 人員辨識系統, 將 face detection and recognition 利用 tensorflow-js 實做出來. 含了前端和後端兩個主程式, 途中架構也改了幾次, 總共花了大概兩個多月的時間. 這專案真是學到超多東西, 可是上層居然說沒興趣了, WTF!</p>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/Tesatsu/2019/05/06/Minazuki/">
-    <time datetime="2019-05-06T06:30:59.000Z" class="entry-date">
-        2019-05-06
-    </time>
-</a>
-    
-  <span class="article-delim">&#8226;</span>
-  <div class="article-category">
-  <a class="article-category-link" href="/Tesatsu/categories/手札/">手札</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/吟遊/">吟遊</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/吟遊/程設/">程設</a>
-  </div>
-
-    
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
-
-    </footer>
-</article>
-
-
-
-
-
-
-  
-    <article id="post-Recent" class="post-Recent post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/Tesatsu/2019/04/16/Recent/">Recent</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/04/16/Recent/" data-id="ckbbltg5i007h1qmurqhg1ptn" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <p>好久沒有更新了, 明明最近好像也發生了不少事….</p>
-<p>但是都沒有那種想要記錄下來的感覺, 是思考停溢了嗎….</p>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/Tesatsu/2019/04/16/Recent/">
-    <time datetime="2019-04-16T14:47:38.000Z" class="entry-date">
-        2019-04-16
-    </time>
-</a>
-    
-  <span class="article-delim">&#8226;</span>
-  <div class="article-category">
-  <a class="article-category-link" href="/Tesatsu/categories/化語/">化語</a>
-  </div>
-
-    
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/化語/">化語</a></li></ul>
-
-    </footer>
-</article>
-
-
-
-
-
-
-  
-    <article id="post-Typescript" class="post-Typescript post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/Tesatsu/2019/03/05/Typescript/">Typescript</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/03/05/Typescript/" data-id="ckbbltg5h007e1qmubhgdna7l" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <p>自從開始學 Typescript 後, 今天總算弄到一個滿意的程度. 首先是 Tooling 設定總算滿意, 該死的 trailing comma 總算被幹掉了, 再來是 Pilebunker-ts 應該可以說是完成.</p>
-<p>期間真是學到了不少東西, <code>typescript</code> 不說, 還有 <code>react-router</code>, <code>connected-react-router</code>, <code>redux-persist</code>, <code>localforage</code>, <code>codecov</code>.. 等等. 持續學習持續成長, 看到東西做完實在很有滿足感.</p>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/Tesatsu/2019/03/05/Typescript/">
-    <time datetime="2019-03-05T07:43:27.000Z" class="entry-date">
-        2019-03-05
-    </time>
-</a>
-    
-  <span class="article-delim">&#8226;</span>
-  <div class="article-category">
-  <a class="article-category-link" href="/Tesatsu/categories/化語/">化語</a>, <a class="article-category-link" href="/Tesatsu/categories/化語/程設/">程設</a>
-  </div>
-
-    
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/化語/">化語</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
-
-    </footer>
-</article>
-
-
-
-
-
-
-  
-    <article id="post-AlphaStar" class="post-AlphaStar post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/Tesatsu/2019/01/25/AlphaStar/">AlphaStar</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/01/25/AlphaStar/" data-id="ckbbltg5f00791qmupjkvhg1e" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <p>因為目標不是星海二，而是一個更大的問題：POMDP</p>
-<p>美國國防部四十年前就想作一個東西，能力是可以在戰爭的時候提供決策<br>古時候 AI 研究的終極目標就是：軍事應用。投了超多錢都沒什麼成果<br>現在回頭看知道原因是資料、硬體、還有理論都沒到位</p>
-<p>圍棋在 AI 是個很簡單的問題<br>因為他是 fully-observed，參加者可以獲得賽局的所有資訊<br>而且採取一個動作所獲得的結果都是 deteministic，不帶隨機性<br>當然，你的對手會作什麼你不知道，這邊的隨機性指的不是對手的動作<br>而是當你選擇一個動作的時候，這個動作的效果帶有隨機性<br>舉例來說，假設你選擇在某處落子，結果落子的那隻手有帕金森氏症一直抖<br>實際落下去的地方不是你指定的點，而是隨機落在指定點的附近</p>
-<p>這種問題是「完全觀測、無隨機性」的問題，是很好解的<br>但是實際上的問題都不是這種，現實世界的問題幾乎都是 partial-observed<br>你在戰場上並不知道對手把兵力藏在哪裡，你採取的動作結果也未必穩定<br>而是帶有隨機性的 markov decision problem<br>這樣的問題叫作 POMDP（partial-observed markov decision problem）<br>這種問題超難，做了幾十年，沒有任何能搬上實際應用的成果</p>
-<p>現實世界很多這種問題都超有價值，像是軍事、商業<br>星海二是 partial-observed，但不帶隨機性，這是遊戲設計故意的<br>因為要發展電競，所以不希望結果帶有運氣，所以動作的結果都是 deterministic<br>古時候星海一架跑台打高地，命中率帶有隨機性<br>後來把這個隨機性拿掉了，改成一定命中但傷害較少，也是這個原因<br>但即使如此，能解一個 partial-observed game 也是超巨大的一步</p>
-<p>因為目標其實是想要知道、驗證「這個人工智慧演算法到底有多聰明」<br>所以如果給他無限的手速，就無法驗證這一點<br>他的目的根本不是要打贏人類，而是要「用策略打贏人類」<br>所以給超高手速沒有意義，無法驗證演算法在策略上的程度<br>給過低的手速導致穩輸也沒有什麼意義，一樣無法驗證這點</p>
-<p>當 DeepMind 在星海二有超好表現之後<br>國防部是不是有可能端著大筆的現金去找他們<br>給他們一個帶有隨機性的戰略模擬軟體叫他們攻略看看<br>用來打商業戰的價值也無法估計的高，民間公司也有可能找來<br>商機太大了……</p>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/Tesatsu/2019/01/25/AlphaStar/">
-    <time datetime="2019-01-25T09:42:19.000Z" class="entry-date">
-        2019-01-25
-    </time>
-</a>
-    
-  <span class="article-delim">&#8226;</span>
-  <div class="article-category">
-  <a class="article-category-link" href="/Tesatsu/categories/手札/">手札</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/吟遊/">吟遊</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/吟遊/程設/">程設</a>
-  </div>
-
-    
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
-
-    </footer>
-</article>
-
-
-
-
-
-
-  
-    <article id="post-Battery-charger" class="post-Battery-charger post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/Tesatsu/2019/01/14/Battery-charger/">Battery charger</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/01/14/Battery-charger/" data-id="ckbbltg5e00761qmuzhymwa8h" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <center><img src="/Tesatsu/2019/01/14/Battery-charger/charger.jpg" title="charger"></center>
-
-<p>這個啊….多段式的電池充電機。</p>
-<p>這是早期用來給鉛酸電池充電的東西。</p>
-<p>那個轉盤是用來調整充電電壓大小。數字越大電壓越大<br>(應該是表示串連個數)<br>上面的三個端子分別是負極與高低兩段電壓(可以給兩種不同電壓電池充電)</p>
-<p>使用方法是：把電池依照正負極接上藍色與紅色端子<br>然後調整到對應的電池串連數</p>
-<p>就像現在的鋰電池一樣，等到一段時間充滿<br>(通常會搭配電壓表或是電燈來測試電壓)</p>
-<p>轉盤底下就是個自藕變壓器的輸出抽頭選擇，數字越大電壓越高。</p>
-<p>根據材質與外觀猜測，應該是昭和30~40年左右的產品。(1950年代)</p>
-<p>當時的日本許多地區並非全天有電力供應，而是分區供電。<br>這種情形下就需要蓄電池來供應電力。晚上充滿電白天才能用<br>(當時很流行廉價的5燈的真空管交直流兩用收音機，可以用100V電池供電)</p>
-<p>至於整流部份。…這體積看起來應該是氧化銅整流器(外觀像是千層蛋糕)，<br>使用時會有一股怪怪的金屬臭味….</p>
-<p>以這個價格來說，買來當古董非常的划算，因為保存得很漂亮</p>
-<p>Author: lcabc</p>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/Tesatsu/2019/01/14/Battery-charger/">
-    <time datetime="2019-01-14T05:43:45.000Z" class="entry-date">
-        2019-01-14
-    </time>
-</a>
-    
-  <span class="article-delim">&#8226;</span>
-  <div class="article-category">
-  <a class="article-category-link" href="/Tesatsu/categories/手札/">手札</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/轉錄/">轉錄</a>
-  </div>
-
-    
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/轉錄/">轉錄</a></li></ul>
-
-    </footer>
-</article>
-
-
-
-
-
-
-  
-    <article id="post-Moon" class="post-Moon post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/Tesatsu/2019/01/08/Moon/">Moon</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://panepo.github.io/Tesatsu/2019/01/08/Moon/" data-id="ckbbltg5c00711qmunharkr6p" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <p>逐漸昏暗的天空, 升起一輪渾圓明月,</p>
-<p>彷彿被貼在上面一般.</p>
-<p>它不讓人覺得刺眼, 平淡無奇地掛在天上,</p>
-<p>感覺好像放在舞台背景的洞上.</p>
-<p>不, 搞不好做為舞台背景的</p>
-<p>是我們這邊也還不一定.</p>
-<p>透過背景的圓洞, 窺視著舞台場景的,</p>
-<p>到底是誰呢?</p>
-<center><img src="/Tesatsu/2019/01/08/Moon/moon1.png" title="moon"></center>
-
-<center><img src="/Tesatsu/2019/01/08/Moon/moon2.png" title="moon"></center>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/Tesatsu/2019/01/08/Moon/">
-    <time datetime="2019-01-08T08:31:15.000Z" class="entry-date">
-        2019-01-08
-    </time>
-</a>
-    
-  <span class="article-delim">&#8226;</span>
-  <div class="article-category">
-  <a class="article-category-link" href="/Tesatsu/categories/手札/">手札</a>, <a class="article-category-link" href="/Tesatsu/categories/手札/轉錄/">轉錄</a>
-  </div>
-
-    
-  <span class="article-delim">&#8226;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/轉錄/">轉錄</a></li></ul>
-
-    </footer>
-</article>
-
-
-
-
-
-
-  
-  
-    <nav id="pagination">
-      <nav id="page-nav">
-        <a class="extend prev" rel="prev" href="/Tesatsu/">&laquo; Prev</a><a class="page-number" href="/Tesatsu/">1</a><span class="page-number current">2</span><a class="page-number" href="/Tesatsu/page/3/">3</a><a class="page-number" href="/Tesatsu/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/Tesatsu/page/9/">9</a><a class="extend next" rel="next" href="/Tesatsu/page/3/">Next &raquo;</a>
-      </nav>
-    </nav>
-  
-
-</div></div>
-        <div id="secondary" class="widget-area" role="complementary">
-  
-    <aside id="search" class="widget widget_search"><form role="search" method="get" accept-charset="utf-8" id="searchform" class="searchform" action="//google.com/search">
-    <div>
-        <input type="text" value="" name="s" id="s" />
-        <input type="submit" id="searchsubmit" value="搜索" />
+            &nbsp;&nbsp;&nbsp;
+            <span>
+                <a href="/Tesatsu/2019/08/23/Turtlebot3-simulation/" target="_self">Read more</a>
+            </span>
+        </p>
+
+        <!-- Post Tags -->
+        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
     </div>
-</form></aside>
 
-  
-    
-  <aside class="widget">
-    <h3 class="widget-title">Recents</h3>
-    <div class="widget-content">
-      <ul>
-        
-          <li>
-            <a href="/Tesatsu/2020/06/07/Katana/">Katana</a>
-          </li>
-        
-          <li>
-            <a href="/Tesatsu/2020/06/02/Sort/">Sort</a>
-          </li>
-        
-          <li>
-            <a href="/Tesatsu/2020/03/27/Hammer/">Hammer</a>
-          </li>
-        
-          <li>
-            <a href="/Tesatsu/2020/03/27/Slashing-Axe/">Slashing Axe</a>
-          </li>
-        
-          <li>
-            <a href="/Tesatsu/2020/03/27/Twin-Blades/">Twin Blades</a>
-          </li>
-        
-      </ul>
+    <!-- Post_entry Footer -->
+    <div class="post_entry-footer">
+        <div class="post_entry-footer-border"></div>
+        <div class="post_entry-footer-info">
+            <div class="post_entry-footer-date">
+                Aug 23, 2019
+            </div>
+            <div class="post_entry-footer-comment">
+                
+                
+            </div>
+        </div>
     </div>
-  </aside>
-
-  
-    
-  <aside class="widget">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget-content">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/化語/">化語</a><span class="tag-list-count">23</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a><span class="tag-list-count">25</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/寫真/">寫真</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/手札/">手札</a><span class="tag-list-count">41</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/程設/">程設</a><span class="tag-list-count">25</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/跫響/">跫響</a><span class="tag-list-count">16</span></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/轉錄/">轉錄</a><span class="tag-list-count">12</span></li></ul>
-    </div>
-  </aside>
-
-  
-    
-  <aside class="widget">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget-content tagcloud">
-      <a href="/Tesatsu/tags/化語/" style="font-size: 15px;">化語</a> <a href="/Tesatsu/tags/吟遊/" style="font-size: 17.5px;">吟遊</a> <a href="/Tesatsu/tags/寫真/" style="font-size: 10px;">寫真</a> <a href="/Tesatsu/tags/手札/" style="font-size: 20px;">手札</a> <a href="/Tesatsu/tags/程設/" style="font-size: 17.5px;">程設</a> <a href="/Tesatsu/tags/跫響/" style="font-size: 12.5px;">跫響</a> <a href="/Tesatsu/tags/轉錄/" style="font-size: 10px;">轉錄</a>
-    </div>
-  </aside>
-
-  
 </div>
-      </div>
-      <footer id="colophon" role="contentinfo">
-    <p>&copy; 2020 Panepo
-    All rights reserved.</p>
-    <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
+
+            
+        
+    
+        
+            
+            
+                <!-- Isolation Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post_entry Header -->
+    
+        <!-- Post Header Info -->
+        <div class="post_entry-header_info without-thumbnail">
+            <!-- Author Avatar & Name -->
+            <img src="/Tesatsu/img/avatar/flan.png" class="avatar-img" width="44px" height="44px" alt="Panepo's avatar">
+            <span class="name-span">Panepo</span>
+        </div>
+
+        <!-- Null Thumbnail -->
+        <div class="post_thumbnail-null">
+    
+        </div>
+
+    <!-- Post_entry Content -->
+    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+        <!-- Post Title -->
+        <p class="post_entry-title">
+            <a href="/Tesatsu/2019/08/22/ROS-environment/">ROS environment</a>
+        </p>
+
+        <!-- Post Excerpt -->
+        <p class="post_entry-excerpt">
+            
+                This is the note for set up development environment of ROS (robot operatio...
+            
+            &nbsp;&nbsp;&nbsp;
+            <span>
+                <a href="/Tesatsu/2019/08/22/ROS-environment/" target="_self">Read more</a>
+            </span>
+        </p>
+
+        <!-- Post Tags -->
+        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
+    </div>
+
+    <!-- Post_entry Footer -->
+    <div class="post_entry-footer">
+        <div class="post_entry-footer-border"></div>
+        <div class="post_entry-footer-info">
+            <div class="post_entry-footer-date">
+                Aug 22, 2019
+            </div>
+            <div class="post_entry-footer-comment">
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+        
+    
+        
+            
+            
+                <!-- Isolation Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post_entry Header -->
+    
+        <!-- Post Header Info -->
+        <div class="post_entry-header_info without-thumbnail">
+            <!-- Author Avatar & Name -->
+            <img src="/Tesatsu/img/avatar/flan.png" class="avatar-img" width="44px" height="44px" alt="Panepo's avatar">
+            <span class="name-span">Panepo</span>
+        </div>
+
+        <!-- Null Thumbnail -->
+        <div class="post_thumbnail-null">
+    
+        </div>
+
+    <!-- Post_entry Content -->
+    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+        <!-- Post Title -->
+        <p class="post_entry-title">
+            <a href="/Tesatsu/2019/07/20/Lino-King/">Lino King</a>
+        </p>
+
+        <!-- Post Excerpt -->
+        <p class="post_entry-excerpt">
+            
+                 
+            
+            &nbsp;&nbsp;&nbsp;
+            <span>
+                <a href="/Tesatsu/2019/07/20/Lino-King/" target="_self">Read more</a>
+            </span>
+        </p>
+
+        <!-- Post Tags -->
+        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/化語/">化語</a></li><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/跫響/">跫響</a></li></ul>
+    </div>
+
+    <!-- Post_entry Footer -->
+    <div class="post_entry-footer">
+        <div class="post_entry-footer-border"></div>
+        <div class="post_entry-footer-info">
+            <div class="post_entry-footer-date">
+                Jul 20, 2019
+            </div>
+            <div class="post_entry-footer-comment">
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+        
+    
+        
+            
+            
+                <!-- Isolation Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post_entry Header -->
+    
+        <!-- Post Header Info -->
+        <div class="post_entry-header_info without-thumbnail">
+            <!-- Author Avatar & Name -->
+            <img src="/Tesatsu/img/avatar/flan.png" class="avatar-img" width="44px" height="44px" alt="Panepo's avatar">
+            <span class="name-span">Panepo</span>
+        </div>
+
+        <!-- Null Thumbnail -->
+        <div class="post_thumbnail-null">
+    
+        </div>
+
+    <!-- Post_entry Content -->
+    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+        <!-- Post Title -->
+        <p class="post_entry-title">
+            <a href="/Tesatsu/2019/06/03/Over-the-Rainstorm/">Over the Rainstorm</a>
+        </p>
+
+        <!-- Post Excerpt -->
+        <p class="post_entry-excerpt">
+            
+                夕立を越えて ~ 大暴雨型舞孃
+
+            
+            &nbsp;&nbsp;&nbsp;
+            <span>
+                <a href="/Tesatsu/2019/06/03/Over-the-Rainstorm/" target="_self">Read more</a>
+            </span>
+        </p>
+
+        <!-- Post Tags -->
+        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a></li><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/手札/">手札</a></li></ul>
+    </div>
+
+    <!-- Post_entry Footer -->
+    <div class="post_entry-footer">
+        <div class="post_entry-footer-border"></div>
+        <div class="post_entry-footer-info">
+            <div class="post_entry-footer-date">
+                Jun 03, 2019
+            </div>
+            <div class="post_entry-footer-comment">
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+        
+    
+        
+            
+            
+                <!-- Isolation Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post_entry Header -->
+    
+        <!-- Post Header Info -->
+        <div class="post_entry-header_info without-thumbnail">
+            <!-- Author Avatar & Name -->
+            <img src="/Tesatsu/img/avatar/flan.png" class="avatar-img" width="44px" height="44px" alt="Panepo's avatar">
+            <span class="name-span">Panepo</span>
+        </div>
+
+        <!-- Null Thumbnail -->
+        <div class="post_thumbnail-null">
+    
+        </div>
+
+    <!-- Post_entry Content -->
+    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+        <!-- Post Title -->
+        <p class="post_entry-title">
+            <a href="/Tesatsu/2019/05/06/Minazuki/">Minazuki</a>
+        </p>
+
+        <!-- Post Excerpt -->
+        <p class="post_entry-excerpt">
+            
+                睦月系列應該是...
+            
+            &nbsp;&nbsp;&nbsp;
+            <span>
+                <a href="/Tesatsu/2019/05/06/Minazuki/" target="_self">Read more</a>
+            </span>
+        </p>
+
+        <!-- Post Tags -->
+        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a></li><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
+    </div>
+
+    <!-- Post_entry Footer -->
+    <div class="post_entry-footer">
+        <div class="post_entry-footer-border"></div>
+        <div class="post_entry-footer-info">
+            <div class="post_entry-footer-date">
+                May 06, 2019
+            </div>
+            <div class="post_entry-footer-comment">
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+        
+    
+        
+            
+            
+                <!-- Isolation Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post_entry Header -->
+    
+        <!-- Post Header Info -->
+        <div class="post_entry-header_info without-thumbnail">
+            <!-- Author Avatar & Name -->
+            <img src="/Tesatsu/img/avatar/flan.png" class="avatar-img" width="44px" height="44px" alt="Panepo's avatar">
+            <span class="name-span">Panepo</span>
+        </div>
+
+        <!-- Null Thumbnail -->
+        <div class="post_thumbnail-null">
+    
+        </div>
+
+    <!-- Post_entry Content -->
+    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+        <!-- Post Title -->
+        <p class="post_entry-title">
+            <a href="/Tesatsu/2019/04/16/Recent/">Recent</a>
+        </p>
+
+        <!-- Post Excerpt -->
+        <p class="post_entry-excerpt">
+            
+                好久沒有更新了, 明明最近好像也發生了不少事….
+但是都沒有那種想要記錄下來的感覺, 是思考停溢了嗎….
+
+            
+            &nbsp;&nbsp;&nbsp;
+            <span>
+                <a href="/Tesatsu/2019/04/16/Recent/" target="_self">Read more</a>
+            </span>
+        </p>
+
+        <!-- Post Tags -->
+        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/化語/">化語</a></li></ul>
+    </div>
+
+    <!-- Post_entry Footer -->
+    <div class="post_entry-footer">
+        <div class="post_entry-footer-border"></div>
+        <div class="post_entry-footer-info">
+            <div class="post_entry-footer-date">
+                Apr 16, 2019
+            </div>
+            <div class="post_entry-footer-comment">
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+        
+    
+        
+            
+            
+                <!-- Isolation Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post_entry Header -->
+    
+        <!-- Post Header Info -->
+        <div class="post_entry-header_info without-thumbnail">
+            <!-- Author Avatar & Name -->
+            <img src="/Tesatsu/img/avatar/flan.png" class="avatar-img" width="44px" height="44px" alt="Panepo's avatar">
+            <span class="name-span">Panepo</span>
+        </div>
+
+        <!-- Null Thumbnail -->
+        <div class="post_thumbnail-null">
+    
+        </div>
+
+    <!-- Post_entry Content -->
+    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+        <!-- Post Title -->
+        <p class="post_entry-title">
+            <a href="/Tesatsu/2019/03/05/Typescript/">Typescript</a>
+        </p>
+
+        <!-- Post Excerpt -->
+        <p class="post_entry-excerpt">
+            
+                自從開始學 Typescript 後, 今天總算弄到一個滿意的程度. 首先是 Tooling 設定總算滿意, 該死的 trailing comma ...
+            
+            &nbsp;&nbsp;&nbsp;
+            <span>
+                <a href="/Tesatsu/2019/03/05/Typescript/" target="_self">Read more</a>
+            </span>
+        </p>
+
+        <!-- Post Tags -->
+        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/化語/">化語</a></li><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
+    </div>
+
+    <!-- Post_entry Footer -->
+    <div class="post_entry-footer">
+        <div class="post_entry-footer-border"></div>
+        <div class="post_entry-footer-info">
+            <div class="post_entry-footer-date">
+                Mar 05, 2019
+            </div>
+            <div class="post_entry-footer-comment">
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+        
+    
+        
+            
+            
+                <!-- Isolation Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post_entry Header -->
+    
+        <!-- Post Header Info -->
+        <div class="post_entry-header_info without-thumbnail">
+            <!-- Author Avatar & Name -->
+            <img src="/Tesatsu/img/avatar/flan.png" class="avatar-img" width="44px" height="44px" alt="Panepo's avatar">
+            <span class="name-span">Panepo</span>
+        </div>
+
+        <!-- Null Thumbnail -->
+        <div class="post_thumbnail-null">
+    
+        </div>
+
+    <!-- Post_entry Content -->
+    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+        <!-- Post Title -->
+        <p class="post_entry-title">
+            <a href="/Tesatsu/2019/01/25/AlphaStar/">AlphaStar</a>
+        </p>
+
+        <!-- Post Excerpt -->
+        <p class="post_entry-excerpt">
+            
+                因為目標不是星海二，而是一個更大的問題：POMDP
+美國國防部四十年前就想作一個東西，能力是可以在戰爭的時候提供決策古時候 A...
+            
+            &nbsp;&nbsp;&nbsp;
+            <span>
+                <a href="/Tesatsu/2019/01/25/AlphaStar/" target="_self">Read more</a>
+            </span>
+        </p>
+
+        <!-- Post Tags -->
+        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/吟遊/">吟遊</a></li><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/程設/">程設</a></li></ul>
+    </div>
+
+    <!-- Post_entry Footer -->
+    <div class="post_entry-footer">
+        <div class="post_entry-footer-border"></div>
+        <div class="post_entry-footer-info">
+            <div class="post_entry-footer-date">
+                Jan 25, 2019
+            </div>
+            <div class="post_entry-footer-comment">
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+        
+    
+        
+            
+            
+                <!-- Isolation Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post_entry Header -->
+    
+        <!-- Post Header Info -->
+        <div class="post_entry-header_info without-thumbnail">
+            <!-- Author Avatar & Name -->
+            <img src="/Tesatsu/img/avatar/flan.png" class="avatar-img" width="44px" height="44px" alt="Panepo's avatar">
+            <span class="name-span">Panepo</span>
+        </div>
+
+        <!-- Null Thumbnail -->
+        <div class="post_thumbnail-null">
+    
+        </div>
+
+    <!-- Post_entry Content -->
+    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+        <!-- Post Title -->
+        <p class="post_entry-title">
+            <a href="/Tesatsu/2019/01/14/Battery-charger/">Battery charger</a>
+        </p>
+
+        <!-- Post Excerpt -->
+        <p class="post_entry-excerpt">
+            
+                
+            
+            &nbsp;&nbsp;&nbsp;
+            <span>
+                <a href="/Tesatsu/2019/01/14/Battery-charger/" target="_self">Read more</a>
+            </span>
+        </p>
+
+        <!-- Post Tags -->
+        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/轉錄/">轉錄</a></li></ul>
+    </div>
+
+    <!-- Post_entry Footer -->
+    <div class="post_entry-footer">
+        <div class="post_entry-footer-border"></div>
+        <div class="post_entry-footer-info">
+            <div class="post_entry-footer-date">
+                Jan 14, 2019
+            </div>
+            <div class="post_entry-footer-comment">
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+        
+    
+        
+            
+            
+                <!-- Isolation Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post_entry Header -->
+    
+        <!-- Post Header Info -->
+        <div class="post_entry-header_info without-thumbnail">
+            <!-- Author Avatar & Name -->
+            <img src="/Tesatsu/img/avatar/flan.png" class="avatar-img" width="44px" height="44px" alt="Panepo's avatar">
+            <span class="name-span">Panepo</span>
+        </div>
+
+        <!-- Null Thumbnail -->
+        <div class="post_thumbnail-null">
+    
+        </div>
+
+    <!-- Post_entry Content -->
+    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
+        <!-- Post Title -->
+        <p class="post_entry-title">
+            <a href="/Tesatsu/2019/01/08/Moon/">Moon</a>
+        </p>
+
+        <!-- Post Excerpt -->
+        <p class="post_entry-excerpt">
+            
+                逐漸昏暗的天空, 升起一輪渾圓明月,
+彷彿被貼在上面一般.
+它不讓人覺得刺眼, 平淡無奇地掛在天上,
+感覺...
+            
+            &nbsp;&nbsp;&nbsp;
+            <span>
+                <a href="/Tesatsu/2019/01/08/Moon/" target="_self">Read more</a>
+            </span>
+        </p>
+
+        <!-- Post Tags -->
+        <ul class="post_entry-tags-list"><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/手札/">手札</a></li><li class="post_entry-tags-list-item"><a class="post_entry-tags-list-link" href="/Tesatsu/tags/轉錄/">轉錄</a></li></ul>
+    </div>
+
+    <!-- Post_entry Footer -->
+    <div class="post_entry-footer">
+        <div class="post_entry-footer-border"></div>
+        <div class="post_entry-footer-info">
+            <div class="post_entry-footer-date">
+                Jan 08, 2019
+            </div>
+            <div class="post_entry-footer-comment">
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+        
+    
+
+    
+    <!-- Index nav -->
+        <nav class="material-nav mdl-cell mdl-cell--12-col">
+            <a class="extend prev" rel="prev" href="/Tesatsu/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_back</i></button></a><a class="page-number" href="/Tesatsu/">1</a><span class="page-number current">2</span><a class="page-number" href="/Tesatsu/page/3/">3</a><a class="page-number" href="/Tesatsu/page/4/">4</a><a class="page-number" href="/Tesatsu/page/9/">9</a><a class="extend next" rel="next" href="/Tesatsu/page/3/"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_forward</i></button></a>
+        </nav>
+    
+
+    
+</div>
+
+
+                    
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
 </footer>
-    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/js/share.js'];</script>
-
-<script src="/js/jquery-3.3.1.min.js"></script>
 
 
-  <link rel="stylesheet" href="/Tesatsu/fancybox/jquery.fancybox.css">
-  <script src="/Tesatsu/fancybox/jquery.fancybox.pack.js"></script>
+                    <!-- Import File -->
 
 
-<script src="/Tesatsu/js/script.js"></script>
+    <script>lsloader.load("js/lazyload.min.js","/Tesatsu/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==")</script>
+    <script>lsloader.load("js/js.min.js","/Tesatsu/js/js.min.js?oAl/+lvaqTFV31JXTmbrNA==")</script>
 
-<script src="/js/navigation.js"></script>
 
-<div id="bg"></div>
 
-  </div>
-</body>
+    <script>lsloader.load("js/nprogress.js","/Tesatsu/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==")</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+   <!-- 使用 DISQUS js 代码 -->
+<script id="dsq-count-scr" src="//tesatsu.disqus.com/count.js" async></script>
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/Tesatsu/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Window Load-->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+</script>
+
+<!-- MathJax Load-->
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Bing Background -->
+
+
+<script>
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.4.0 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
 </html>
