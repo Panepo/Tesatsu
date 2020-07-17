@@ -63,3 +63,23 @@ date: 2020-07-06 09:37:42
 
 中二病救世主 ヨルディス
 {% asset_img seiken_10.jpg last %}
+
+拿著科幻武器光劍的 マーゴ
+{% asset_img seiken_11.jpg last %}
+
+令和來拜年的 エリーゼ
+{% asset_img seiken_12.jpg last %}
+
+接下來是全角色的紀錄
+{% asset_img seiken_21.jpg last %}
+{% asset_img seiken_22.jpg last %}
+{% asset_img seiken_23.jpg last %}
+{% asset_img seiken_24.jpg last %}
+{% asset_img seiken_25.jpg last %}
+{% asset_img seiken_26.jpg last %}
+{% asset_img seiken_27.jpg last %}
+{% asset_img seiken_28.jpg last %}
+{% asset_img seiken_29.jpg last %}
+{% asset_img seiken_30.jpg last %}
+{% asset_img seiken_31.jpg last %}
+{% asset_img seiken_32.jpg last %}
