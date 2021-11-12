@@ -75,15 +75,15 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: material
+theme: cyanstyle
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:
-  branch: master
-  message: hexo deployer auto deploy
+  repo: https://github.com/Panepo/Tesatsu
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
 
 # Search
 ## hexo-generator-search
