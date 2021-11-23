@@ -1637,7 +1637,7 @@ a.comment-edit-link:hover {
 /* List count */
 .category-list-count, .tag-list-count, .archive-list-count {
     padding-left: 5px;
-    color: #999;
+    color: #000000;
     font-size: 0.85em;
 }
 .category-list-count:before, .tag-list-count:before, .archive-list-count:before {
