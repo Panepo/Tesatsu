@@ -1,7 +1,7 @@
 ---
 title: Download Box
 categories:
-  - JS
+  - Javascript
 tags:
   - 程設
 date: 2018-08-27 17:26:37

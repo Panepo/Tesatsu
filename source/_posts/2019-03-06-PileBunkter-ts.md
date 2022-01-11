@@ -1,7 +1,7 @@
 ---
 title: PileBunkter-ts
 categories:
-  - JS
+  - 城プロRE
 tags:
   - 吟遊
   - 程設

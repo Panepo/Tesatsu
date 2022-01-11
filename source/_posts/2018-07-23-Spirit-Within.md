@@ -1,7 +1,7 @@
 ---
 title: Spirit Within
 categories:
-  - RO
+  - Ragnarok Online
 tags:
   - 手札
   - 吟遊

@@ -1,7 +1,7 @@
 ---
 title: Typescript
 categories:
-  - JS
+  - Javascript
 tags:
   - 化語
   - 程設

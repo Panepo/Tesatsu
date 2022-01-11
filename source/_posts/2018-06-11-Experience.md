@@ -1,7 +1,7 @@
 ---
 title: Experience
 categories:
-  - HOTS
+  - Heros of the Storm
 tags:
   - 手札
   - 吟遊

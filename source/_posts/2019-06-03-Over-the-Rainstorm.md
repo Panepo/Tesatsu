@@ -1,7 +1,7 @@
 ---
 title: Over the Rainstorm
 categories:
-  - RO
+  - Ragnarok Online
 tags:
   - 手札
   - 吟遊
