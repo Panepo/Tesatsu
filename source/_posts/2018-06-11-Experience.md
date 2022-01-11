@@ -1,8 +1,7 @@
 ---
 title: Experience
 categories:
-  - 手札
-  - 吟遊
+  - HOTS
 tags:
   - 手札
   - 吟遊
@@ -14,7 +13,7 @@ date: 2018-06-11 15:39:37
 {% blockquote %}
 結算 exp = 遊戲中獲得的 exp * 比例 bonus + 定值 bonus
 {% endblockquote %}
-所以才有說遊戲內等級打到 20 以後感覺 exp 拿很多, 不然還有提升 bonus 的方法: 
+所以才有說遊戲內等級打到 20 以後感覺 exp 拿很多, 不然還有提升 bonus 的方法:
 {% blockquote %}
 組隊(1人 + 10%), 和好友組隊(+25%), 首勝(+50%), 購買加成(+150%)
 或是快速, 聯賽打贏的定值 bonus (+50000)

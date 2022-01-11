@@ -2,8 +2,6 @@
 title: PileBunker
 categories:
   - 化語
-  - 吟遊
-  - 程設
 tags:
   - 化語
   - 吟遊

@@ -1,8 +1,7 @@
 ---
 title: Seiken Manifestia
 categories:
-  - 手札
-  - 吟遊
+  - 政剣マニフェスティア
 tags:
   - 手札
   - 吟遊

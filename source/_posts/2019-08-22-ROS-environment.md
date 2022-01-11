@@ -1,11 +1,11 @@
 ---
 title: ROS environment
 categories:
-  - 手札
-  - 程設
+  - ROS
 tags:
   - 手札
   - 程設
+  - 轉錄
 date: 2019-08-22 13:32:18
 ---
 This is the note for set up development environment of ROS (robot operation system) on Ubuntu 16.04 LTS

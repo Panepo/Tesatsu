@@ -1,9 +1,7 @@
 ---
 title: AlphaStar
 categories:
-  - 手札
-  - 吟遊
-  - 程設
+  - Machine Learning
 tags:
   - 手札
   - 吟遊

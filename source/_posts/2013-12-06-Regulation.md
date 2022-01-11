@@ -1,7 +1,7 @@
 ---
 title: Regulation
 date: 2013-12-06 16:56:30
-categories: [手札,轉錄]
+categories: [手札]
 tags: [手札,轉錄]
 ---
 這是發生于劍橋大學的真實故事

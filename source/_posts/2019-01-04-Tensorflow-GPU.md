@@ -1,8 +1,7 @@
 ---
 title: Tensorflow-GPU
 categories:
-  - 手札
-  - 程設
+  - Machine Learning
 tags:
   - 手札
   - 程設

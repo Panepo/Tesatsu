@@ -2,7 +2,6 @@
 title: Entrance Exam
 categories:
   - 手札
-  - 轉錄
 tags:
   - 手札
   - 轉錄

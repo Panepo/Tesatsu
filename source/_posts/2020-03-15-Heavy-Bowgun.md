@@ -1,8 +1,7 @@
 ---
 title: Heavy Bowgun
 categories:
-  - 手札
-  - 吟遊
+  - Monster Hunter
 tags:
   - 手札
   - 吟遊

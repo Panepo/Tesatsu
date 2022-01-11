@@ -1,6 +1,6 @@
 ---
 title: Pseudo paradise
-categories: [吟遊, 化語]
+categories: [化語]
 tags: [吟遊, 化語]
 date: 2018-03-31 22:43:47
 ---

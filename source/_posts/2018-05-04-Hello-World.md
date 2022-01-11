@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2018-05-04 13:57:56
-categories: [化語, 寫真]
+categories: [化語]
 tags: [化語, 寫真]
 ---
 Hello World 對於程式設計師來說, 這是一定要的啦!

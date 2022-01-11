@@ -1,8 +1,7 @@
 ---
 title: Overdrive
 categories:
-  - 手札
-  - 吟遊
+  - 城プロRE
 tags:
   - 手札
   - 吟遊

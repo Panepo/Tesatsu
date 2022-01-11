@@ -1,9 +1,10 @@
 ---
 title: Minced meat
 categories:
-  - 轉錄
+  - 跫響
 tags:
   - 轉錄
+  - 跫響
 date: 2021-04-07 18:08:18
 ---
 {% link 原文連結 https://www.ptt.cc/bbs/Gossiping/M.1618654102.A.251.html %}

@@ -1,8 +1,7 @@
 ---
 title: Jupyter Notebook on Docker
 categories:
-  - 手札
-  - 程設
+  - Python
 tags:
   - 手札
   - 程設

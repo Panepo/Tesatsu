@@ -2,7 +2,6 @@
 title: Difference
 categories:
   - 化語
-  - 寫真
 tags:
   - 化語
   - 寫真

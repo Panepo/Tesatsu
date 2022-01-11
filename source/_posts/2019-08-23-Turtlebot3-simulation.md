@@ -1,11 +1,11 @@
 ---
 title: Turtlebot3 simulation
 categories:
-  - 手札
-  - 程設
+  - ROS
 tags:
   - 手札
   - 程設
+  - 轉錄
 date: 2019-08-23 10:32:25
 ---
 This is the note for set up development environment of Turtlebot3 simualtion on Ubuntu 16.04 LTS

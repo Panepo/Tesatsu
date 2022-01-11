@@ -1,11 +1,11 @@
 ---
 title: ROS2 environment
 categories:
-  - 手札
-  - 程設
+  - ROS
 tags:
   - 手札
   - 程設
+  - 轉錄
 date: 2020-03-13 11:03:38
 ---
 This is the note for set up development environment of ROS2 (robot operation system) Dashing Diademata on Ubuntu 18.04 LTS

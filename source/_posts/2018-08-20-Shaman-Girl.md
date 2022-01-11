@@ -2,7 +2,6 @@
 title: Shaman Girl
 categories:
   - 化語
-  - 程設
 tags:
   - 化語
   - 程設

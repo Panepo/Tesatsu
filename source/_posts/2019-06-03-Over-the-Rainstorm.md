@@ -1,8 +1,7 @@
 ---
 title: Over the Rainstorm
 categories:
-  - 手札
-  - 吟遊
+  - RO
 tags:
   - 手札
   - 吟遊

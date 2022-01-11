@@ -1,7 +1,7 @@
 ---
 title: Deployment
 date: 2018-05-23 09:46:32
-categories: [手札, 程設]
+categories: [Github]
 tags: [手札, 程設]
 ---
 這篇為使用 Travis CI 自動佈署 web application 到 Github pages 的方法來做個紀錄.
@@ -34,7 +34,7 @@ node_js:
 env:
   global:
     secure: XN7bTWNHQyFk9Mq656K9iYCp3apSwVECA1PGQQUnrdpjfZXDTvDlxhbN65euShbH2tsKxPRnXq47wzkKw38NS2TonrF05cUiA4O49sd8Nifh3YJe9ynx9NfmLjq22qpP0Ul9+d9NFGIkiactMC22ho8KcEYXs9KEx8r4gytkdvNC0dqYzmI9bPx9TNg5k1MmAKwzwB/Sy2MVudhJGUPMMhDD8i2zUS/ollrnuK6CG+UGu39/2/IyEtrcQZ5/jm6m4Bo+ofnOro8+9x/y/RlzGGjsjvBDVl7Jodd6Nuu4FLQjsD6fOzrV+mgFZKU+nE4/8Qc9HiM2cT7DqWMOy05Lx2XqN48/gerv7qPeglEIqIhHGmz0poAgc0TCp552Ys8TFMhpbuUvBeIxxbzCjFD5hgTpgFHnVo+F7PEOTEBapRnK2H+5PNRgJsT1vtsQw1wXf3VxwUHsa7F+UO2sD6QpJGG1xJZWGx4eSLWVHxLEfCr76vEWXadoNtZ8VkjInuYMtllSf7J8nECSoCJKYarYlXtiGgzHhtItLPmH9QMHtgc2RNyliL6z4zc8EeAuKDT0lZYYpyvplzHbgSyidLxi3X/wsx4cwjU3n1oag8A9JFK3iY745ctXv3SjhWrPPsQUpuVkZVQwnLxU2geTVbYzNFBs8cL2h8I6XIFRPVgPkA4=
-    
+
 before_install:
   - export TZ=Asia/Taipei
 

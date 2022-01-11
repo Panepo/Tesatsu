@@ -2,7 +2,6 @@
 title: Last Remote
 categories:
   - 化語
-  - 吟遊
 tags:
   - 化語
   - 吟遊

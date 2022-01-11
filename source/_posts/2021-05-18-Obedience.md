@@ -1,8 +1,7 @@
 ---
 title: Obedience
 categories:
-  - 手札
-  - 吟遊
+  - Kenshi
 tags:
   - 手札
   - 吟遊

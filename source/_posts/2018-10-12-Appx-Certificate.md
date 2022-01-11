@@ -1,11 +1,11 @@
 ---
 title: Appx Certificate
 categories:
-  - 手札
-  - 程設
+  - Windows
 tags:
   - 手札
   - 程設
+  - 轉錄
 date: 2018-10-12 13:55:18
 ---
 This is the note for install certification for appx package.

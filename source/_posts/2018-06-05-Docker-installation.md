@@ -1,8 +1,7 @@
 ---
 title: Docker Installation
 categories:
-  - 手札
-  - 程設
+  - Docker
 tags:
   - 手札
   - 程設
