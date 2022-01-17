@@ -28,7 +28,7 @@ url:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Paradox
+#scheme: Paradox Isolation
 scheme: Isolation
 
 # UI & UX: slogan, color, effect
@@ -187,9 +187,9 @@ sidebar:
 # MaterialCDN
 # When you set 'use' as true, the needed css, js, font file will have a new src.
 # The new src will have the base domain you configured in 'base'.
-materialcdn: 
-    use: 
-    base: 
+materialcdn:
+    use:
+    base:
 
 # Comment Systems
 # Available value of "use":
@@ -200,7 +200,7 @@ comment:
     changyan_appid:
     changyan_conf:
     changyan_thread_key_type: path
-    gentie_productKey: 
+    gentie_productKey:
 
 # Search Systems
 # Available value:

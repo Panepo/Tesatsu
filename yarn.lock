@@ -974,6 +974,11 @@ hexo-tag-googlemaps@^1.2.1:
   dependencies:
     lodash "^4.16.5"
 
+hexo-theme-ayer@^1.9.5:
+  version "1.9.5"
+  resolved "https://registry.yarnpkg.com/hexo-theme-ayer/-/hexo-theme-ayer-1.9.5.tgz#70fdde4acdd045ac1a5d78198afea83a0a495887"
+  integrity sha512-OSDpgVfEcEgGbvXVSTEYAtn9r4L1wUf+0oDcdaO4CYmiF3TGa6ioky2qLGcX+dAAsY3ujONSr7ayKA49yV+AnA==
+
 hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0, hexo-util@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.5.0.tgz#de5635341116ba2563a789a0ebceb55a875221ad"

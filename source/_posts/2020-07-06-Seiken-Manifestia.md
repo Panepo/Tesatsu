@@ -31,54 +31,54 @@ date: 2020-07-06 09:37:42
 {% endblockquote %}
 
 雖然沒從剛開服就開始, 不過也是從第一次活動到最後一個活動全勤..
-{% asset_img seiken_0.jpg last %}
+{% asset_img seiken_0.jpg 600 last %}
 
 接下來是紀錄, 雖然庫克船長也沒見到... (當初聽到要結束就打算 freeze 不動了)
-{% asset_img seiken_1.jpg last %}
+{% asset_img seiken_1.jpg 600 last %}
 
 最可愛的粉紅貍 ケイシア
-{% asset_img seiken_2.jpg last %}
+{% asset_img seiken_2.jpg 600 last %}
 
 覺醒後變超可愛的小鹿 クレア
-{% asset_img seiken_3.jpg last %}
+{% asset_img seiken_3.jpg 600 last %}
 
 歷次投票都人氣最高的 トリクシィ
-{% asset_img seiken_4.jpg last %}
+{% asset_img seiken_4.jpg 600 last %}
 
 人氣排在第二的劍士 リン
-{% asset_img seiken_5.jpg last %}
+{% asset_img seiken_5.jpg 600 last %}
 
 火箭筒女僕長 カルロッタ
-{% asset_img seiken_6.jpg last %}
+{% asset_img seiken_6.jpg 600 last %}
 
 就算穿泳裝也要圍圍巾的 ユノ
-{% asset_img seiken_7.jpg last %}
+{% asset_img seiken_7.jpg 600 last %}
 
 攻擊方式非常有趣的 コートニー
-{% asset_img seiken_8.jpg last %}
+{% asset_img seiken_8.jpg 600 last %}
 
 帶著小雞的蘿莉 モモカ
-{% asset_img seiken_9.jpg last %}
+{% asset_img seiken_9.jpg 600 last %}
 
 中二病救世主 ヨルディス
-{% asset_img seiken_10.jpg last %}
+{% asset_img seiken_10.jpg 600 last %}
 
 拿著科幻武器光劍的 マーゴ
-{% asset_img seiken_11.jpg last %}
+{% asset_img seiken_11.jpg 600 last %}
 
 令和來拜年的 エリーゼ
-{% asset_img seiken_12.jpg last %}
+{% asset_img seiken_12.jpg 600 last %}
 
 接下來是全角色的紀錄
-{% asset_img seiken_21.jpg last %}
-{% asset_img seiken_22.jpg last %}
-{% asset_img seiken_23.jpg last %}
-{% asset_img seiken_24.jpg last %}
-{% asset_img seiken_25.jpg last %}
-{% asset_img seiken_26.jpg last %}
-{% asset_img seiken_27.jpg last %}
-{% asset_img seiken_28.jpg last %}
-{% asset_img seiken_29.jpg last %}
-{% asset_img seiken_30.jpg last %}
-{% asset_img seiken_31.jpg last %}
-{% asset_img seiken_32.jpg last %}
+{% asset_img seiken_21.jpg 274 last %}
+{% asset_img seiken_22.jpg 274 last %}
+{% asset_img seiken_23.jpg 274 last %}
+{% asset_img seiken_24.jpg 274 last %}
+{% asset_img seiken_25.jpg 274 last %}
+{% asset_img seiken_26.jpg 274 last %}
+{% asset_img seiken_27.jpg 274 last %}
+{% asset_img seiken_28.jpg 274 last %}
+{% asset_img seiken_29.jpg 274 last %}
+{% asset_img seiken_30.jpg 274 last %}
+{% asset_img seiken_31.jpg 274 last %}
+{% asset_img seiken_32.jpg 600 last %}

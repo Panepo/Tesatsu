@@ -11,9 +11,11 @@ addthis:
 
 facebook:
 google_plus:
-twitter: https://twitter.com/panepo69
-github: https://github.com/Panepo/Tesatsu
+twitter:
+github:
 
 fancybox: true
-google_analytics: UA-106126363-2
+google_analytics:
 rss:
+# Display a "Read More" link under each post's excerpt in /archives page
+excerpt_link: 'Read More'

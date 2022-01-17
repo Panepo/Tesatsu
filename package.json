@@ -21,6 +21,7 @@
     "hexo-renderer-marked": "^4.1.0",
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",
-    "hexo-tag-googlemaps": "^1.2.1"
+    "hexo-tag-googlemaps": "^1.2.1",
+    "hexo-theme-ayer": "^1.9.5"
   }
 }
