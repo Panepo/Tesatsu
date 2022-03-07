@@ -90,5 +90,3 @@ search:
   path: search.xml
   field: post
 
-# Googlemap
-google_maps_api_key: AIzaSyCfQ64zXVkp6QwAMFd8BXjJQTp6McM2xMI
