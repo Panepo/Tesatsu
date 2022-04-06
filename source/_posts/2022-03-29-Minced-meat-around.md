@@ -3,7 +3,6 @@ title: Minced meat around
 categories:
   - 跫響
 tags:
-  - 轉錄
   - 跫響
 date: 2022-03-29 13:40:21
 ---
