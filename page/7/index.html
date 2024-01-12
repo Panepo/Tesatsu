@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>鳥居の向こうの夢蒔絵</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <link rel="shortcut icon" href="/Tesatsu/favicon.png">
+  
+  
+<link rel="stylesheet" href="/Tesatsu/css/style.css">
+
+<meta name="generator" content="Hexo 7.0.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/Tesatsu/" id="logo">鳥居の向こうの夢蒔絵</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/Tesatsu/" id="subtitle">信仰は儚き人間の為に</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/Tesatsu/">Home</a>
+        
+          <a class="main-nav-link" href="/Tesatsu/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/Tesatsu/categories">Categories</a>
+        
+          <a class="main-nav-link" href="/Tesatsu/tags">Tags</a>
+        
+          <a class="main-nav-link" href="/Tesatsu/about">About</a>
+        
+      </nav>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-PileBunkter-ts" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/Tesatsu/2019/03/06/PileBunkter-ts/" class="article-date">
+  <time class="dt-published" datetime="2019-03-06T08:16:26.000Z" itemprop="datePublished">2019-03-06</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/Tesatsu/categories/%E5%9F%8E%E3%83%97%E3%83%ADRE/">城プロRE</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/Tesatsu/2019/03/06/PileBunkter-ts/">PileBunkter-ts</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>過年期間太鹹, 想說來學個 typescript 就把計算機整個重新改寫了一遍.</p>
+<p>連結網址<a href="https://panepo.github.io/PileBunker-ts/" title="" target="">在此</a></p>
+<p>UI 也稍微改過, 原先上面亂七八糟的輸入欄位現在分成三組並可折疊<br><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Panepo/PileBunker-ts/master/doc/demo1.png">https://raw.githubusercontent.com/Panepo/PileBunker-ts/master/doc/demo1.png</a></p>
+<p>原先選擇城娘攻擊係數的地方, 點選攻擊成長係數% 那就會彈出<br><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Panepo/PileBunker-ts/master/doc/demo2.png">https://raw.githubusercontent.com/Panepo/PileBunker-ts/master/doc/demo2.png</a></p>
+<p>下面表格的地方, 部分資訊改放成在點擊武器名稱時跳出的小視窗裡面<br><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/Panepo/PileBunker-ts/master/doc/demo3.png">https://raw.githubusercontent.com/Panepo/PileBunker-ts/master/doc/demo3.png</a></p>
+<p>另外新增了兜的數量以及耐久的設定, 用於計算總擊破時間.<br>擊破時間不會和 dps 呈正相關, 畢竟除了鈴鐺外都是算攻擊幾次,<br>所以溢傷嚴重的三連鐵炮在這項目會表現得很差勁<br>目前鎚子, 槍, 大砲, 鈴鐺和歌舞在計算上是攻擊全體, 所以數量一多表現會很優異.</p>
+<p>目前尚未實裝部分</p>
+<ol>
+<li><p>兜的選擇, 先到非公開老師那邊查吧</p>
+</li>
+<li><p>兜的各種雜七雜八傷害減免, 像是大鳥兜的遠隔物理ダメージ50%軽減<br>馬面的近接ダメージ30%軽減 牛頭的遠隔ダメージ30%軽減<br>總覺得裝上去又會讓輸入欄位變得一大堆亂七八糟.. orz</p>
+</li>
+<li><p>各種 debuff 賦予的武器, 效果不會填上, 像是<br>未来ガジェット5号機: 敵の攻撃と防御を10%下げる<br>(防禦無視內建的武器有實裝計算, 像是 ヴァリス)</p>
+</li>
+</ol>
+<p>有甚麼建議或是錯誤麻煩請留言或是寫信給我<br>由於有用到 app 狀態持久化的 library, 會儲存一些資訊在各位電腦上<br>用於開啟網頁時恢復上次的瀏覽狀態.<br>在我進行大改版的時候會因為資料格式錯誤而跳 error,<br>這時候只要去瀏覽器刪除 panepo.github.io 底下的暫存資料即可</p>
+<p>對程式有興趣的鄉民, 程式碼<a href="https://github.com/Panepo/PileBunker-ts" title="" target="">在這</a></p>
+<p>用 typescript, create react app 等寫成歡迎指教</p>
+<p>謝謝</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://panepo.github.io/Tesatsu/2019/03/06/PileBunkter-ts/" data-id="clrafro1i007vn8hw1ftz00we" data-title="PileBunkter-ts" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E5%90%9F%E9%81%8A/" rel="tag">吟遊</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E7%A8%8B%E8%A8%AD/" rel="tag">程設</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Typescript" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/Tesatsu/2019/03/05/Typescript/" class="article-date">
+  <time class="dt-published" datetime="2019-03-05T07:43:27.000Z" itemprop="datePublished">2019-03-05</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/Tesatsu/categories/Javascript/">Javascript</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/Tesatsu/2019/03/05/Typescript/">Typescript</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>自從開始學 Typescript 後, 今天總算弄到一個滿意的程度. 首先是 Tooling 設定總算滿意, 該死的 trailing comma 總算被幹掉了, 再來是 Pilebunker-ts 應該可以說是完成.</p>
+<p>期間真是學到了不少東西, <code>typescript</code> 不說, 還有 <code>react-router</code>, <code>connected-react-router</code>, <code>redux-persist</code>, <code>localforage</code>, <code>codecov</code>.. 等等. 持續學習持續成長, 看到東西做完實在很有滿足感.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://panepo.github.io/Tesatsu/2019/03/05/Typescript/" data-id="clrafro1h007on8hw30q3cfz9" data-title="Typescript" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E5%8C%96%E8%AA%9E/" rel="tag">化語</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E7%A8%8B%E8%A8%AD/" rel="tag">程設</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-AlphaStar" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/Tesatsu/2019/01/25/AlphaStar/" class="article-date">
+  <time class="dt-published" datetime="2019-01-25T09:42:19.000Z" itemprop="datePublished">2019-01-25</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/Tesatsu/categories/Machine-Learning/">Machine Learning</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/Tesatsu/2019/01/25/AlphaStar/">AlphaStar</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>因為目標不是星海二，而是一個更大的問題：POMDP</p>
+<p>美國國防部四十年前就想作一個東西，能力是可以在戰爭的時候提供決策<br>古時候 AI 研究的終極目標就是：軍事應用。投了超多錢都沒什麼成果<br>現在回頭看知道原因是資料、硬體、還有理論都沒到位</p>
+<p>圍棋在 AI 是個很簡單的問題<br>因為他是 fully-observed，參加者可以獲得賽局的所有資訊<br>而且採取一個動作所獲得的結果都是 deteministic，不帶隨機性<br>當然，你的對手會作什麼你不知道，這邊的隨機性指的不是對手的動作<br>而是當你選擇一個動作的時候，這個動作的效果帶有隨機性<br>舉例來說，假設你選擇在某處落子，結果落子的那隻手有帕金森氏症一直抖<br>實際落下去的地方不是你指定的點，而是隨機落在指定點的附近</p>
+<p>這種問題是「完全觀測、無隨機性」的問題，是很好解的<br>但是實際上的問題都不是這種，現實世界的問題幾乎都是 partial-observed<br>你在戰場上並不知道對手把兵力藏在哪裡，你採取的動作結果也未必穩定<br>而是帶有隨機性的 markov decision problem<br>這樣的問題叫作 POMDP（partial-observed markov decision problem）<br>這種問題超難，做了幾十年，沒有任何能搬上實際應用的成果</p>
+<p>現實世界很多這種問題都超有價值，像是軍事、商業<br>星海二是 partial-observed，但不帶隨機性，這是遊戲設計故意的<br>因為要發展電競，所以不希望結果帶有運氣，所以動作的結果都是 deterministic<br>古時候星海一架跑台打高地，命中率帶有隨機性<br>後來把這個隨機性拿掉了，改成一定命中但傷害較少，也是這個原因<br>但即使如此，能解一個 partial-observed game 也是超巨大的一步</p>
+<p>因為目標其實是想要知道、驗證「這個人工智慧演算法到底有多聰明」<br>所以如果給他無限的手速，就無法驗證這一點<br>他的目的根本不是要打贏人類，而是要「用策略打贏人類」<br>所以給超高手速沒有意義，無法驗證演算法在策略上的程度<br>給過低的手速導致穩輸也沒有什麼意義，一樣無法驗證這點</p>
+<p>當 DeepMind 在星海二有超好表現之後<br>國防部是不是有可能端著大筆的現金去找他們<br>給他們一個帶有隨機性的戰略模擬軟體叫他們攻略看看<br>用來打商業戰的價值也無法估計的高，民間公司也有可能找來<br>商機太大了……</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://panepo.github.io/Tesatsu/2019/01/25/AlphaStar/" data-id="clrafro1h007ln8hw2h0n2ort" data-title="AlphaStar" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E5%90%9F%E9%81%8A/" rel="tag">吟遊</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E6%89%8B%E6%9C%AD/" rel="tag">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E7%A8%8B%E8%A8%AD/" rel="tag">程設</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Battery-charger" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/Tesatsu/2019/01/14/Battery-charger/" class="article-date">
+  <time class="dt-published" datetime="2019-01-14T05:43:45.000Z" itemprop="datePublished">2019-01-14</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/Tesatsu/categories/%E6%89%8B%E6%9C%AD/">手札</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/Tesatsu/2019/01/14/Battery-charger/">Battery charger</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <center><img src="/Tesatsu/2019/01/14/Battery-charger/charger.jpg" class="" title="charger"></center>
+
+<p>這個啊….多段式的電池充電機。</p>
+<p>這是早期用來給鉛酸電池充電的東西。</p>
+<p>那個轉盤是用來調整充電電壓大小。數字越大電壓越大<br>(應該是表示串連個數)<br>上面的三個端子分別是負極與高低兩段電壓(可以給兩種不同電壓電池充電)</p>
+<p>使用方法是：把電池依照正負極接上藍色與紅色端子<br>然後調整到對應的電池串連數</p>
+<p>就像現在的鋰電池一樣，等到一段時間充滿<br>(通常會搭配電壓表或是電燈來測試電壓)</p>
+<p>轉盤底下就是個自藕變壓器的輸出抽頭選擇，數字越大電壓越高。</p>
+<p>根據材質與外觀猜測，應該是昭和30~40年左右的產品。(1950年代)</p>
+<p>當時的日本許多地區並非全天有電力供應，而是分區供電。<br>這種情形下就需要蓄電池來供應電力。晚上充滿電白天才能用<br>(當時很流行廉價的5燈的真空管交直流兩用收音機，可以用100V電池供電)</p>
+<p>至於整流部份。…這體積看起來應該是氧化銅整流器(外觀像是千層蛋糕)，<br>使用時會有一股怪怪的金屬臭味….</p>
+<p>以這個價格來說，買來當古董非常的划算，因為保存得很漂亮</p>
+<p>Author: lcabc</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://panepo.github.io/Tesatsu/2019/01/14/Battery-charger/" data-id="clrafro1i007sn8hw4f0m54y8" data-title="Battery charger" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E6%89%8B%E6%9C%AD/" rel="tag">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E8%BD%89%E9%8C%84/" rel="tag">轉錄</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Moon" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/Tesatsu/2019/01/08/Moon/" class="article-date">
+  <time class="dt-published" datetime="2019-01-08T08:31:15.000Z" itemprop="datePublished">2019-01-08</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/Tesatsu/categories/%E8%B7%AB%E9%9F%BF/">跫響</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/Tesatsu/2019/01/08/Moon/">Moon</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>逐漸昏暗的天空, 升起一輪渾圓明月,</p>
+<p>彷彿被貼在上面一般.</p>
+<p>它不讓人覺得刺眼, 平淡無奇地掛在天上,</p>
+<p>感覺好像放在舞台背景的洞上.</p>
+<p>不, 搞不好做為舞台背景的</p>
+<p>是我們這邊也還不一定.</p>
+<p>透過背景的圓洞, 窺視著舞台場景的,</p>
+<p>到底是誰呢?</p>
+<center><img src="/Tesatsu/2019/01/08/Moon/moon1.png" class="" title="moon"></center>
+
+<center><img src="/Tesatsu/2019/01/08/Moon/moon2.png" class="" title="moon"></center>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://panepo.github.io/Tesatsu/2019/01/08/Moon/" data-id="clrafro1h007hn8hw5hin65tc" data-title="Moon" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E8%B7%AB%E9%9F%BF/" rel="tag">跫響</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E8%BD%89%E9%8C%84/" rel="tag">轉錄</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Tensorflow-GPU" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/Tesatsu/2019/01/04/Tensorflow-GPU/" class="article-date">
+  <time class="dt-published" datetime="2019-01-04T08:18:01.000Z" itemprop="datePublished">2019-01-04</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/Tesatsu/categories/Machine-Learning/">Machine Learning</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/Tesatsu/2019/01/04/Tensorflow-GPU/">Tensorflow-GPU</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>This is the note for set up development environment of tensorflow-GPU with nvidia cuda.</p>
+<ol>
+<li>Install Anaconda</li>
+</ol>
+<p>  The python version I use is 3.6</p>
+<ol start="2">
+<li>Install Nvidia driver</li>
+</ol>
+<p>  The driver version I use us 417.35</p>
+<ol start="3">
+<li>Install CUDA 9.0</li>
+</ol>
+<p>  From now(2019&#x2F;1&#x2F;4), tensorflow supports CUDA 9.0. You may check the compatility via this <a href="https://www.tensorflow.org/install/gpu" title="" target="">link</a><br>  The download link is <a href="https://developer.nvidia.com/cuda-toolkit-archive" title="" target="">here</a>. There are four patches but seems not needed.</p>
+<center><img src="/Tesatsu/2019/01/04/Tensorflow-GPU/cuda.png" class="" title="cuda"></center>
+
+<ol start="4">
+<li>Install cuDNN 7.0 for CUDA 9.0</li>
+</ol>
+<p>  From now(2019&#x2F;1&#x2F;4), tensorflow supports cuDNN 7.2. You may check the compatility via this <a href="https://www.tensorflow.org/install/gpu" title="" target="">link</a><br>  The download link is <a href="https://developer.nvidia.com/cudnn" title="" target="">here</a>.<br>  <center><img src="/Tesatsu/2019/01/04/Tensorflow-GPU/cudnn.png" class="" title="cudnn"></center><br>  When the downloading process is complete, extract the file and there are three folders inside cuda folder, move those three folders to CUDA install path.<br>  The default CUDA install path is <code>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0</code></p>
+<ol start="5">
+<li>Set up system environment variables</li>
+</ol>
+<p>  Add <code>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin</code> and <code>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp</code> to your <code>PATH</code> in system variables.</p>
+<ol start="6">
+<li>Install tensorflow-gpu 1.11</li>
+</ol>
+<p>  Current version of tensorflow is too new that we should install older version.<br>  <code>pip install tensorflow-gpu==1.11</code></p>
+<p>  Then verify if tensorflow-gpu is installed or not:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">from tensorflow.python.client import device_lib</span><br><span class="line">local_device_protos = device_lib.list_local_devices()</span><br><span class="line">print(local_device_protos)</span><br></pre></td></tr></table></figure>
+<p>  If CPU and GPU are both detected as below, the installation is sucessfully.</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">tensorflow:1.11.0</span><br><span class="line">[name: &quot;/device:CPU:0&quot;</span><br><span class="line">device_type: &quot;CPU&quot;</span><br><span class="line">memory_limit: 268435456</span><br><span class="line">locality &#123;</span><br><span class="line">&#125;</span><br><span class="line">incarnation: 15352562079212995961</span><br><span class="line">, name: &quot;/device:GPU:0&quot;</span><br><span class="line">device_type: &quot;GPU&quot;</span><br><span class="line">memory_limit: 3213551206</span><br><span class="line">locality &#123;</span><br><span class="line">  bus_id: 1</span><br><span class="line">  links &#123;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">incarnation: 18385036426934203187</span><br><span class="line">physical_device_desc: &quot;device: 0, name: GeForce GTX 950M, pci bus id: 0000:01:00.0, compute capability: 5.0&quot;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://panepo.github.io/Tesatsu/2019/01/04/Tensorflow-GPU/" data-id="clrafro1f0076n8hwajox9si7" data-title="Tensorflow-GPU" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E6%89%8B%E6%9C%AD/" rel="tag">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E7%A8%8B%E8%A8%AD/" rel="tag">程設</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Haiti" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/Tesatsu/2018/12/21/Haiti/" class="article-date">
+  <time class="dt-published" datetime="2018-12-21T08:58:06.000Z" itemprop="datePublished">2018-12-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/Tesatsu/categories/%E6%89%8B%E6%9C%AD/">手札</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/Tesatsu/2018/12/21/Haiti/">Haiti</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>去年這時候, 我在準備前往海地. 今年不能成行, 就想起去年的事.</p>
+<p>要說提起海地我想到什麼景象, 那大概就是泥巴路和塞的滿滿的貨車.</p>
+<p>喔, 還有羊.</p>
+<p>海地人窮, 公共設施低落. 道路光有就很好, 很多都是水泥, 碎石, 遠點就泥巴.<br>私人轎車不曾看見半台, 見到的大多都是小卡車, 而且幾乎都破破爛爛東埔西補.<br>車少, 但是東西多, 所以海地人幾乎總是超載. 車頂上面頂滿貨物, 非常常見.<br>不過, 海地的旱季雨季分明, 所以倒也不需擔心, 送貨送到一半, 突然下起雨來.</p>
+<p>人, 也總是都擠在一起, 因為車少人多, 能載多少就載多少.<br>路爛, 又幾乎不曾見到道路號誌或紅綠燈, 在這地方開車怎麼想都很危險.<br>海地人總是開很慢, 大概也是因為這個原因. 路也幾乎都十分窄小, 難以通行.</p>
+<p>一般人最常使用的代步工具, 在海地是摩托車.<br>但是, 一樣, 海地人窮, 所以摩托車的數量也是遠遜於台灣.<br>不過比起人擠人的貨車, 摩托車還是比較偏個人使用, 也比較常見的.</p>
+<p>羊很常見. 我記得我坐在車裡, 從小小的窗戶往外看.<br>很多路旁的建築物, 都是只蓋到一半的民房, 卻都有人在那邊生活.<br>許多人都養羊; 看見山羊在水泥和鋼筋裡面跑來跑去, 是個奇妙的景象.</p>
+<p>同行的印度裔醫師和我說, 在第三世界國家裡面, 這種蓋一半的房子很常見.<br>我看看那些露出的水泥, 看看那些突起的鋼筋, 覺得難以想像這種生活.<br>不過從海地人的角度來講, 蓋一半總比沒有好. 以後有錢了, 再繼續蓋.</p>
+<p>海地的路邊攤賣甚麼呢? 讓人驚訝的, 路邊攤其實最常賣的東西是汽油與機油.<br>貨車能行駛的路旁邊就擺了木架子, 然後木架子上就擺著一罐一罐的油.<br>我那時候自然是雇了海地的司機, 他們也曾經停下來買這東西.</p>
+<p>我去年是去海地山裡的小村子的, 所以太子港只停留一下, 印象不深.<br>記得路邊常常有人燒垃圾, 因為海地當然沒有垃圾車或廢棄物處理系統.<br>很多人把貨物頂在頭上運送. 還有個小販曾追著我們的車過來, 兜售貨物.</p>
+<p>同車的人沒有買小販想賣的動物雕刻, 但是買了礦泉水. 天氣熱.<br>交易用美金. 海地人很習慣美元, 拿出現鈔美金, 通用上毫無問題.</p>
+<p>去小村子的路很遠, 記得好像在車上待了五六個小時. 那又是爛極了的路.<br>荒地, 沒有人居住也沒有人耕種的地方不少, 不知道是怎麼回事.<br>也沒有見到大型畜牧或大型農業的痕跡. 這國家, 經濟果然挺差的.</p>
+<p>那時候, 因為飛機的因素, 我是在海地時間的中午左右到達機場的.<br>海地人使用法文. 海地化的一種, 混入了西非成分的後天混和語言.<br>因為這群人, 本來都是法國人抓的黑奴. 驅逐了法國人, 才有了自己的國家.</p>
+<p>海地的海關, 挺好過的. 我拿出護照, 對方啥也沒問, 就點頭蓋章.<br>海地的國門十分開放, 只有規定了九個國家需要簽證, 其它都只要繳錢就好.<br>入境費是10塊錢美金. 現金. 如果是10塊錢加幣的話, 他們也收.</p>
+<p>機場當然的很多人, 非常擠. 海地人大多信仰天主教, 也過聖誕節.<br>我到的時候在機場看見聖誕樹, 笑了出來, 因為海地太熱, 感覺不太聖誕.<br>不過這國家一年四季都差不多如此炎熱, 就都也沒有什麼差別.</p>
+<p>在機場曾有人想和我收賄, 說能讓我早點通關, 減少排隊時間.<br>自然是拒絕.; 來以前就聽過, 這國家的海關, 手腳不太乾淨.</p>
+<p>不過我去的那次, 除了被這樣誘惑過, 倒沒有遇上任何強迫的事情.<br>我覺得海地人經常在外國人身上賺錢, 因而不會殺雞取卵, 但會一直笑著推銷.</p>
+<p>這地方最危險的是飲食和細菌, 倒不需要過於擔心人. 海地人很熟悉外國觀光客.<br>事實上外國人可能還比本地人安全些, 因為他們不想和外國人惹出麻煩.</p>
+<p>到達小村子的時候已經很晚了, 因為車中途有壞過一次, 又叫了新的一台.<br>記得曾在一個小鎮的加油站裡停過, 上廁所. 廁所自然是很髒的.<br>那加油站有點嚇人; 畢竟, 有個保安明明白白地拿著大把槍在那邊.</p>
+<p>到了小村子, 村民招待我們吃羊. 這倒不是什麼豪華的烤全羊或怎樣,<br>只是把羊切成小塊小塊的肉, 煮了以後配著洋蔥和米飯大家分吃.</p>
+<p>後來問村子裡的人, 知道我們吃的東西以海地標準來講十分豪華.<br>他們許多人一天一餐, 吃玉米. 整天就是種玉米養雞種甘蔗和製糖.<br>這個小村子在山裡, 沒甚麼東西. 種玉米給自己吃和養雞, 甘蔗是賣錢用的.</p>
+<p>對, 沒甚麼東西. 連水和電也沒有. 水是井水, 那井還是美國的教會出錢挖的.<br>那小村子只有兩個建築是完整的蓋好的, 分別是學校還有教堂.</p>
+<p>那時候和今年這時一樣是年末, 海地放假, 所以我們便睡教室.<br>一個教室裡面放滿了床墊和蚊帳, 也沒有燈, 就自然的累的睡著.</p>
+<p>第二天早上醒來, 開始幹正經事. 也就是義診.</p>
+<p>那間小村子的學校有兩層樓. 二樓我們睡, 一樓弄一下變成臨時診所.<br>一樓三大間教室, 一間收人和候診, 一間看病, 最後一間是藥局.<br>我是藥師, 就在藥局裡, 和其它藥師一起管著發藥.</p>
+<p>在這藥局最常做的事情, 是替病人找治療用的代替品.<br>這趟飛來海地顯然不可能把市面上所有藥都帶來, 而且預算也有限.<br>很多都是快過期的或是銷售量不好的, 畢竟在第三世界國家就將就點.</p>
+<p>很多時候我們會知道這該怎樣能用藥是最好的, 但是手邊常常沒那種東西.<br>所以在藥局其實花挺多時間, 會研究說, 照手上的東西, 還能替病人做什麼.</p>
+<p>我們有雇翻譯. 大多都是當地的海地學生, 家中比較有錢, 有唸書學習英語.<br>他們受過教育的年輕人的英語, 以非英語母語國家來講, 挺不錯的.<br>不過這大概也是海地人見慣美國人, 又有很好的經濟誘因, 才會這樣吧.</p>
+<p>在那小村子, 最常治的是寄生蟲和皮膚病. 很多小孩身上都有黴菌感染.<br>癩痢頭長在小黑小孩頭上原來是這個模樣, 那時候我才見到.</p>
+<p>性病也有. 很多比較年輕的女性患者都是這樣. 男人較少, 要比較嚴重才會來.<br>這也不是純粹男人愛面子還怎樣, 聽說有個原因是男人得工作, 不能來.<br>很多家庭, 會是老人和女人帶著小孩, 走很遠的路來看病, 但是男人依然下田這樣.</p>
+<p>我們帶了試紙驗愛滋. 很少人有. 真好.<br>但是記得一個驗出來的, 咳得要死, 同行的醫師覺得是愛滋病配肺結核.<br>這種看了看知道我們沒辦法救, 也知道他們肯定會死的, 也不少病人是這樣.</p>
+<p>海地人愛死了保險套. 讓我重複一次, 他們愛死了保險套. 男的女的都搶著要.<br>我這輩子第一次看見有那麼多人對保險套那麼熱情.</p>
+<p>不過還是一堆人跑來治性病, 嘛這沒辦法. 大多是毛滴蟲或淋病. 也有梅毒.<br>也有好幾個未成年少女跑來, 然後很不幸的我們得宣布說這是懷孕確診的.<br>記得有個女孩聽到自己確定是懷孕, 哭得很慘.</p>
+<p>我覺得他們是知道保險套有用, 但買不起, 才會這樣吧.<br>嗯, 畢竟他們連電和自來水都沒有…</p>
+<p>電其實不算是沒有. 有接, 但是大部分人根本不捨得用. 沒錢.<br>村子裡有個唯一的小店, 算是會比較正常(?)的使用電力的地方.</p>
+<p>海地人的識字率不錯. 這當然是指他們自己的文字.<br>一些看來老老的農民, 都能寫自己名字和閱讀翻譯員寫的醫囑.</p>
+<p>翻譯員都是當地有錢人家的年輕學生. 這一個缺點就是病人沒啥隱私了.<br>這也沒辦法. 跑過這次義診, 翻譯員大概都很清楚村里鎮上誰有什麼病.</p>
+<p>曾有著老人過來述說症狀, 我們聽他說什麼體重短期大量喪失在懷疑愛滋.<br>後來翻譯員說這人在村裡是著名的酒鬼, 診斷才變成猜說大概胰臟炎.<br>但是, 某種程度上其實沒差; 因為不管是哪個, 我們都沒辦法救.</p>
+<p>替小孩開開抗生素, 我覺得大概可能是長遠下來說不定最有影響的治療吧.</p>
+<p>海地人是, 嗯, 黑人. 黑人會高血壓是出了名的, 在海地也不例外.<br>這些人窮到爆炸, 沒錢去高鈉高油…所以問題其實應該是, 脫水.</p>
+<p>記得那時候的診斷, 海地人一堆長期脫水的..因為安全又乾淨的水, 不好取得.<br>他們喝的水都井裡打上來的, 要煮水還要燒柴, 沒有瓦斯.<br>我們義診有買一堆水帶來, 很多病人都很想喝. 這地方真是…連水都…</p>
+<p>然後他們都黑人. 黑人特別容易高血壓. 喔, 然後海地還產咖啡.<br>咖啡在當地是隨便誰都能種的農作物, 就算窮人也弄得到.<br>這些因素加起來, 這次義診還看了不少要命(字面意義)的高血壓.</p>
+<p>因為這也不是第一次來, 高血壓的事情有事先料到, 有買了很多便宜的高血壓藥.<br>因為知道三個月以後有別的團隊會來, 所以給了許多人三個月份的血壓藥.</p>
+<p>希望他們會好好照醫矚吃.</p>
+<p>然後最近的Paper都說那個高血壓藥效果不好, 想想也只能苦笑…<br>嗯, 沒辦法. 預算有限.</p>
+<p>三高裡面, 膽固醇沒有辦法驗. 血糖驗出來都是偏低, 因為這些人真沒啥東西吃.<br>也給了很多人維他命. 希望會有幫助. 糖尿病藥便宜, 所以有帶, 不過沒有需求.</p>
+<p>在當地待了五天. 參加過一次他們的新年彌撒.<br>他們唯一的樂器是鼓, 聖歌聽起來像非洲音樂, 但卻真的很美.<br>我在美國其實也聽習慣讚美詩, 但沒有人唱得比海地人好聽.</p>
+<p>離開以前的最後一天, 行程是做半天的車到太子港, 然後在觀光區的旅館睡一晚.<br>那旅館說真的…便宜(※比較對象是美國的消費標準)又富麗堂皇, 意料之外.<br>食物也極好, 許多精緻的歐美口味料理, 感覺不像在第三世界國家.</p>
+<p>後來想想, 也懂了. 海地人, 真的很知道該怎麼賺外國人的錢. 特別是美國人的.<br>所以旅館美麗而舒暢, 食物精緻可口, 然後價格也是美國價錢, 就是要收美金.</p>
+<p>旅行的最後一天, 我是在豪華旅館的泳池旁的躺椅上, 邊想著那個滿是泥土,<br>路上隨處可見驢子和動物糞便, 雞和山羊到處跑的小村子, 慢慢地度過的.<br>不曾見到豬; 翻譯和我說, 前幾年一場豬疫, 很多豬都死了, 人們就都改養羊.</p>
+<p>然後那天晚上, 旅館給我們的晚餐是牛排和龍蝦.<br>有穿著西裝的侍者服務. 20美金就好, 不貴. 還收信用卡.</p>
+<p>這世界真不公平.</p>
+<p>回程, 在海地的機場, 因為美東大雪所以等了很久. 最後轉機先飛佛羅里達.<br>隊上有人鬧了肚子, 拉的非常慘. 去第三世界國家, 嗯, 總是會有這種事.</p>
+<p>聽說以前也有人來的時候, 明明自己是來做義診的, 但卻沒照規定吃瘧疾藥.<br>然後回國以後就得到了作為瘧疾病人的第一手經驗. 嗚呼.</p>
+<p>今年我不能去, 便在這裡發悶寫這篇東西.<br>倒不知道去年見過的那些人事物, 今年又怎麼了…</p>
+<p>Author: estdesoda</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://panepo.github.io/Tesatsu/2018/12/21/Haiti/" data-id="clrafro1g007en8hw4x56129g" data-title="Haiti" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E6%89%8B%E6%9C%AD/" rel="tag">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E8%BD%89%E9%8C%84/" rel="tag">轉錄</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Mutsuki" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/Tesatsu/2018/12/20/Mutsuki/" class="article-date">
+  <time class="dt-published" datetime="2018-12-20T07:57:46.000Z" itemprop="datePublished">2018-12-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/Tesatsu/categories/%E5%8C%96%E8%AA%9E/">化語</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/Tesatsu/2018/12/20/Mutsuki/">Mutsuki</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>剛剛創了三日月(Mikazuki)作為專案名稱的資料夾, 原來專案名稱命名已經到了睦月級10號艦了啊.</p>
+<p>三日月, 即由朔日算起第三天時出現的新月, 有時也特指八月初三夜晚之月. 作為睦月級10號艦, 在她之前的艦名都是以日本對陰曆的古稱命名(睦月-元月, 如月-二月, 彌生-三月, 卯月-四月, 皋月-五月, 水無月-六月, 文月-七月, 長月 &amp; 菊月-九月), 然而不知道為什麼到了她這裡, 卻突然變成了以天文現象的名稱命名. 11號艦望月, 12號艦夕月也均是以天文現象命名.</p>
+<p>另外記錄一下各專案是做了甚麼:</p>
+<ul>
+<li><p>睦月(Mutsuki)<br>QT quick 實驗用專案, 掛點中… 囧</p>
+</li>
+<li><p>如月(Kisaragi)<br>Thermal camera viewer, 逆向工程專案, 反組譯出控制 thermal camera 的 library 後, 結合 emgucv 寫成.<br>參照<a href="https://panepo.github.io/Tesatsu/2018/05/25/Anemone/" title="" target="">這篇</a></p>
+</li>
+<li><p>彌生(Yayoi)<br>深度學習研究專案, 使用 Keras 實作 SRCNN. 後續有相當多的分支, 像是利用 tensorflow-js, opencv, openvino, electron 來實作, 目前來說最大的專案.</p>
+</li>
+<li><p>卯月(Uzuki)<br>深度學習實作專案, 將 boss sensor 利用 tensorflow-js 實做出來. 此專案是作為報告範例而做, 效果也不錯. XD<br>參照<a href="https://panepo.github.io/Tesatsu/2018/09/15/Uzuki/" title="" target="">這篇</a></p>
+</li>
+<li><p>皋月(Satsuki)<br>深度學習實作專案, 將 image style transfer 利用 tensorflow-js 實做出來. 用於實驗 tensorflow-js 的負荷能力而做. 也是第一個套用 babel 7 的 javascript 專案.</p>
+</li>
+<li><p>水無月(Minazuki)<br>深度學習實作專案, 人員辨識系統, 將 face detection and recognition 利用 tensorflow-js 實做出來. prototype 已完成, 現正規劃正式版本的系統架構.<br>另外要說的是水無月專案成立其實在皋月之前, 只是我記錯睦月級的號碼… &gt;0&gt;</p>
+</li>
+<li><p>文月(Fumizuki)<br>深度學習研究專案, 使用 Tensorflow 實作 RDN. 為 Yayoi 的後續研究專案, 使用更大效果更好的 RDN 為神經網路核心. 使用正式的 high resolution dataset DIV2K 來當作 data set, 一切都像是玩真的(?), 當然跳出來的預估訓練時間也不是開玩笑的….</p>
+</li>
+<li><p>長月(Nagatsuki)<br>電腦視覺研究專案, 將 ORB_SLAM2 演算法和 realsense 結合. 目前因為機台要盤點的因素閒置中.</p>
+</li>
+<li><p>菊月(Kikuzuki)<br>深度學習實作專案, 將 pix2pix 利用 tensorflow-js 實做出來. 目前因為神經網路含有 custom layer, 而 tensorflow-js 還未支援的關係難產中. 囧</p>
+</li>
+<li><p>三日月(Mikazuki)<br>深度學習實作專案, 剛創立, 為一個串接 Microsoft cognitive service 的專案.</p>
+</li>
+</ul>
+<p>接下來的望月會是甚麼呢? 應該還是和 deep learning 有關吧. 然而也沒想到睦月級居然那麼快就用完了.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://panepo.github.io/Tesatsu/2018/12/20/Mutsuki/" data-id="clrafro1f0072n8hw9ewm2xz2" data-title="Mutsuki" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E5%8C%96%E8%AA%9E/" rel="tag">化語</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E5%90%9F%E9%81%8A/" rel="tag">吟遊</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E7%A8%8B%E8%A8%AD/" rel="tag">程設</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Dunno" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/Tesatsu/2018/12/18/Dunno/" class="article-date">
+  <time class="dt-published" datetime="2018-12-18T08:19:11.000Z" itemprop="datePublished">2018-12-18</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/Tesatsu/categories/%E5%8C%96%E8%AA%9E/">化語</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/Tesatsu/2018/12/18/Dunno/">Dunno</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>最近一再地聽到這句話</p>
+<blockquote><p>啊我就不知道啊!</p>
+</blockquote>
+<p>不論是從親戚的話語講出, 還是新聞上的海關查緝豬肉的畫面. 不知者無罪嗎? 不對, 世界上很多時候, 機會是只有一次.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://panepo.github.io/Tesatsu/2018/12/18/Dunno/" data-id="clrafro1g0079n8hw2efd3c1w" data-title="Dunno" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E5%8C%96%E8%AA%9E/" rel="tag">化語</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Understand" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/Tesatsu/2018/12/13/Understand/" class="article-date">
+  <time class="dt-published" datetime="2018-12-13T09:45:07.000Z" itemprop="datePublished">2018-12-13</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/Tesatsu/categories/%E5%8C%96%E8%AA%9E/">化語</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/Tesatsu/2018/12/13/Understand/">Understand</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>在未來科技展的時候…..</p>
+<blockquote><p>你對基因檢測很了解呢?</p>
+</blockquote>
+<p>才怪, 我對基因檢測完全不懂, 我只是….稍微聰明點和邏輯比較好吧. 所以才能經過你的說明和圖表提出問題…</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://panepo.github.io/Tesatsu/2018/12/13/Understand/" data-id="clrafro1e006zn8hw911w61tq" data-title="Understand" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E5%8C%96%E8%AA%9E/" rel="tag">化語</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/Tesatsu/page/6/">&laquo; Prev</a><a class="page-number" href="/Tesatsu/">1</a><span class="space">&hellip;</span><a class="page-number" href="/Tesatsu/page/5/">5</a><a class="page-number" href="/Tesatsu/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/Tesatsu/page/8/">8</a><a class="page-number" href="/Tesatsu/page/9/">9</a><span class="space">&hellip;</span><a class="page-number" href="/Tesatsu/page/14/">14</a><a class="extend next" rel="next" href="/Tesatsu/page/8/">Next &raquo;</a>
+  </nav>
+</section>
+        <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/%E5%8C%96%E8%AA%9E/" rel="tag">化語</a></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/%E5%90%9F%E9%81%8A/" rel="tag">吟遊</a></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/%E5%AF%AB%E7%9C%9F/" rel="tag">寫真</a></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/%E6%89%8B%E6%9C%AD/" rel="tag">手札</a></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/%E7%A8%8B%E8%A8%AD/" rel="tag">程設</a></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/%E8%B7%AB%E9%9F%BF/" rel="tag">跫響</a></li><li class="tag-list-item"><a class="tag-list-link" href="/Tesatsu/tags/%E8%BD%89%E9%8C%84/" rel="tag">轉錄</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/Tesatsu/2024/01/12/Dalle/">Dalle</a>
+          </li>
+        
+          <li>
+            <a href="/Tesatsu/2023/03/03/Sanada/">Sanada</a>
+          </li>
+        
+          <li>
+            <a href="/Tesatsu/2022/12/17/Kato-and-Witches/">Kato and Witches</a>
+          </li>
+        
+          <li>
+            <a href="/Tesatsu/2022/12/09/Gamo/">Gamo</a>
+          </li>
+        
+          <li>
+            <a href="/Tesatsu/2022/10/28/All-strong-beside-me/">All strong beside me</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Docker/">Docker</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Github/">Github</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Heros-of-the-Storm/">Heros of the Storm</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Javascript/">Javascript</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Kenshi/">Kenshi</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Machine-Learning/">Machine Learning</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Monster-Hunter/">Monster Hunter</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Python/">Python</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/ROS/">ROS</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Ragnarok-Online/">Ragnarok Online</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Soulworker/">Soulworker</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Terraria/">Terraria</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Windows/">Windows</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E5%8C%96%E8%AA%9E/">化語</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E5%9F%8E%E3%83%97%E3%83%ADRE/">城プロRE</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E5%AF%AB%E7%9C%9F/">寫真</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E5%AF%AB%E7%9C%9F/%E6%89%8B%E6%9C%AD/">手札</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E5%B0%81%E7%A5%9ER/">封神R</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E6%89%8B%E6%9C%AD/">手札</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E6%94%BF%E5%89%A3%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%82%A2/">政剣マニフェスティア</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E8%B7%AB%E9%9F%BF/">跫響</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2024/01/">January 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2023/03/">March 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2022/12/">December 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2022/10/">October 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2022/09/">September 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2022/08/">August 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2022/07/">July 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2022/06/">June 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2022/04/">April 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2022/03/">March 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2022/02/">February 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2022/01/">January 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2021/12/">December 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2021/05/">May 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2021/04/">April 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2021/03/">March 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2021/02/">February 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2021/01/">January 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2020/11/">November 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2020/09/">September 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2020/08/">August 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2020/07/">July 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2020/06/">June 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2020/05/">May 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2020/03/">March 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2019/12/">December 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2019/11/">November 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2019/09/">September 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2019/08/">August 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2019/07/">July 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2019/06/">June 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2019/05/">May 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2019/04/">April 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2019/03/">March 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2019/01/">January 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/12/">December 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/11/">November 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/10/">October 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2014/01/">January 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2013/12/">December 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2013/06/">June 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2012/08/">August 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2011/05/">May 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2010/11/">November 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2010/05/">May 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2009/07/">July 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2009/02/">February 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/Tesatsu/archives/2008/06/">June 2008</a></li></ul>
+    </div>
+  </div>
+
+  
+</aside>
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2024 By Autoload<br>
+      Driven - <a href="https://hexo.io/" target="_blank">Hexo</a>|Theme - <a href="https://github.com/autoload/hexo-theme-auto" target="_blank">Auto</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/Tesatsu/" class="mobile-nav-link">Home</a>
+  
+    <a href="/Tesatsu/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/Tesatsu/categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="/Tesatsu/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/Tesatsu/about" class="mobile-nav-link">About</a>
+  
+</nav>
+    
+
+
+<script src="/Tesatsu/js/jquery-3.4.1.min.js"></script>
+
+
+<script src="/Tesatsu/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
