@@ -2,7 +2,6 @@
   "search.exclude": {
       "**/node_modules": true
     },
-    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\pythonw.exe",
     "editor.fontSize": 16,
     "editor.tabSize": 2,
     "editor.renderWhitespace": "boundary",
@@ -15,9 +14,6 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "explorer.sortOrder": "type",
-    "javascript.updateImportsOnFileMove.enabled": "never",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Dark+ Material",
-    "javascript.validate.enable": false,
-    "javascript.format.enable": false
+    "workbench.colorTheme": "VS Code Dark",
 }
