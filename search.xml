@@ -1174,35 +1174,6 @@
     
     
     <entry>
-      <title>Sort</title>
-      <link href="/Tesatsu/2020/06/02/Sort/"/>
-      <url>/Tesatsu/2020/06/02/Sort/</url>
-      
-        <content type="html"><![CDATA[<p>Array sorting in javascript</p><p>For sort numbers in a array in ascending order:</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Array.sort()</span><br><span class="line">Array.sort((a,b) =&gt; return a-b)</span><br></pre></td></tr></table></figure><p>For sort numbers in a array in descending order:</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Array.sort((a,b) =&gt; return b-a)</span><br></pre></td></tr></table></figure><p>Sort an array alphabetically, and then reverse the order of the sorted items (descending):</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Array.sort()</span><br><span class="line">Array.reverse()</span><br></pre></td></tr></table></figure><p>Reference:<br><a href="https://www.w3schools.com/jsref/jsref_sort.asp">https://www.w3schools.com/jsref/jsref_sort.asp</a></p><p><a href="https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/sort</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Javascript </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 手札 </tag>
-            
-            <tag> 轉錄 </tag>
-            
-            <tag> 程設 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Ishida</title>
       <link href="/Tesatsu/2020/05/23/Ishida/"/>
       <url>/Tesatsu/2020/05/23/Ishida/</url>
@@ -1392,35 +1363,6 @@
     
     
     <entry>
-      <title>ROS2 environment</title>
-      <link href="/Tesatsu/2020/03/13/ROS2-environment/"/>
-      <url>/Tesatsu/2020/03/13/ROS2-environment/</url>
-      
-        <content type="html"><![CDATA[<p>This is the note for set up development environment of ROS2 (robot operation system) Dashing Diademata on Ubuntu 18.04 LTS</p><ol><li>Setup locale</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo locale-gen en_US en_US.UTF-8</span><br><span class="line">sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8</span><br><span class="line">export LANG=en_US.UTF-8</span><br></pre></td></tr></table></figure><ol start="2"><li>Setup resource</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt update &amp;&amp; sudo apt install curl gnupg2 lsb-release</span><br><span class="line">curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -</span><br><span class="line">sudo sh -c &#x27;echo &quot;deb http://packages.ros.org/ros2/ubuntu `lsb_release -cs` main&quot; &gt; /etc/apt/sources.list.d/ros2-latest.list&#x27;</span><br></pre></td></tr></table></figure><ol start="3"><li>Install ROS2 packages</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install ros-dashing-desktop</span><br></pre></td></tr></table></figure><ol start="4"><li>Install additional libraries (optional)</li></ol><ul><li>argcomplete</li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install python3-argcomplete</span><br></pre></td></tr></table></figure><ul><li>RMW implementations</li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install ros-dashing-rmw-opensplice-cpp # for OpenSplice</span><br><span class="line">sudo apt install ros-dashing-rmw-connext-cpp # for RTI Connext (requires license agreement)</span><br></pre></td></tr></table></figure><ul><li>ROS1 bridge</li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install ros-dashing-ros1-bridge</span><br></pre></td></tr></table></figure><ol start="5"><li>Install application for tutorial (optional)</li></ol><ul><li>turtlesim</li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install ros-dashing-turtlesim</span><br></pre></td></tr></table></figure><ul><li>rqt</li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt install ros-dashing-rqt-*</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> ROS </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 手札 </tag>
-            
-            <tag> 轉錄 </tag>
-            
-            <tag> 程設 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Imperial examination</title>
       <link href="/Tesatsu/2020/02/11/Imperial-examination/"/>
       <url>/Tesatsu/2020/02/11/Imperial-examination/</url>
@@ -1529,64 +1471,6 @@
     
     
     <entry>
-      <title>Turtlebot3 simulation</title>
-      <link href="/Tesatsu/2019/08/23/Turtlebot3-simulation/"/>
-      <url>/Tesatsu/2019/08/23/Turtlebot3-simulation/</url>
-      
-        <content type="html"><![CDATA[<p>This is the note for set up development environment of Turtlebot3 simualtion on Ubuntu 16.04 LTS</p><ol><li>Install command for dependent packages</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-keyboard ros-kinetic-teleop-twist-joy ros-kinetic-laser-proc ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan ros-kinetic-rosserial-python ros-kinetic-rosserial-server ros-kinetic-rosserial-arduino ros-kinetic-rosserial-client ros-kinetic-rosserial-msgs ros-kinetic-amcl ros-kinetic-map-server ros-kinetic-move-base ros-kinetic-urdf ros-kinetic-xacro ros-kinetic-compressed-image-transport ros-kinetic-rqt-image-view ros-kinetic-gmapping ros-kinetic-navigation</span><br></pre></td></tr></table></figure><ol start="2"><li>Install Turtlebot3 packages</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd ~/catkin_ws/src/</span><br><span class="line">git clone https://github.com/ROBOTIS-GIT/turtlebot3.git</span><br><span class="line">git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git</span><br><span class="line">git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git</span><br><span class="line">cd ~/catkin_ws &amp;&amp; catkin_make</span><br></pre></td></tr></table></figure><ol start="3"><li>Set simulation parameters to .&#x2F;bashrc</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">EXPORT TURTLEBOT3_MODEL=waffle</span><br><span class="line">export ROS_HOSTNAME=localhost</span><br><span class="line">export ROS_MASTER_URI=http://$&#123;ROS_HOSTNAME&#125;:11311</span><br></pre></td></tr></table></figure><ol start="4"><li>Start SLAM and navigation simulation</li></ol><ul><li>Build the map by SLAM</li></ul>  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">roslaunch turtlebot3_gazebo turtlebot3_world.launch</span><br><span class="line">roslaunch turtlebot3_gazebo turtlebot3_simulation.launch</span><br><span class="line">roslaunch turtlebot3_slam turtlebot3_slam.launch</span><br><span class="line">rosrun map_server map_saver -f ~/map</span><br></pre></td></tr></table></figure><ul><li>Start navigation</li></ul>  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">roslaunch turtlebot3_gazebo turtlebot3_world.launch</span><br><span class="line">roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> ROS </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 手札 </tag>
-            
-            <tag> 轉錄 </tag>
-            
-            <tag> 程設 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ROS environment</title>
-      <link href="/Tesatsu/2019/08/22/ROS-environment/"/>
-      <url>/Tesatsu/2019/08/22/ROS-environment/</url>
-      
-        <content type="html"><![CDATA[<p>This is the note for set up development environment of ROS (robot operation system) on Ubuntu 16.04 LTS</p><ol><li>NTP(Network Time Protocol) Configuration (Optional)</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install -y chrony ntpdate</span><br><span class="line">sudo ntpdate -q ntp.ubuntu.com</span><br></pre></td></tr></table></figure><ol start="2"><li>Adding Source List</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo sh -c &#x27;echo &quot;deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main&quot; &gt; /etc/apt/sources.list.d/ros-latest.list&#x27;</span><br></pre></td></tr></table></figure><ol start="3"><li>Setting up the Key</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116</span><br></pre></td></tr></table></figure><ol start="4"><li>Updating the Package Index</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get update &amp;&amp; sudo apt-get upgrade -y</span><br></pre></td></tr></table></figure><ol start="5"><li>Installing ROS Kinetic Kame</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install ros-kinetic-desktop-full</span><br><span class="line">sudo apt-get install ros-kinetic-rqt*</span><br></pre></td></tr></table></figure><ol start="6"><li>Initializing rosdep</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo rosdep init</span><br><span class="line">rosdep update</span><br></pre></td></tr></table></figure><ol start="7"><li>Installing rosinstall</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get install python-rosinstall</span><br></pre></td></tr></table></figure><ol start="8"><li>Load the Environment File</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">source /opt/ros/kinetic/setup.bash</span><br></pre></td></tr></table></figure><ol start="9"><li>Creating and Initializing a Workspace Folder</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mkdir -p ~/catkin_ws/src</span><br><span class="line">cd ~/catkin_ws/src</span><br><span class="line">catkin_init_workspace</span><br><span class="line">cd ~/catkin_ws/</span><br><span class="line">catkin_make</span><br></pre></td></tr></table></figure><ol start="10"><li>Load the Environment File</li></ol><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">source ~/catkin_ws/devel/setup.bash</span><br></pre></td></tr></table></figure><p>Remember to put 8 and 10 to .bashrc file.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> ROS </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 手札 </tag>
-            
-            <tag> 轉錄 </tag>
-            
-            <tag> 程設 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Weirdest island</title>
       <link href="/Tesatsu/2019/08/02/Weirdest-island/"/>
       <url>/Tesatsu/2019/08/02/Weirdest-island/</url>
@@ -1657,9 +1541,9 @@
       
         <tags>
             
-            <tag> 化語 </tag>
-            
             <tag> 跫響 </tag>
+            
+            <tag> 化語 </tag>
             
         </tags>
       
@@ -1905,33 +1789,6 @@
             <tag> 轉錄 </tag>
             
             <tag> 跫響 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Tensorflow-GPU</title>
-      <link href="/Tesatsu/2019/01/04/Tensorflow-GPU/"/>
-      <url>/Tesatsu/2019/01/04/Tensorflow-GPU/</url>
-      
-        <content type="html"><![CDATA[<p>This is the note for set up development environment of tensorflow-GPU with nvidia cuda.</p><ol><li>Install Anaconda</li></ol><p>  The python version I use is 3.6</p><ol start="2"><li>Install Nvidia driver</li></ol><p>  The driver version I use us 417.35</p><ol start="3"><li>Install CUDA 9.0</li></ol><p>  From now(2019&#x2F;1&#x2F;4), tensorflow supports CUDA 9.0. You may check the compatility via this <a href="https://www.tensorflow.org/install/gpu" title="" target="">link</a><br>  The download link is <a href="https://developer.nvidia.com/cuda-toolkit-archive" title="" target="">here</a>. There are four patches but seems not needed.</p><center><img src="/Tesatsu/2019/01/04/Tensorflow-GPU/cuda.png" class="" title="cuda"></center><ol start="4"><li>Install cuDNN 7.0 for CUDA 9.0</li></ol><p>  From now(2019&#x2F;1&#x2F;4), tensorflow supports cuDNN 7.2. You may check the compatility via this <a href="https://www.tensorflow.org/install/gpu" title="" target="">link</a><br>  The download link is <a href="https://developer.nvidia.com/cudnn" title="" target="">here</a>.<br>  <center><img src="/Tesatsu/2019/01/04/Tensorflow-GPU/cudnn.png" class="" title="cudnn"></center><br>  When the downloading process is complete, extract the file and there are three folders inside cuda folder, move those three folders to CUDA install path.<br>  The default CUDA install path is <code>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0</code></p><ol start="5"><li>Set up system environment variables</li></ol><p>  Add <code>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin</code> and <code>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp</code> to your <code>PATH</code> in system variables.</p><ol start="6"><li>Install tensorflow-gpu 1.11</li></ol><p>  Current version of tensorflow is too new that we should install older version.<br>  <code>pip install tensorflow-gpu==1.11</code></p><p>  Then verify if tensorflow-gpu is installed or not:</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">from tensorflow.python.client import device_lib</span><br><span class="line">local_device_protos = device_lib.list_local_devices()</span><br><span class="line">print(local_device_protos)</span><br></pre></td></tr></table></figure><p>  If CPU and GPU are both detected as below, the installation is sucessfully.</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">tensorflow:1.11.0</span><br><span class="line">[name: &quot;/device:CPU:0&quot;</span><br><span class="line">device_type: &quot;CPU&quot;</span><br><span class="line">memory_limit: 268435456</span><br><span class="line">locality &#123;</span><br><span class="line">&#125;</span><br><span class="line">incarnation: 15352562079212995961</span><br><span class="line">, name: &quot;/device:GPU:0&quot;</span><br><span class="line">device_type: &quot;GPU&quot;</span><br><span class="line">memory_limit: 3213551206</span><br><span class="line">locality &#123;</span><br><span class="line">  bus_id: 1</span><br><span class="line">  links &#123;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">incarnation: 18385036426934203187</span><br><span class="line">physical_device_desc: &quot;device: 0, name: GeForce GTX 950M, pci bus id: 0000:01:00.0, compute capability: 5.0&quot;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> Machine Learning </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 手札 </tag>
-            
-            <tag> 程設 </tag>
             
         </tags>
       
@@ -2225,35 +2082,6 @@
         <tags>
             
             <tag> 化語 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Appx Certificate</title>
-      <link href="/Tesatsu/2018/10/12/Appx-Certificate/"/>
-      <url>/Tesatsu/2018/10/12/Appx-Certificate/</url>
-      
-        <content type="html"><![CDATA[<p>This is the note for install certification for appx package.</p><ol><li>From the Windows RT PC, either map the network share or connect the USB drive where you can access the AppPackages folder that contains the app package to install. Use Windows Explorer to open that folder.</li><li>Double-tap the certificate file in the folder and then tap Install Certificate. This displays the Certificate Import Wizard.</li><li>In the Store Location group, tap the radio button to change the selected option to Local Machine.</li><li>Click Next. Tap OK to confirm the UAC dialog.</li><li>In the next screen of the Certificate Import Wizard, change the selected option to Place all certificates in the following store.</li><li>Tap the Browse button. In the Select Certificate Store pop-up window, scroll down and select Trusted People, and then tap OK.</li><li>Tap the Next button; a new screen appears. Tap the Finish button.</li><li>A confirmation dialog should appear; if so, click OK. (If a different dialog indicates that there is some problem with the certificate, you may need to do some certificate troubleshooting. However, describing what to do in that case is beyond the scope of this topic.)</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> Windows </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 手札 </tag>
-            
-            <tag> 轉錄 </tag>
-            
-            <tag> 程設 </tag>
             
         </tags>
       
@@ -2625,9 +2453,9 @@
       
         <tags>
             
-            <tag> 化語 </tag>
-            
             <tag> 跫響 </tag>
+            
+            <tag> 化語 </tag>
             
         </tags>
       
@@ -2682,33 +2510,6 @@
             <tag> 手札 </tag>
             
             <tag> 轉錄 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Jupyter Notebook on Docker</title>
-      <link href="/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/"/>
-      <url>/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/</url>
-      
-        <content type="html"><![CDATA[<p>This is the note for running jupyter notebook on docker.</p><p>Jupyter docker stacks provide several docker images, they are <code>base-notebook</code>, <code>minimal-notebook</code>, <code>all-spark-notebook</code>, <code>pyspark-notebook</code>, <code>scipy-notebook</code>, <code>datascience-notebook</code>, <code>tensorflow-notebook</code> and <code>r-notebook</code><br><a href="https://github.com/jupyter/docker-stacks">https://github.com/jupyter/docker-stacks</a></p><p>Let this post runs <code>base-notebook</code> for example:<br><code>docker run --rm -P jupyter/base-notebook</code><br><code>--rm</code> means automatically remove the container when it exists. <code>-P</code> means publish all exposed ports to random ports.</p><p>Let see what is runs by inputing this command:<br><code>docker ps</code></p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">CONTAINER ID        IMAGE                   COMMAND                  CREATED             STATUS              PORTS                     NAMES</span><br><span class="line">3464b0694c54        jupyter/base-notebook   &quot;tini -g -- start-no…&quot;   3 minutes ago       Up 3 minutes        0.0.0.0:32768-&gt;8888/tcp   gallant_chebyshev</span><br></pre></td></tr></table></figure><p>We can see that the port 32768 is exposed to the container port 8888, and visit <code>http://localhost:32768</code> vis browser.</p><p>The token of juypter notebook is showned on the screen, just copy it and past on the browser:<br><code>http://localhost:32768/?token=[token]</code></p><p>To fix the exposed port of container, we can replace <code>-P</code> to <code>-p 18888:8888</code>, this command will fix the exposed port to 18888.</p><p>To terminate the jupyer notebook, use <code>docker stop [CONTAINER ID]</code></p><p>To copy files to container, use <code>docker cp [FILE PATH] [CONTAINER ID]:/home/jovyan/work</code></p><h3 id="Build-your-docker-image"><a href="#Build-your-docker-image" class="headerlink" title="Build your docker image"></a>Build your docker image</h3><p>To customize the docker image, a file named <code>Dockerfile</code> is needed, which contains the script to generate your customized image. Here’s my example which has additional Opencv, Tensorflow and Keras installed. Besides, copy the notebook directionary to the container.</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">FROM jupyter/scipy-notebook</span><br><span class="line"></span><br><span class="line">LABEL maintainer=&quot;Panepo &lt;panepo@github.io&gt;&quot;</span><br><span class="line"></span><br><span class="line"># install tensorflow</span><br><span class="line">RUN conda install --quiet --yes -c anaconda tensorflow=1.8</span><br><span class="line"></span><br><span class="line"># install keras</span><br><span class="line">RUN conda install --quiet --yes -c anaconda keras=2.2</span><br><span class="line"></span><br><span class="line"># install opencv</span><br><span class="line">RUN conda install --quiet --yes -c conda-forge opencv=3.4.1</span><br><span class="line"></span><br><span class="line">RUN conda clean -tipsy &amp;&amp; \</span><br><span class="line">    fix-permissions $CONDA_DIR &amp;&amp; \</span><br><span class="line">    fix-permissions /home/$NB_USER</span><br><span class="line"></span><br><span class="line">WORKDIR /app</span><br><span class="line"></span><br><span class="line">ADD ./notebook /app</span><br></pre></td></tr></table></figure><p>Run this command to build docker image:<br><code>docker build -t [image name] .</code></p><h3 id="Upload-your-docker-image-to-dockerhub"><a href="#Upload-your-docker-image-to-dockerhub" class="headerlink" title="Upload your docker image to dockerhub"></a>Upload your docker image to dockerhub</h3><p>First, login to dockerhub<br><code>docker login</code></p><p>Then run the image you want to push<br><code>docker run --rm [image name]</code></p><p>Lunch another terminal, find the container id by this command<br><code>docker ps</code></p><p>Then commit as git<br><code>docker commit -m &quot;[commit message]&quot; [container id] [repository]</code></p><p>Finally, push it to dockerhub<br><code>docker push [repository]</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Python </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 手札 </tag>
-            
-            <tag> 程設 </tag>
             
         </tags>
       
@@ -2792,33 +2593,6 @@
             <tag> 手札 </tag>
             
             <tag> 吟遊 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Docker Installation</title>
-      <link href="/Tesatsu/2018/06/05/Docker-installation/"/>
-      <url>/Tesatsu/2018/06/05/Docker-installation/</url>
-      
-        <content type="html"><![CDATA[<p>This is the note for install Docker on win10</p><h3 id="Win-10-requirements"><a href="#Win-10-requirements" class="headerlink" title="Win 10 requirements"></a>Win 10 requirements</h3><ul><li>Windows 10 Enterprise, Professional, or Education</li><li>64-bit Processor with Second Level Address Translation (SLAT).</li><li>CPU support for VM Monitor Mode Extension (VT-c on Intel CPU’s).</li><li>Minimum of 4 GB memory.</li></ul><h3 id="Pre-install"><a href="#Pre-install" class="headerlink" title="Pre-install"></a>Pre-install</h3><p>In order for Docker for Windows to function properly your machine needs:</p><ul><li><p>Hyper-V installed and working<br>Open a PowerShell console as Administrator and run the following command:</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All</span><br></pre></td></tr></table></figure><p>When the installation has completed, reboot.<br>After reboot, from the start menu, type in “Turn Windows features on or off” and hit enter. In the subequent screen, verify Hyper-V is enabled and has a checkmark.</p></li><li><p>Virtualization enabled<br>Enabled virtualization in BIOS</p></li></ul><h3 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h3><ul><li>Download Docker CE for windows from docker store<br><a href="https://store.docker.com/editions/community/docker-ce-desktop-windows">https://store.docker.com/editions/community/docker-ce-desktop-windows</a></li><li>Install and run</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Docker </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 手札 </tag>
-            
-            <tag> 程設 </tag>
             
         </tags>
       
@@ -3012,7 +2786,7 @@
       <link href="/Tesatsu/2018/05/19/Grid/"/>
       <url>/Tesatsu/2018/05/19/Grid/</url>
       
-        <content type="html"><![CDATA[<img src="https://lh3.googleusercontent.com/5jrXhJiybCA2KZCYGqe4Nyy8_z04i7yryezs1SCsy5f81IAkuajKfaXYoGPD8IpBb3CAQUWFanGmTfScU4feLi7OfLPEWaTcEOfeI2BF_XGHPoz0fXUZPtBevIhnh_3ApTj5gyDtHw=w2400" class="" title="Grid"><p>攝於桃園農業博覽會</p><div id="googleMap3823" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap3823'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),     },     target = document.getElementById('googleMap3823'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),        'map': map,        'title': '農業博覽會',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '農業博覽會'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<img src="https://lh3.googleusercontent.com/5jrXhJiybCA2KZCYGqe4Nyy8_z04i7yryezs1SCsy5f81IAkuajKfaXYoGPD8IpBb3CAQUWFanGmTfScU4feLi7OfLPEWaTcEOfeI2BF_XGHPoz0fXUZPtBevIhnh_3ApTj5gyDtHw=w2400" class="" title="Grid"><p>攝於桃園農業博覽會</p><div id="googleMap944" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap944'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),     },     target = document.getElementById('googleMap944'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),        'map': map,        'title': '農業博覽會',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '農業博覽會'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3114,7 +2888,7 @@
       <link href="/Tesatsu/2018/05/04/Hello-World/"/>
       <url>/Tesatsu/2018/05/04/Hello-World/</url>
       
-        <content type="html"><![CDATA[<p>Hello World 對於程式設計師來說, 這是一定要的啦!</p><p>這篇算是這裡的第一篇文章, 用這篇紀念一下.</p><p>之後會慢慢把其他地方的文章轉錄過來, 不過不打算改發表日期所以這篇不會顯示最舊.</p><img src="https://lh3.googleusercontent.com/jFECwc3QjUjZGMhevPdVmng_8Cr5IzBYfy-WHArynC34u4-k3sa01jxXfFlGVwa2xf9fhdJ_MjNAGFfJQxIit4ze_bYQHc08_eNBpEi4mW5tF26Kv-J_5sM7Djlvjm5-WakYXsETow=w2400" class="" title="大觀峰日落"><p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p><p>照片攝於去年 9 月日本九州大觀峰.</p><p>登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p><div id="googleMap5702" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap5702'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 13,       'center': new window.google.maps.LatLng( 32.996765 , 131.049611 ),     },     target = document.getElementById('googleMap5702'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>Hello World 對於程式設計師來說, 這是一定要的啦!</p><p>這篇算是這裡的第一篇文章, 用這篇紀念一下.</p><p>之後會慢慢把其他地方的文章轉錄過來, 不過不打算改發表日期所以這篇不會顯示最舊.</p><img src="https://lh3.googleusercontent.com/jFECwc3QjUjZGMhevPdVmng_8Cr5IzBYfy-WHArynC34u4-k3sa01jxXfFlGVwa2xf9fhdJ_MjNAGFfJQxIit4ze_bYQHc08_eNBpEi4mW5tF26Kv-J_5sM7Djlvjm5-WakYXsETow=w2400" class="" title="大觀峰日落"><p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p><p>照片攝於去年 9 月日本九州大觀峰.</p><p>登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p><div id="googleMap2860" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap2860'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 13,       'center': new window.google.maps.LatLng( 32.996765 , 131.049611 ),     },     target = document.getElementById('googleMap2860'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3193,7 +2967,7 @@
       <link href="/Tesatsu/2018/03/18/Unknown/"/>
       <url>/Tesatsu/2018/03/18/Unknown/</url>
       
-        <content type="html"><![CDATA[<img src="https://lh3.googleusercontent.com/CWcZo1K1wAi67h05mHBSs9hmMJi1z17jEbvifc5Te0P_5wn7kGztq_D0pIpJ-c8XU0WVKWO5-kUXAMoauig_jEDOJR8jjBSNBL5pRDZQ06TEE8TjZ_ytTjHxYmEDDBdmgc2Azo-wVg=w2400" class="" title="Unknown"><p>不知道該下甚麼標題好 XD</p><p>攝於桃園羅浮泰雅溫泉公園</p><div id="googleMap7338" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap7338'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),     },     target = document.getElementById('googleMap7338'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),        'map': map,        'title': '羅浮泰雅溫泉公園',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '羅浮泰雅溫泉公園'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<img src="https://lh3.googleusercontent.com/CWcZo1K1wAi67h05mHBSs9hmMJi1z17jEbvifc5Te0P_5wn7kGztq_D0pIpJ-c8XU0WVKWO5-kUXAMoauig_jEDOJR8jjBSNBL5pRDZQ06TEE8TjZ_ytTjHxYmEDDBdmgc2Azo-wVg=w2400" class="" title="Unknown"><p>不知道該下甚麼標題好 XD</p><p>攝於桃園羅浮泰雅溫泉公園</p><div id="googleMap2790" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap2790'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),     },     target = document.getElementById('googleMap2790'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),        'map': map,        'title': '羅浮泰雅溫泉公園',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '羅浮泰雅溫泉公園'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3218,7 +2992,7 @@
       <link href="/Tesatsu/2018/03/18/Photography/"/>
       <url>/Tesatsu/2018/03/18/Photography/</url>
       
-        <content type="html"><![CDATA[<p>實景普普, 拍成照片意外得不錯…</p><img src="https://lh3.googleusercontent.com/So5uTEDDh5OdifRL5SvnyxdW2Rlr2cfuNdVjMp4TwdxYGUNrpcKK8Y5I3M2NV9AVqkpbP_1JnE9WpBPMSZAyiwCzKpzsDV0cTQ-HcYv9PpCuV1CefhhSXIe7CjK8g4VrNn2qPnNBhg=w2400" class="" title="Photography"><p>攝於立善寺</p><div id="googleMap8942" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap8942'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.789 , 121.198 ),     },     target = document.getElementById('googleMap8942'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>實景普普, 拍成照片意外得不錯…</p><img src="https://lh3.googleusercontent.com/So5uTEDDh5OdifRL5SvnyxdW2Rlr2cfuNdVjMp4TwdxYGUNrpcKK8Y5I3M2NV9AVqkpbP_1JnE9WpBPMSZAyiwCzKpzsDV0cTQ-HcYv9PpCuV1CefhhSXIe7CjK8g4VrNn2qPnNBhg=w2400" class="" title="Photography"><p>攝於立善寺</p><div id="googleMap4752" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap4752'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.789 , 121.198 ),     },     target = document.getElementById('googleMap4752'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3345,7 +3119,7 @@
       <link href="/Tesatsu/2018/02/18/Sunset/"/>
       <url>/Tesatsu/2018/02/18/Sunset/</url>
       
-        <content type="html"><![CDATA[<p>Sunset at a harbor.</p><img src="https://lh3.googleusercontent.com/VzDudWpFWuHUscthesu-xhQWJFmbf1vxHbAkWXyy1Y0h1HCD3LSpYDp3zqltxCu0FRS20h1lr-Si0DEgqWx4EmFf7ZDEkOJnH9M-UqEigakSCvwYTgmWdnajLzZy7wvEBGBrvqWqeg=w2400" class="" title="Sunset"><p>攝於永安漁港</p><div id="googleMap6411" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap6411'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 19,       'center': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),     },     target = document.getElementById('googleMap6411'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),        'map': map,        'title': '永安漁港',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '永安漁港'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>Sunset at a harbor.</p><img src="https://lh3.googleusercontent.com/VzDudWpFWuHUscthesu-xhQWJFmbf1vxHbAkWXyy1Y0h1HCD3LSpYDp3zqltxCu0FRS20h1lr-Si0DEgqWx4EmFf7ZDEkOJnH9M-UqEigakSCvwYTgmWdnajLzZy7wvEBGBrvqWqeg=w2400" class="" title="Sunset"><p>攝於永安漁港</p><div id="googleMap7412" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap7412'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 19,       'center': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),     },     target = document.getElementById('googleMap7412'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),        'map': map,        'title': '永安漁港',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '永安漁港'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
