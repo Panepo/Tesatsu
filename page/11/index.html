@@ -51,6 +51,68 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Jupyter-Notebook-on-Docker" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/" class="article-date">
+  <time class="dt-published" datetime="2018-06-20T03:37:32.000Z" itemprop="datePublished">2018-06-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/Tesatsu/categories/Python/">Python</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/">Jupyter Notebook on Docker</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>This is the note for running jupyter notebook on docker.</p>
+<p>Jupyter docker stacks provide several docker images, they are <code>base-notebook</code>, <code>minimal-notebook</code>, <code>all-spark-notebook</code>, <code>pyspark-notebook</code>, <code>scipy-notebook</code>, <code>datascience-notebook</code>, <code>tensorflow-notebook</code> and <code>r-notebook</code><br><a target="_blank" rel="noopener" href="https://github.com/jupyter/docker-stacks">https://github.com/jupyter/docker-stacks</a></p>
+<p>Let this post runs <code>base-notebook</code> for example:<br><code>docker run --rm -P jupyter/base-notebook</code><br><code>--rm</code> means automatically remove the container when it exists. <code>-P</code> means publish all exposed ports to random ports.</p>
+<p>Let see what is runs by inputing this command:<br><code>docker ps</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">CONTAINER ID        IMAGE                   COMMAND                  CREATED             STATUS              PORTS                     NAMES</span><br><span class="line">3464b0694c54        jupyter/base-notebook   &quot;tini -g -- start-no…&quot;   3 minutes ago       Up 3 minutes        0.0.0.0:32768-&gt;8888/tcp   gallant_chebyshev</span><br></pre></td></tr></table></figure>
+<p>We can see that the port 32768 is exposed to the container port 8888, and visit <code>http://localhost:32768</code> vis browser.</p>
+<p>The token of juypter notebook is showned on the screen, just copy it and past on the browser:<br><code>http://localhost:32768/?token=[token]</code></p>
+<p>To fix the exposed port of container, we can replace <code>-P</code> to <code>-p 18888:8888</code>, this command will fix the exposed port to 18888.</p>
+<p>To terminate the jupyer notebook, use <code>docker stop [CONTAINER ID]</code></p>
+<p>To copy files to container, use <code>docker cp [FILE PATH] [CONTAINER ID]:/home/jovyan/work</code></p>
+<h3 id="Build-your-docker-image"><a href="#Build-your-docker-image" class="headerlink" title="Build your docker image"></a>Build your docker image</h3><p>To customize the docker image, a file named <code>Dockerfile</code> is needed, which contains the script to generate your customized image. Here’s my example which has additional Opencv, Tensorflow and Keras installed. Besides, copy the notebook directionary to the container.</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">FROM jupyter/scipy-notebook</span><br><span class="line"></span><br><span class="line">LABEL maintainer=&quot;Panepo &lt;panepo@github.io&gt;&quot;</span><br><span class="line"></span><br><span class="line"># install tensorflow</span><br><span class="line">RUN conda install --quiet --yes -c anaconda tensorflow=1.8</span><br><span class="line"></span><br><span class="line"># install keras</span><br><span class="line">RUN conda install --quiet --yes -c anaconda keras=2.2</span><br><span class="line"></span><br><span class="line"># install opencv</span><br><span class="line">RUN conda install --quiet --yes -c conda-forge opencv=3.4.1</span><br><span class="line"></span><br><span class="line">RUN conda clean -tipsy &amp;&amp; \</span><br><span class="line">    fix-permissions $CONDA_DIR &amp;&amp; \</span><br><span class="line">    fix-permissions /home/$NB_USER</span><br><span class="line"></span><br><span class="line">WORKDIR /app</span><br><span class="line"></span><br><span class="line">ADD ./notebook /app</span><br></pre></td></tr></table></figure>
+<p>Run this command to build docker image:<br><code>docker build -t [image name] .</code></p>
+<h3 id="Upload-your-docker-image-to-dockerhub"><a href="#Upload-your-docker-image-to-dockerhub" class="headerlink" title="Upload your docker image to dockerhub"></a>Upload your docker image to dockerhub</h3><p>First, login to dockerhub<br><code>docker login</code></p>
+<p>Then run the image you want to push<br><code>docker run --rm [image name]</code></p>
+<p>Lunch another terminal, find the container id by this command<br><code>docker ps</code></p>
+<p>Then commit as git<br><code>docker commit -m &quot;[commit message]&quot; [container id] [repository]</code></p>
+<p>Finally, push it to dockerhub<br><code>docker push [repository]</code></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://panepo.github.io/Tesatsu/2018/06/20/Jupyter-Notebook-on-Docker/" data-id="cuidMEZ8wELypDSIX-BSDel21" data-title="Jupyter Notebook on Docker" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E6%89%8B%E6%9C%AD/" rel="tag">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E7%A8%8B%E8%A8%AD/" rel="tag">程設</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-Over-the-Waves" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/Tesatsu/2018/06/15/Over-the-Waves/" class="article-date">
@@ -86,7 +148,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://panepo.github.io/Tesatsu/2018/06/15/Over-the-Waves/" data-id="cuidJHzVfuGgpoKODxRqfSdmz" data-title="Over the Waves" class="article-share-link">Share</a>
+      <a data-url="http://panepo.github.io/Tesatsu/2018/06/15/Over-the-Waves/" data-id="cuidA0TAp2znOMjD6w4tOg-CV" data-title="Over the Waves" class="article-share-link">Share</a>
       
       
       
@@ -139,7 +201,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://panepo.github.io/Tesatsu/2018/06/11/Experience/" data-id="cuid8RJ1VGpbkS_TzNUWvD1GH" data-title="Experience" class="article-share-link">Share</a>
+      <a data-url="http://panepo.github.io/Tesatsu/2018/06/11/Experience/" data-id="cuiddEoSQX1BarHCru1gZgXvr" data-title="Experience" class="article-share-link">Share</a>
       
       
       
@@ -293,7 +355,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://panepo.github.io/Tesatsu/2018/06/06/Over-the-Rainstorm/" data-id="cuid51mxsQrqqLCmZkQB2Unyg" data-title="Over the Rainstorm" class="article-share-link">Share</a>
+      <a data-url="http://panepo.github.io/Tesatsu/2018/06/06/Over-the-Rainstorm/" data-id="cuid9PM0qlmrp2dOOxkpgI4VF" data-title="Over the Rainstorm" class="article-share-link">Share</a>
       
       
       
@@ -357,7 +419,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://panepo.github.io/Tesatsu/2018/06/05/Docker-installation/" data-id="cuidQAbJbKnGRi488ReeYXLNS" data-title="Docker Installation" class="article-share-link">Share</a>
+      <a data-url="http://panepo.github.io/Tesatsu/2018/06/05/Docker-installation/" data-id="cuidKdMQfyNusneWvL-peXgPu" data-title="Docker Installation" class="article-share-link">Share</a>
       
       
       
@@ -408,7 +470,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://panepo.github.io/Tesatsu/2018/06/04/Pride/" data-id="cuidPN6TTnmwoVw9mpD08usGK" data-title="Pride" class="article-share-link">Share</a>
+      <a data-url="http://panepo.github.io/Tesatsu/2018/06/04/Pride/" data-id="cuidmcVOLKjrOj5PzE2d-VM21" data-title="Pride" class="article-share-link">Share</a>
       
       
       
@@ -456,7 +518,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://panepo.github.io/Tesatsu/2018/06/03/Words/" data-id="cuidKbB5Mki3i4-zGOPbEZtBm" data-title="Words" class="article-share-link">Share</a>
+      <a data-url="http://panepo.github.io/Tesatsu/2018/06/03/Words/" data-id="cuidQGnV7OQLhPz63zuFvaOZ9" data-title="Words" class="article-share-link">Share</a>
       
       
       
@@ -510,7 +572,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://panepo.github.io/Tesatsu/2018/05/31/Ability/" data-id="cuidygNvzzRLwcA_tMl7eFMsw" data-title="Ability" class="article-share-link">Share</a>
+      <a data-url="http://panepo.github.io/Tesatsu/2018/05/31/Ability/" data-id="cuidZiDkvF6tN9Q7GoRzLU-ef" data-title="Ability" class="article-share-link">Share</a>
       
       
       
@@ -557,7 +619,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://panepo.github.io/Tesatsu/2018/05/26/Time/" data-id="cuid8S0CKoByaiPlIEoWMJgTa" data-title="Time" class="article-share-link">Share</a>
+      <a data-url="http://panepo.github.io/Tesatsu/2018/05/26/Time/" data-id="cuidh68fPDilrcG6jWYy8dwAr" data-title="Time" class="article-share-link">Share</a>
       
       
       
@@ -616,71 +678,11 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://panepo.github.io/Tesatsu/2018/05/25/Anemone/" data-id="cuidTF-0N9MypHmEmhkMhzKmd" data-title="Anemone" class="article-share-link">Share</a>
+      <a data-url="http://panepo.github.io/Tesatsu/2018/05/25/Anemone/" data-id="cuidfMweY3eJnFt7rIg1dPrtp" data-title="Anemone" class="article-share-link">Share</a>
       
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E5%90%9F%E9%81%8A/" rel="tag">吟遊</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E6%89%8B%E6%9C%AD/" rel="tag">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E7%A8%8B%E8%A8%AD/" rel="tag">程設</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-Deployment" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/Tesatsu/2018/05/23/Deployment/" class="article-date">
-  <time class="dt-published" datetime="2018-05-23T01:46:32.000Z" itemprop="datePublished">2018-05-23</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/Tesatsu/categories/Github/">Github</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/Tesatsu/2018/05/23/Deployment/">Deployment</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>這篇為使用 Travis CI 自動佈署 web application 到 Github pages 的方法來做個紀錄.</p>
-<h3 id="Github-設定"><a href="#Github-設定" class="headerlink" title="Github 設定"></a>Github 設定</h3><ul>
-<li>首先要準備一組 personal access token 給 Travis CI. 到 Github 的 settings 頁面下的 personal access token 產生一組有 repo 權限的 token.</li>
-<li>建立 gh-pages 分支, Github pages 會自動將此分支的所有資料 deploy 到 <code>https://&lt;Github id&gt;.github.io/&lt;Repo name&gt;/</code> 底下.</li>
-</ul>
-<h3 id="Travis-CI-設定"><a href="#Travis-CI-設定" class="headerlink" title="Travis CI 設定"></a>Travis CI 設定</h3><ul>
-<li>申請 Tarvis CI 帳號</li>
-<li>將 Github 資料庫和 Travis CI 做連結</li>
-<li>增加 .travis.yml 檔案至 Github 資料庫</li>
-</ul>
-<h3 id="travis-yml-設定"><a href="#travis-yml-設定" class="headerlink" title=".travis.yml 設定"></a>.travis.yml 設定</h3><ul>
-<li>先安裝官方提供的 ruby 套件 travis command line tool.<br><code>gem install travis</code><br>使用命令列工具登入 GitHub<br><code>travis login</code><br>使用命令列工具將剛產生出來的 token 加密並寫入 Travis CI 設定檔<br><code>travis encrypt &#39;GIT_NAME=&quot;&lt;Github ID&gt;&quot; GIT_EMAIL=&lt;Github email&gt; &#39;GH_TOKEN=&lt;Token&gt;&#39; --add</code></li>
-<li>再來是讓 Travis CI 自動 build, 並讓生成的檔案往 Github 資料庫中的 gh-pages 分支 push, 這些都寫在設定檔中的 install 和 script 區塊.</li>
-</ul>
-<p>最後文件檔的配置如下:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">language: node_js</span><br><span class="line"></span><br><span class="line">node_js:</span><br><span class="line">  - &quot;8.9.1&quot;</span><br><span class="line"></span><br><span class="line">env:</span><br><span class="line">  global:</span><br><span class="line">    secure: XN7bTWNHQyFk9Mq656K9iYCp3apSwVECA1PGQQUnrdpjfZXDTvDlxhbN65euShbH2tsKxPRnXq47wzkKw38NS2TonrF05cUiA4O49sd8Nifh3YJe9ynx9NfmLjq22qpP0Ul9+d9NFGIkiactMC22ho8KcEYXs9KEx8r4gytkdvNC0dqYzmI9bPx9TNg5k1MmAKwzwB/Sy2MVudhJGUPMMhDD8i2zUS/ollrnuK6CG+UGu39/2/IyEtrcQZ5/jm6m4Bo+ofnOro8+9x/y/RlzGGjsjvBDVl7Jodd6Nuu4FLQjsD6fOzrV+mgFZKU+nE4/8Qc9HiM2cT7DqWMOy05Lx2XqN48/gerv7qPeglEIqIhHGmz0poAgc0TCp552Ys8TFMhpbuUvBeIxxbzCjFD5hgTpgFHnVo+F7PEOTEBapRnK2H+5PNRgJsT1vtsQw1wXf3VxwUHsa7F+UO2sD6QpJGG1xJZWGx4eSLWVHxLEfCr76vEWXadoNtZ8VkjInuYMtllSf7J8nECSoCJKYarYlXtiGgzHhtItLPmH9QMHtgc2RNyliL6z4zc8EeAuKDT0lZYYpyvplzHbgSyidLxi3X/wsx4cwjU3n1oag8A9JFK3iY745ctXv3SjhWrPPsQUpuVkZVQwnLxU2geTVbYzNFBs8cL2h8I6XIFRPVgPkA4=</span><br><span class="line"></span><br><span class="line">before_install:</span><br><span class="line">  - export TZ=Asia/Taipei</span><br><span class="line"></span><br><span class="line">install:</span><br><span class="line">  - npm install</span><br><span class="line">  - npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line">script:</span><br><span class="line">  # Set Git config</span><br><span class="line">  - git config --global user.name &quot;$GIT_NAME&quot;</span><br><span class="line">  - git config --global user.email &quot;$GIT_EMAIL&quot;</span><br><span class="line">  - git config --global push.default simple</span><br><span class="line">  - git clone --depth 1 --branch gh-pages https://$GH_TOKEN@github.com/Panepo/Tesatsu public</span><br><span class="line">  # Generate static pages</span><br><span class="line">  - hexo generate</span><br><span class="line">  - cd public</span><br><span class="line">  - git add -A .</span><br><span class="line">  - MESSAGE=`date +\ %Y-%m-%d\ %H:%M:%S`</span><br><span class="line">  - git commit -m &quot;Travis CI auto deploy:$MESSAGE&quot;</span><br><span class="line">  - git push --quiet</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://panepo.github.io/Tesatsu/2018/05/23/Deployment/" data-id="cuidigqmHm2j8WSr5QH_eMy8X" data-title="Deployment" class="article-share-link">Share</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E6%89%8B%E6%9C%AD/" rel="tag">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E7%A8%8B%E8%A8%AD/" rel="tag">程設</a></li></ul>
 
     </footer>
   </div>
@@ -724,15 +726,15 @@
           </li>
         
           <li>
+            <a href="/Tesatsu/2026/02/28/Cloudiness/">Cloudiness</a>
+          </li>
+        
+          <li>
             <a href="/Tesatsu/2026/02/27/Red-Olong/">Red-Olong</a>
           </li>
         
           <li>
             <a href="/Tesatsu/2025/07/08/Video-games/">Video games</a>
-          </li>
-        
-          <li>
-            <a href="/Tesatsu/2024/02/01/Dalle2/">Dalle2</a>
           </li>
         
       </ul>
