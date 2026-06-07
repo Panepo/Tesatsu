@@ -7,7 +7,7 @@ tags:
   - 吟遊
 date: 2018-08-15 20:09:26
 ---
-<center>{% asset_img LastRemote.jpg LastRemote %}</center>
+<center>{% asset_img LastRemote.jpg 800 LastRemote %}</center>
 
 Do you remember that little time
 When the time goes by
