@@ -6,9 +6,11 @@ tags:
   - 手札
 date: 2026-04-15 14:44:15
 ---
+
 <div style="float: right; margin-left: 20px; margin-bottom: 20px; max-width: 400px;">
   <center>{% asset_img 1.jpg 400 Yatai-Drinks %}</center>
 </div>
+
 前一陣子看了日式屋台（路邊攤）的營運的影片, 擷取了其中擺放酒類的部分並請 AI 分析了一下有哪些, 右邊這張照片展示了幾款在日本居酒屋非常常見的酒類，包含威士忌、燒酎（Shochu）、清酒和梅酒。從左到右分別是：
 
 ---
