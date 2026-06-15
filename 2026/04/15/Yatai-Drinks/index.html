@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Deployment | 鳥居の向こうの夢蒔絵</title>
+  <title>Yatai-Drinks | 鳥居の向こうの夢蒔絵</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
     <link rel="shortcut icon" href="/Tesatsu/favicon.png">
@@ -49,14 +49,14 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-Deployment" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-Yatai-Drinks" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/Tesatsu/2018/05/23/Deployment/" class="article-date">
-  <time class="dt-published" datetime="2018-05-23T01:46:32.000Z" itemprop="datePublished">2018-05-23</time>
+    <a href="/Tesatsu/2026/04/15/Yatai-Drinks/" class="article-date">
+  <time class="dt-published" datetime="2026-04-15T06:44:15.000Z" itemprop="datePublished">2026-04-15</time>
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/Tesatsu/categories/Github/">Github</a>
+    <a class="article-category-link" href="/Tesatsu/categories/%E6%8B%BE%E9%9B%B6/">拾零</a>
   </div>
 
   </div>
@@ -67,7 +67,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      Deployment
+      Yatai-Drinks
     </h1>
   
 
@@ -75,31 +75,41 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>這篇為使用 Travis CI 自動佈署 web application 到 Github pages 的方法來做個紀錄.</p>
-<h3 id="Github-設定"><a href="#Github-設定" class="headerlink" title="Github 設定"></a>Github 設定</h3><ul>
-<li>首先要準備一組 personal access token 給 Travis CI. 到 Github 的 settings 頁面下的 personal access token 產生一組有 repo 權限的 token.</li>
-<li>建立 gh-pages 分支, Github pages 會自動將此分支的所有資料 deploy 到 <code>https://&lt;Github id&gt;.github.io/&lt;Repo name&gt;/</code> 底下.</li>
+        <div style="float: right; margin-left: 20px; margin-bottom: 20px; max-width: 400px;">
+  <center><img src="/Tesatsu/2026/04/15/Yatai-Drinks/1.jpg" class="" width="400" title="Yatai-Drinks"></center>
+</div>
+
+<p>前一陣子看了日式屋台（路邊攤）的營運的影片, 擷取了其中擺放酒類的部分並請 AI 分析了一下有哪些, 右邊這張照片展示了幾款在日本居酒屋非常常見的酒類，包含威士忌、燒酎（Shochu）、清酒和梅酒。從左到右分別是：</p>
+<hr>
+<h3 id="1-白馬-White-Horse-蘇格蘭威士忌（最左側）"><a href="#1-白馬-White-Horse-蘇格蘭威士忌（最左側）" class="headerlink" title="1. 白馬 (White Horse) 蘇格蘭威士忌（最左側）"></a>1. <strong>白馬 (White Horse) 蘇格蘭威士忌</strong>（最左側）</h3><ul>
+<li><strong>類型：</strong> 調和蘇格蘭威士忌。</li>
+<li><strong>特點：</strong> 這是非常經典的平價威士忌，在日本常用來製作「Highball」（威士忌加蘇打水）。它的風味帶有一點淡淡的煙燻感。</li>
 </ul>
-<h3 id="Travis-CI-設定"><a href="#Travis-CI-設定" class="headerlink" title="Travis CI 設定"></a>Travis CI 設定</h3><ul>
-<li>申請 Tarvis CI 帳號</li>
-<li>將 Github 資料庫和 Travis CI 做連結</li>
-<li>增加 .travis.yml 檔案至 Github 資料庫</li>
+<h3 id="2-Iichiko-いいちこ-麥燒酎（左二）"><a href="#2-Iichiko-いいちこ-麥燒酎（左二）" class="headerlink" title="2. Iichiko (いいちこ) 麥燒酎（左二）"></a>2. <strong>Iichiko (いいちこ) 麥燒酎</strong>（左二）</h3><ul>
+<li><strong>類型：</strong> 麥燒酎（以大麥為原料）。</li>
+<li><strong>特點：</strong> 這是日本最著名的燒酎品牌之一。這款黃色標籤的是其經典款，口感清爽順口，適合加冰塊或加水（Mizuwari）飲用。</li>
 </ul>
-<h3 id="travis-yml-設定"><a href="#travis-yml-設定" class="headerlink" title=".travis.yml 設定"></a>.travis.yml 設定</h3><ul>
-<li>先安裝官方提供的 ruby 套件 travis command line tool.<br><code>gem install travis</code><br>使用命令列工具登入 GitHub<br><code>travis login</code><br>使用命令列工具將剛產生出來的 token 加密並寫入 Travis CI 設定檔<br><code>travis encrypt &#39;GIT_NAME=&quot;&lt;Github ID&gt;&quot; GIT_EMAIL=&lt;Github email&gt; &#39;GH_TOKEN=&lt;Token&gt;&#39; --add</code></li>
-<li>再來是讓 Travis CI 自動 build, 並讓生成的檔案往 Github 資料庫中的 gh-pages 分支 push, 這些都寫在設定檔中的 install 和 script 區塊.</li>
+<h3 id="3-黑霧島-Kuro-Kirishima-（中間）"><a href="#3-黑霧島-Kuro-Kirishima-（中間）" class="headerlink" title="3. 黑霧島 (Kuro Kirishima)（中間）"></a>3. <strong>黑霧島 (Kuro Kirishima)</strong>（中間）</h3><ul>
+<li><strong>類型：</strong> 芋燒酎（以地瓜為原料）。</li>
+<li><strong>特點：</strong> 這是由「霧島酒造」生產的超人氣燒酎，使用黑麴發酵。它有著地瓜獨特的香氣，口感醇厚且帶有微甜，是很多燒酎愛好者的首選。</li>
 </ul>
-<p>最後文件檔的配置如下:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">language: node_js</span><br><span class="line"></span><br><span class="line">node_js:</span><br><span class="line">  - &quot;8.9.1&quot;</span><br><span class="line"></span><br><span class="line">env:</span><br><span class="line">  global:</span><br><span class="line">    secure: XN7bTWNHQyFk9Mq656K9iYCp3apSwVECA1PGQQUnrdpjfZXDTvDlxhbN65euShbH2tsKxPRnXq47wzkKw38NS2TonrF05cUiA4O49sd8Nifh3YJe9ynx9NfmLjq22qpP0Ul9+d9NFGIkiactMC22ho8KcEYXs9KEx8r4gytkdvNC0dqYzmI9bPx9TNg5k1MmAKwzwB/Sy2MVudhJGUPMMhDD8i2zUS/ollrnuK6CG+UGu39/2/IyEtrcQZ5/jm6m4Bo+ofnOro8+9x/y/RlzGGjsjvBDVl7Jodd6Nuu4FLQjsD6fOzrV+mgFZKU+nE4/8Qc9HiM2cT7DqWMOy05Lx2XqN48/gerv7qPeglEIqIhHGmz0poAgc0TCp552Ys8TFMhpbuUvBeIxxbzCjFD5hgTpgFHnVo+F7PEOTEBapRnK2H+5PNRgJsT1vtsQw1wXf3VxwUHsa7F+UO2sD6QpJGG1xJZWGx4eSLWVHxLEfCr76vEWXadoNtZ8VkjInuYMtllSf7J8nECSoCJKYarYlXtiGgzHhtItLPmH9QMHtgc2RNyliL6z4zc8EeAuKDT0lZYYpyvplzHbgSyidLxi3X/wsx4cwjU3n1oag8A9JFK3iY745ctXv3SjhWrPPsQUpuVkZVQwnLxU2geTVbYzNFBs8cL2h8I6XIFRPVgPkA4=</span><br><span class="line"></span><br><span class="line">before_install:</span><br><span class="line">  - export TZ=Asia/Taipei</span><br><span class="line"></span><br><span class="line">install:</span><br><span class="line">  - npm install</span><br><span class="line">  - npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line">script:</span><br><span class="line">  # Set Git config</span><br><span class="line">  - git config --global user.name &quot;$GIT_NAME&quot;</span><br><span class="line">  - git config --global user.email &quot;$GIT_EMAIL&quot;</span><br><span class="line">  - git config --global push.default simple</span><br><span class="line">  - git clone --depth 1 --branch gh-pages https://$GH_TOKEN@github.com/Panepo/Tesatsu public</span><br><span class="line">  # Generate static pages</span><br><span class="line">  - hexo generate</span><br><span class="line">  - cd public</span><br><span class="line">  - git add -A .</span><br><span class="line">  - MESSAGE=`date +\ %Y-%m-%d\ %H:%M:%S`</span><br><span class="line">  - git commit -m &quot;Travis CI auto deploy:$MESSAGE&quot;</span><br><span class="line">  - git push --quiet</span><br></pre></td></tr></table></figure>
+<h3 id="4-千福-Sempuku-清酒（右二）"><a href="#4-千福-Sempuku-清酒（右二）" class="headerlink" title="4. 千福 (Sempuku) 清酒（右二）"></a>4. <strong>千福 (Sempuku) 清酒</strong>（右二）</h3><ul>
+<li><strong>類型：</strong> 日本清酒（Sake）。</li>
+<li><strong>特點：</strong> 標籤上大的漢字是「千福」。這是一款產自廣島的清酒。從包裝看可能是純米酒或普通酒，口感通常比較均衡，冷飲或熱飲（溫酒）都很適合。</li>
+</ul>
+<h3 id="5-梅酒-Umeshu-（最右側，手拿的那瓶）"><a href="#5-梅酒-Umeshu-（最右側，手拿的那瓶）" class="headerlink" title="5. 梅酒 (Umeshu)（最右側，手拿的那瓶）"></a>5. <strong>梅酒 (Umeshu)</strong>（最右側，手拿的那瓶）</h3><ul>
+<li><strong>類型：</strong> 梅子利口酒。</li>
+<li><strong>特點：</strong> 黃色標籤上印有青梅圖案，寫著「梅酒」。這類酒通常是用燒酎或清酒浸泡青梅與冰糖而成，口感酸酸甜甜，酒精感較低，非常受女性和不常喝酒的人歡迎。</li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://panepo.github.io/Tesatsu/2018/05/23/Deployment/" data-id="cuidc18IxSzM8t_z6FmeFguG3" data-title="Deployment" class="article-share-link">Share</a>
+      <a data-url="http://panepo.github.io/Tesatsu/2026/04/15/Yatai-Drinks/" data-id="cuid80xXIQmbfwpA0IyuqNp3B" data-title="Yatai-Drinks" class="article-share-link">Share</a>
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E6%89%8B%E6%9C%AD/" rel="tag">手札</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E7%A8%8B%E8%A8%AD/" rel="tag">程設</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Tesatsu/tags/%E6%89%8B%E6%9C%AD/" rel="tag">手札</a></li></ul>
 
     </footer>
   </div>
@@ -107,19 +117,19 @@
     
 <nav id="article-nav">
   
-    <a href="/Tesatsu/2018/05/25/Anemone/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/Tesatsu/2026/04/17/Shochu/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          Anemone
+          Shochu
         
       </div>
     </a>
   
   
-    <a href="/Tesatsu/2018/05/22/Letter/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/Tesatsu/2026/04/07/Voyager/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Letter</div>
+      <div class="article-nav-title">Voyager</div>
     </a>
   
 </nav>
@@ -160,11 +170,11 @@
           </li>
         
           <li>
-            <a href="/Tesatsu/2026/04/07/Voyager/">Voyager</a>
+            <a href="/Tesatsu/2026/04/17/Shochu/">Shochu</a>
           </li>
         
           <li>
-            <a href="/Tesatsu/2026/03/15/Solar-Powered/">Solar-Powered</a>
+            <a href="/Tesatsu/2026/04/15/Yatai-Drinks/">Yatai-Drinks</a>
           </li>
         
       </ul>
@@ -176,7 +186,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Github/">Github</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Heros-of-the-Storm/">Heros of the Storm</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Javascript/">Javascript</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Kenshi/">Kenshi</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Machine-Learning/">Machine Learning</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Monster-Hunter/">Monster Hunter</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Ragnarok-Online/">Ragnarok Online</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Soulworker/">Soulworker</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Terraria/">Terraria</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Windows/">Windows</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E5%8C%96%E8%AA%9E/">化語</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E5%9F%8E%E3%83%97%E3%83%ADRE/">城プロRE</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E5%AF%AB%E7%9C%9F/">寫真</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E5%B0%81%E7%A5%9ER/">封神R</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E6%89%8B%E6%9C%AD/">手札</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E6%94%BF%E5%89%A3%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%82%A2/">政剣マニフェスティア</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E8%B7%AB%E9%9F%BF/">跫響</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Heros-of-the-Storm/">Heros of the Storm</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Kenshi/">Kenshi</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Monster-Hunter/">Monster Hunter</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Ragnarok-Online/">Ragnarok Online</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Soulworker/">Soulworker</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Terraria/">Terraria</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/Windows/">Windows</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E5%8C%96%E8%AA%9E/">化語</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E5%9F%8E%E3%83%97%E3%83%ADRE/">城プロRE</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E5%AF%AB%E7%9C%9F/">寫真</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E5%B0%81%E7%A5%9ER/">封神R</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E6%8B%BE%E9%9B%B6/">拾零</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E6%94%BF%E5%89%A3%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%82%A2/">政剣マニフェスティア</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E7%9F%A5%E5%AD%98/">知存</a></li><li class="category-list-item"><a class="category-list-link" href="/Tesatsu/categories/%E8%B7%AB%E9%9F%BF/">跫響</a></li></ul>
     </div>
   </div>
 
