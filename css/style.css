@@ -1383,10 +1383,6 @@ pre .javascript .function {
 .widget ol ol {
   margin: 0 20px;
 }
-.widget ul ul,
-.widget ol ul {
-  list-style: disc;
-}
 .widget ul ol,
 .widget ol ol {
   list-style: decimal;
