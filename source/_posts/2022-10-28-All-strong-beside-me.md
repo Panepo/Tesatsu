@@ -1,7 +1,7 @@
 ---
 title: All strong beside me
 categories:
-  - 手札
+  - 拾零
 tags:
   - 轉錄
 date: 2022-10-28 14:27:10

@@ -1,7 +1,7 @@
 ---
 title: Big Project
 categories:
-  - 手札
+  - 拾零
 tags:
   - 手札
 date: 2022-07-18 14:17:14

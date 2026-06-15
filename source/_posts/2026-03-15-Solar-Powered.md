@@ -1,7 +1,7 @@
 ---
 title: Solar-Powered
 categories:
-  - 手札
+  - 知存
 tags:
   - 手札
 date: 2026-03-15 23:56:34

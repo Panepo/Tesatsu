@@ -1,7 +1,7 @@
 ---
 title: Strange Design
 categories:
-  - 手札
+  - 拾零
 tags:
   - 手札
   - 寫真

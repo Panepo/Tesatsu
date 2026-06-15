@@ -1,7 +1,7 @@
 ---
 title: Delicious
 categories:
-  - 手札
+  - 拾零
 tags:
   - 手札
 date: 2021-12-26 10:17:55

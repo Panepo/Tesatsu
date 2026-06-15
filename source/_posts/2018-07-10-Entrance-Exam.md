@@ -1,7 +1,7 @@
 ---
 title: Entrance Exam
 categories:
-  - 手札
+  - 拾零
 tags:
   - 手札
   - 轉錄

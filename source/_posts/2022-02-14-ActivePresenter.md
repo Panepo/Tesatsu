@@ -1,7 +1,7 @@
 ---
 title: ActivePresenter
 categories:
-  - 手札
+  - 拾零
 tags:
   - 手札
   - 轉錄

@@ -1,7 +1,7 @@
 ---
 title: Schrodinger's Cat
 categories:
-  - 手札
+  - 知存
 tags:
   - 手札
   - 轉錄

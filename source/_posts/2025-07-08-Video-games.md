@@ -1,7 +1,7 @@
 ---
 title: Video games
 categories:
-  - 手札
+  - 跫響
 tags:
   - 跫響
   - 吟遊

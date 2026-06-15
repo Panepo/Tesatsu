@@ -1,7 +1,7 @@
 ---
 title: AlphaStar
 categories:
-  - Machine Learning
+  - 知存
 tags:
   - 手札
   - 吟遊

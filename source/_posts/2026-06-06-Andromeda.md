@@ -1,7 +1,7 @@
 ---
 title: Andromeda
 categories:
-  - 手札
+  - 知存
 tags:
   - 手札
 date: 2026-06-06 11:18:16
