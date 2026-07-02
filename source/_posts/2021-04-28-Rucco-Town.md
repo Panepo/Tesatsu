@@ -1,5 +1,5 @@
 ---
-title: Rucco-Town
+title: Rucco Town
 categories:
   - Soulworker
 tags:

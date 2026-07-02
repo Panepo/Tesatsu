@@ -1,5 +1,5 @@
 ---
-title: Yatai-Drinks
+title: Yatai Drinks
 categories:
   - 拾零
 tags:

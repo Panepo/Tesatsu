@@ -1,5 +1,5 @@
 ---
-title: Candus-City-Chii
+title: Candus City - Chii
 categories:
   - Soulworker
 tags:

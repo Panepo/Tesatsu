@@ -1,5 +1,5 @@
 ---
-title: The-Great-Void
+title: The Great Void
 categories:
   - Soulworker
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Candus-City-Stella
+title: Candus City - Stella
 categories:
   - Soulworker
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Bitterly-Wept-the-Stars
+title: Bitterly Wept the Stars
 categories:
   - Soulworker
 tags:

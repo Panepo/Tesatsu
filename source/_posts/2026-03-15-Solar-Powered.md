@@ -1,5 +1,5 @@
 ---
-title: Solar-Powered
+title: Solar Powered
 categories:
   - 知存
 tags:

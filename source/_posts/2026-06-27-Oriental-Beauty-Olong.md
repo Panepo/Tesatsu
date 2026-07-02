@@ -1,5 +1,5 @@
 ---
-title: Oriental-Beauty-Olong
+title: Oriental Beauty Olong
 categories:
   - 拾零
 tags:
