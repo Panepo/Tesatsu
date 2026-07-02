@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>Oriental-Beauty-Olong</title>
+      <title>Oriental Beauty Olong</title>
       <link href="/Tesatsu/2026/06/27/Oriental-Beauty-Olong/"/>
       <url>/Tesatsu/2026/06/27/Oriental-Beauty-Olong/</url>
       
@@ -54,7 +54,7 @@
     
     
     <entry>
-      <title>Chili-Oil</title>
+      <title>Chili Oil</title>
       <link href="/Tesatsu/2026/05/24/Chili-Oil/"/>
       <url>/Tesatsu/2026/05/24/Chili-Oil/</url>
       
@@ -206,7 +206,7 @@
     
     
     <entry>
-      <title>Yatai-Drinks</title>
+      <title>Yatai Drinks</title>
       <link href="/Tesatsu/2026/04/15/Yatai-Drinks/"/>
       <url>/Tesatsu/2026/04/15/Yatai-Drinks/</url>
       
@@ -256,7 +256,7 @@
     
     
     <entry>
-      <title>Solar-Powered</title>
+      <title>Solar Powered</title>
       <link href="/Tesatsu/2026/03/15/Solar-Powered/"/>
       <url>/Tesatsu/2026/03/15/Solar-Powered/</url>
       
@@ -306,7 +306,7 @@
     
     
     <entry>
-      <title>Red-Olong</title>
+      <title>Red Olong</title>
       <link href="/Tesatsu/2026/02/27/Red-Olong/"/>
       <url>/Tesatsu/2026/02/27/Red-Olong/</url>
       
@@ -331,7 +331,7 @@
     
     
     <entry>
-      <title>Underwater-Aging</title>
+      <title>Underwater Aging</title>
       <link href="/Tesatsu/2026/02/01/Underwater-Aging/"/>
       <url>/Tesatsu/2026/02/01/Underwater-Aging/</url>
       
@@ -1098,7 +1098,7 @@
     
     
     <entry>
-      <title>Candus-City-Chii</title>
+      <title>Candus City - Chii</title>
       <link href="/Tesatsu/2021/05/02/Candus-City-Chii/"/>
       <url>/Tesatsu/2021/05/02/Candus-City-Chii/</url>
       
@@ -1125,7 +1125,7 @@
     
     
     <entry>
-      <title>Candus-City-Stella</title>
+      <title>Candus City - Stella</title>
       <link href="/Tesatsu/2021/05/01/Candus-City-Stella/"/>
       <url>/Tesatsu/2021/05/01/Candus-City-Stella/</url>
       
@@ -1152,7 +1152,7 @@
     
     
     <entry>
-      <title>Rucco-Town</title>
+      <title>Rucco Town</title>
       <link href="/Tesatsu/2021/04/28/Rucco-Town/"/>
       <url>/Tesatsu/2021/04/28/Rucco-Town/</url>
       
@@ -1179,7 +1179,7 @@
     
     
     <entry>
-      <title>Bitterly-Wept-the-Stars</title>
+      <title>Bitterly Wept the Stars</title>
       <link href="/Tesatsu/2021/04/27/Bitterly-Wept-the-Stars/"/>
       <url>/Tesatsu/2021/04/27/Bitterly-Wept-the-Stars/</url>
       
@@ -1206,7 +1206,7 @@
     
     
     <entry>
-      <title>The-Great-Void</title>
+      <title>The Great Void</title>
       <link href="/Tesatsu/2021/04/26/The-Great-Void/"/>
       <url>/Tesatsu/2021/04/26/The-Great-Void/</url>
       
@@ -3196,7 +3196,7 @@
       <link href="/Tesatsu/2018/05/19/Grid/"/>
       <url>/Tesatsu/2018/05/19/Grid/</url>
       
-        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/5jrXhJiybCA2KZCYGqe4Nyy8_z04i7yryezs1SCsy5f81IAkuajKfaXYoGPD8IpBb3CAQUWFanGmTfScU4feLi7OfLPEWaTcEOfeI2BF_XGHPoz0fXUZPtBevIhnh_3ApTj5gyDtHw=w600" class="" title="Grid"></center><p>攝於桃園農業博覽會</p><div id="googleMap9096" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap9096'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),     },     target = document.getElementById('googleMap9096'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),        'map': map,        'title': '農業博覽會',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '農業博覽會'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/5jrXhJiybCA2KZCYGqe4Nyy8_z04i7yryezs1SCsy5f81IAkuajKfaXYoGPD8IpBb3CAQUWFanGmTfScU4feLi7OfLPEWaTcEOfeI2BF_XGHPoz0fXUZPtBevIhnh_3ApTj5gyDtHw=w600" class="" title="Grid"></center><p>攝於桃園農業博覽會</p><div id="googleMap6412" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap6412'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),     },     target = document.getElementById('googleMap6412'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),        'map': map,        'title': '農業博覽會',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '農業博覽會'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3298,7 +3298,7 @@
       <link href="/Tesatsu/2018/05/04/Hello-World/"/>
       <url>/Tesatsu/2018/05/04/Hello-World/</url>
       
-        <content type="html"><![CDATA[<p>Hello World 對於程式設計師來說, 這是一定要的啦!</p><p>這篇算是這裡的第一篇文章, 用這篇紀念一下.</p><p>之後會慢慢把其他地方的文章轉錄過來, 不過不打算改發表日期所以這篇不會顯示最舊.</p><center><img src="https://lh3.googleusercontent.com/jFECwc3QjUjZGMhevPdVmng_8Cr5IzBYfy-WHArynC34u4-k3sa01jxXfFlGVwa2xf9fhdJ_MjNAGFfJQxIit4ze_bYQHc08_eNBpEi4mW5tF26Kv-J_5sM7Djlvjm5-WakYXsETow=w600" class="" title="大觀峰日落"></center><p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p><p>照片攝於去年 9 月日本九州大觀峰. 登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p><div id="googleMap1950" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap1950'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 13,       'center': new window.google.maps.LatLng( 32.996765 , 131.049611 ),     },     target = document.getElementById('googleMap1950'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>Hello World 對於程式設計師來說, 這是一定要的啦!</p><p>這篇算是這裡的第一篇文章, 用這篇紀念一下.</p><p>之後會慢慢把其他地方的文章轉錄過來, 不過不打算改發表日期所以這篇不會顯示最舊.</p><center><img src="https://lh3.googleusercontent.com/jFECwc3QjUjZGMhevPdVmng_8Cr5IzBYfy-WHArynC34u4-k3sa01jxXfFlGVwa2xf9fhdJ_MjNAGFfJQxIit4ze_bYQHc08_eNBpEi4mW5tF26Kv-J_5sM7Djlvjm5-WakYXsETow=w600" class="" title="大觀峰日落"></center><p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p><p>照片攝於去年 9 月日本九州大觀峰. 登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p><div id="googleMap824" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap824'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 13,       'center': new window.google.maps.LatLng( 32.996765 , 131.049611 ),     },     target = document.getElementById('googleMap824'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3377,7 +3377,7 @@
       <link href="/Tesatsu/2018/03/18/Unknown/"/>
       <url>/Tesatsu/2018/03/18/Unknown/</url>
       
-        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/CWcZo1K1wAi67h05mHBSs9hmMJi1z17jEbvifc5Te0P_5wn7kGztq_D0pIpJ-c8XU0WVKWO5-kUXAMoauig_jEDOJR8jjBSNBL5pRDZQ06TEE8TjZ_ytTjHxYmEDDBdmgc2Azo-wVg=w600" class="" title="Unknown"></center><p>不知道該下甚麼標題好 XD</p><p>攝於桃園羅浮泰雅溫泉公園</p><div id="googleMap592" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap592'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),     },     target = document.getElementById('googleMap592'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),        'map': map,        'title': '羅浮泰雅溫泉公園',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '羅浮泰雅溫泉公園'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/CWcZo1K1wAi67h05mHBSs9hmMJi1z17jEbvifc5Te0P_5wn7kGztq_D0pIpJ-c8XU0WVKWO5-kUXAMoauig_jEDOJR8jjBSNBL5pRDZQ06TEE8TjZ_ytTjHxYmEDDBdmgc2Azo-wVg=w600" class="" title="Unknown"></center><p>不知道該下甚麼標題好 XD</p><p>攝於桃園羅浮泰雅溫泉公園</p><div id="googleMap2584" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap2584'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),     },     target = document.getElementById('googleMap2584'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),        'map': map,        'title': '羅浮泰雅溫泉公園',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '羅浮泰雅溫泉公園'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3402,7 +3402,7 @@
       <link href="/Tesatsu/2018/03/18/Photography/"/>
       <url>/Tesatsu/2018/03/18/Photography/</url>
       
-        <content type="html"><![CDATA[<p>實景普普, 拍成照片意外得不錯…</p><center><img src="https://lh3.googleusercontent.com/So5uTEDDh5OdifRL5SvnyxdW2Rlr2cfuNdVjMp4TwdxYGUNrpcKK8Y5I3M2NV9AVqkpbP_1JnE9WpBPMSZAyiwCzKpzsDV0cTQ-HcYv9PpCuV1CefhhSXIe7CjK8g4VrNn2qPnNBhg=w600" class="" title="Photography"></center><p>攝於立善寺</p><div id="googleMap9501" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap9501'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.789 , 121.198 ),     },     target = document.getElementById('googleMap9501'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>實景普普, 拍成照片意外得不錯…</p><center><img src="https://lh3.googleusercontent.com/So5uTEDDh5OdifRL5SvnyxdW2Rlr2cfuNdVjMp4TwdxYGUNrpcKK8Y5I3M2NV9AVqkpbP_1JnE9WpBPMSZAyiwCzKpzsDV0cTQ-HcYv9PpCuV1CefhhSXIe7CjK8g4VrNn2qPnNBhg=w600" class="" title="Photography"></center><p>攝於立善寺</p><div id="googleMap9935" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap9935'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.789 , 121.198 ),     },     target = document.getElementById('googleMap9935'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3529,7 +3529,7 @@
       <link href="/Tesatsu/2018/02/18/Sunset/"/>
       <url>/Tesatsu/2018/02/18/Sunset/</url>
       
-        <content type="html"><![CDATA[<p>Sunset at a harbor.</p><center><img src="https://lh3.googleusercontent.com/VzDudWpFWuHUscthesu-xhQWJFmbf1vxHbAkWXyy1Y0h1HCD3LSpYDp3zqltxCu0FRS20h1lr-Si0DEgqWx4EmFf7ZDEkOJnH9M-UqEigakSCvwYTgmWdnajLzZy7wvEBGBrvqWqeg=w600" class="" title="Sunset"></center><p>攝於永安漁港</p><div id="googleMap3275" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap3275'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 19,       'center': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),     },     target = document.getElementById('googleMap3275'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),        'map': map,        'title': '永安漁港',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '永安漁港'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>Sunset at a harbor.</p><center><img src="https://lh3.googleusercontent.com/VzDudWpFWuHUscthesu-xhQWJFmbf1vxHbAkWXyy1Y0h1HCD3LSpYDp3zqltxCu0FRS20h1lr-Si0DEgqWx4EmFf7ZDEkOJnH9M-UqEigakSCvwYTgmWdnajLzZy7wvEBGBrvqWqeg=w600" class="" title="Sunset"></center><p>攝於永安漁港</p><div id="googleMap110" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap110'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 19,       'center': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),     },     target = document.getElementById('googleMap110'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),        'map': map,        'title': '永安漁港',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '永安漁港'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
