@@ -4,6 +4,7 @@ categories:
   - Soulworker
 tags:
   - 手札
+  - 吟遊
   - 轉錄
 date: 2021-05-01 15:15:35
 ---
