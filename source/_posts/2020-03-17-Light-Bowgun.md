@@ -1,5 +1,5 @@
 ---
-title: Light Bowgun
+title: MHW - Light Bowgun
 categories:
   - Monster Hunter
 tags:

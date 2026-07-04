@@ -1,5 +1,5 @@
 ---
-title: Slashing Axe
+title: MHW - Slashing Axe
 categories:
   - Monster Hunter
 tags:

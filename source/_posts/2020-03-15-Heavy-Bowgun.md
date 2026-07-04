@@ -1,5 +1,5 @@
 ---
-title: Heavy Bowgun
+title: MHW - Heavy Bowgun
 categories:
   - Monster Hunter
 tags:

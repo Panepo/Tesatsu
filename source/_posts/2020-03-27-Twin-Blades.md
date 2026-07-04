@@ -1,5 +1,5 @@
 ---
-title: Twin Blades
+title: MHW - Twin Blades
 categories:
   - Monster Hunter
 tags:
