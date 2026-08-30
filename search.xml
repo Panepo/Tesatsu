@@ -4,6 +4,106 @@
   
     
     <entry>
+      <title>Umami</title>
+      <link href="/Tesatsu/2026/08/30/Umami/"/>
+      <url>/Tesatsu/2026/08/30/Umami/</url>
+      
+        <content type="html"><![CDATA[<p>味精（化學名稱為<strong>麩胺酸鈉</strong>，Monosodium Glutamate，簡稱 <strong>MSG</strong>）是料理中提供「鮮味」（Umami）的常見調味料。</p><hr><p><strong>歷史來源</strong></p><ul><li><strong>鮮味的發現（1908年）</strong>：日本東京帝國大學教授<strong>池田菊苗</strong>在喝昆布高湯時，發現除了酸、甜、苦、鹹之外，存在第 5 種基本味道。他從海帶（昆布）中分離出賦予鮮味的關鍵物質——<strong>麩胺酸</strong>（Glutamic acid）。</li><li><strong>商業化量產（1909年）</strong>：池田教授取得專利後，與實業家鈴木三郎助合作，將麩胺酸與鈉結合製成穩定的結晶鹽，並以「<strong>味之素</strong>」（Ajinomoto，意為風味之精華）為商品名上市銷售，成為世界上第一款商品化味精。</li></ul><hr><p><strong>製造方式的演進與現代工藝</strong></p><p>歷史上味精曾採用過<strong>小麥水解法</strong>與<strong>石油裂解化學合成法</strong>，但自 1960 年代起，現代味精幾乎全面採用<strong>微生物發酵法</strong>（原理與釀醋、釀酒類似）：</p><ol><li><strong>糖化原料準備</strong>：以富含澱粉或糖分的天然農作物為原料，常見有玉米、樹薯（木薯）、甘蔗糖蜜或甜菜。</li><li><strong>微生物發酵</strong>：將糖液送入發酵槽，加入<strong>麩胺酸棒狀桿菌</strong>（<em>Corynebacterium glutamicum</em>）等專用菌種。細菌以糖為養分進行代謝，大量生成<strong>麩胺酸</strong>。</li><li><strong>中和反應</strong>：在發酵液中加入氫氧化鈉或碳酸鈉進行中和，將游離的麩胺酸轉化為水溶性較佳的<strong>麩胺酸鈉</strong>。</li><li><strong>脫色與過濾</strong>：使用活性碳等材料進行脫色與雜質吸附過濾，確保溶液純淨透明。</li><li><strong>濃縮與結晶</strong>：將純化後的麩胺酸鈉溶液濃縮、結晶，最後經離心脫水與乾燥，篩選成白色的長柱狀晶體成品（純度通常在 99% 以上）。</li></ol><hr><p><strong>常見迷思與破解</strong></p><ul><li><strong>口渴原因</strong>：許多人吃完味精會覺得口渴，其實是因為烹調時除了味精，往往也加了大量食鹽，導致總鈉攝取量過高，而非味精單獨造成的影響。</li><li><strong>健康誤解</strong>：味精長久以來被部分民眾汙名化，但根據美國食品藥品監督管理局（FDA）與衛生福利部的資料，適量使用味精並不會危害健康，甚至可以利用其鮮味來減少食鹽的使用量。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 拾零 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 手札 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Chemical Formulas</title>
+      <link href="/Tesatsu/2026/08/29/Chemical-Formulas/"/>
+      <url>/Tesatsu/2026/08/29/Chemical-Formulas/</url>
+      
+        <content type="html"><![CDATA[<p>穿越小說中常見的實用化學知識清單，其原理與實際應用步驟如下：</p><hr><h3 id="1-草木灰與皂化反應"><a href="#1-草木灰與皂化反應" class="headerlink" title="1. 草木灰與皂化反應"></a>1. 草木灰與皂化反應</h3><ul><li><strong>化學原理</strong>：草木灰是植物燃燒後的灰燼，溶於水後會溶出<strong>碳酸鉀（$\text{K}_2\text{CO}_3$）</strong>，使水溶液呈強鹼性（灰汁）。動植物油脂（三酸甘油酯）在強鹼環境下加熱會水解，生成<strong>脂肪酸鉀</strong>與<strong>甘油</strong>：</li></ul><p>$$\text{油脂} + 3\text{KOH} \ (\text{或 } \text{K}_2\text{CO}_3) \xrightarrow{\Delta} 3\text{RCOOK (鉀皂)} + \text{甘油}$$</p><ul><li><strong>實際操作與特點</strong>：</li><li>用熱水淋洗草木灰過濾得到澄清鹼液，與動物油脂（如豬油、羊油）混和慢火熬煮並攪拌，直到皂化反應完全。</li><li><strong>軟皂特性</strong>：現代肥皂多使用氫氧化鈉（$\text{NaOH}$），生成的是硬質「鈉皂」；草木灰製出的是「鉀皂」（軟皂或膏狀），若要硬化需加入食鹽（$\text{NaCl}$）進行<strong>鹽析</strong>，置換出鈉皂。</li></ul><hr><h3 id="2-貝殼粉與土壤酸鹼改良"><a href="#2-貝殼粉與土壤酸鹼改良" class="headerlink" title="2. 貝殼粉與土壤酸鹼改良"></a>2. 貝殼粉與土壤酸鹼改良</h3><ul><li><strong>化學原理</strong>：貝殼經煅燒、粉碎後主要成分為<strong>氧化鈣（$\text{CaO}$，生石灰）<strong>或未完全煅燒的</strong>碳酸鈣（$\text{CaCO}_3$）</strong>，遇水生成<strong>氫氧化鈣（$\text{Ca(OH)}_2$，熟石灰）</strong>。</li><li><strong>農業肥料與土壤改良</strong>：</li><li><strong>草木灰</strong>提供植物三大要素中的鉀（$\text{K}$）與微量磷，性偏鹼。</li><li><strong>貝殼粉&#x2F;生石灰</strong>提供<strong>鈣（$\text{Ca}$）</strong>，並可中和因長年耕作或酸雨導致酸化的土壤。</li><li><strong>注意禁忌</strong>：草木灰與生石灰<strong>不可與含銨的氮肥（如糞尿）同時混合施用</strong>，否則強鹼會將銨根（$\text{NH}_4^+$）轉化為氨氣（$\text{NH}_3$）揮發，造成氮肥失效。</li></ul><hr><h3 id="3-硝石的提取與多功能應用"><a href="#3-硝石的提取與多功能應用" class="headerlink" title="3. 硝石的提取與多功能應用"></a>3. 硝石的提取與多功能應用</h3><ul><li><strong>化學原理</strong>：糞坑、豬圈、老牆根周圍富含含氮有機物，在硝化細菌的作用下氧化生成硝酸鹽，並與土壤中的鉀離子結合成<strong>硝酸鉀（$\text{KNO}_3$）</strong>。</li><li><strong>提取工藝（淋硝與熬硝）</strong>：</li></ul><ol><li>收集富含白色硝花的「硝土」。</li><li>加入草木灰（補充鉀離子以置換鈣、鎂硝酸鹽）並加水浸泡濾出淋汁。</li><li>加熱濃縮結晶，利用硝酸鉀「高溫溶解度極高、低溫溶解度驟降」的特性進行<strong>重結晶提純</strong>。</li></ol><p><strong>三大核心用途</strong>：</p><table><thead><tr><th>用途</th><th>原理與反應</th></tr></thead><tbody><tr><td><strong>製冰（吸熱反應）</strong></td><td>硝酸鉀溶於水時會劇烈<strong>吸熱</strong>（$\Delta H_{\text{solution}} &gt; 0$），在密閉容器內加入大量硝石與水，可使夾層中的水降溫結冰。</td></tr><tr><td><strong>黑火藥（一硫二硝三木炭）</strong></td><td>硝酸鉀作為強氧化劑，與硫磺（$\text{S}$）及木炭（$\text{C}$）按比例混合：<br></td></tr></tbody></table><p><br>$$2\text{KNO}_3 + \text{S} + 3\text{C} \rightarrow \text{K}_2\text{S} + \text{N}_2\uparrow + 3\text{CO}_2\uparrow$$</p><p> |<br>| <strong>農業肥料（氮鉀複合肥）</strong> | 同時提供作物生長所需的<strong>氮（$\text{N}$）<strong>與</strong>鉀（$\text{K}$）</strong>，屬於速效性肥料。 |</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 知存 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 手札 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Pepper</title>
+      <link href="/Tesatsu/2026/08/28/Pepper/"/>
+      <url>/Tesatsu/2026/08/28/Pepper/</url>
+      
+        <content type="html"><![CDATA[<p><strong>胡椒（Pepper）<strong>是世界上使用最廣泛的香料之一，源自胡椒科藤本植物的果實，其辛辣風味主要來自</strong>胡椒鹼（Piperine）</strong>。</p><p><strong>常見胡椒種類</strong></p><ul><li><strong>黑胡椒</strong>：採收未完全成熟的綠色漿果，經發酵與日曬乾燥後外皮變黑。香氣濃郁、辛辣感強烈，適合搭配牛肉、烤肉、義大利麵及重口味菜餚。</li><li><strong>白胡椒</strong>：採收完全成熟的紅色漿果，浸水去除外皮後曬乾。辛辣度高、帶有特殊發酵香氣與草本味，常用於淺色料理、魚湯、肉餡與中式羹湯。</li><li><strong>綠胡椒</strong>：未成熟即採收，經凍乾或鹽水浸泡保持色澤。風味清新微辣、帶果香，常配法式醬汁或牛排。</li><li><strong>紅胡椒（真胡椒）</strong>：完全成熟的紅果乾燥而成，兼具果香與辣味。（註：市售粉紅胡椒常為巴西肖乳香的果實，非真正胡椒屬）。</li></ul><p><strong>烹調要點</strong></p><ul><li><strong>現磨最佳</strong>：胡椒粒磨碎後揮發油會迅速流失，現磨才能保留最佳香氣。</li><li><strong>投放時機</strong>：黑胡椒高溫久煮易變苦，建議起鍋前或上桌後撒上；白胡椒耐煮，可於煲湯或醃肉時加入。</li></ul><hr><p><strong>為什麼白胡椒多做成粉狀？</strong></p><ul><li><strong>中式料理的融合度</strong>：白胡椒粉主要用於羹湯、肉餡、醃料或淺色醬汁。粉末能瞬間均勻溶解在液體或肉餡中，不會咬到顆粒碎屑，口感更細膩。</li><li><strong>風味側重點不同</strong>：</li><li><strong>黑胡椒</strong> 重視的是外皮揮發油帶來的「奔放香氣與辛香」，磨成粉放久香氣衰退非常明顯，因此特別強調現磨。</li><li><strong>白胡椒</strong> 去除了外皮，主要提供深層的「辛辣感（胡椒鹼）」與「發酵底韻」，這些成分比表皮揮發油更耐放，做成粉末依然保有強烈辣感。</li></ul><p><strong>胡椒粉 vs 現磨白胡椒粒</strong></p><table><thead><tr><th>類型</th><th>優點</th><th>缺點 &#x2F; 注意事項</th><th>最佳用途</th></tr></thead><tbody><tr><td><strong>白胡椒粉</strong></td><td>即開即用、溶解快、不影響菜餚色澤與口感</td><td>開封後頂層細緻香氣仍會隨時間減弱；部分平價市售品可能摻入微量澱粉抗結塊</td><td>肉餡醃製、酸辣湯、貢丸湯、海鮮粥</td></tr><tr><td><strong>現磨白胡椒粒</strong></td><td>香氣層次更乾淨，帶有鮮明的木質與微草本香，辣度更鮮活</td><td>顆粒研磨需要工具，極細度不如工廠機械打粉</td><td>肉骨茶煲湯、白醬義大利麵、法式白肉料理、起鍋提香</td></tr></tbody></table><p><strong>選購與使用建議</strong></p><ol><li><strong>白胡椒粉依然很實用</strong>：一般家常煮湯、包水餃、醃肉，白胡椒粉效率最高。建議買小包裝，開封後密封避光保存，避免受潮結塊。</li><li><strong>想提升層次可試試現磨</strong>：若喜愛新加坡肉骨茶、胡椒豬肚雞或法式白醬，買原粒白胡椒現磨或整粒拍碎燉煮，香氣會比現成粉末更具穿透力且無雜味。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 拾零 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 手札 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Egg</title>
+      <link href="/Tesatsu/2026/08/27/Egg/"/>
+      <url>/Tesatsu/2026/08/27/Egg/</url>
+      
+        <content type="html"><![CDATA[<p>水煮蛋好不好剝，核心關鍵在於<strong>新鮮度（酸鹼值）<strong>與</strong>烹煮時的溫差</strong>。</p><ul><li><p><strong>新鮮度與 pH 值（最主要原因）</strong></p></li><li><p><strong>剛生下的新鮮雞蛋</strong>：蛋清含有較多二氧化碳，環境偏酸性（pH 約 7.6–8.5）。在此酸度下，蛋白中的角蛋白會與蛋殼內側的卵殼膜緊密結合，加熱後凝固黏死在一起，非常難剝。</p></li><li><p><strong>放置幾天的雞蛋</strong>：二氧化碳會透過蛋殼氣孔慢慢散逸，蛋白 pH 值上升至 9.0–9.2（偏鹼性）。此時蛋白分子結構改變，與蛋殼膜的黏著力大幅降低，空氣進入蛋內使氣室變大，就容易殼肉分離。</p></li><li><p><strong>下鍋時的水溫</strong></p></li><li><p><strong>熱水下鍋更好剝</strong>：熱水會讓外層蛋白瞬間受熱凝固，迅速收縮脫離內膜；若從冷水慢慢加熱，蛋白凝固過程緩慢，容易與蛋殼膜緊密黏合。</p></li><li><p><strong>煮好後的冷卻步驟</strong></p></li><li><p><strong>冰水冰鎮</strong>：煮完立刻泡入冰水，熱脹冷縮會使蛋白快速收縮，水分子也會順著氣孔滲入蛋殼與蛋白之間，形成潤滑縫隙。</p></li></ul><p><strong>好剝蛋的小技巧</strong>：</p><ol><li>挑選買回來常溫放 3–5 天或冷藏 1 週以上的「老蛋」。</li><li>熱水下鍋，或下鍋前在鈍端（氣室處）輕敲裂一條小縫。</li><li>煮好後立刻撈出泡冰水 5–10 分鐘再剝。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 拾零 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 手札 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Bicycle</title>
       <link href="/Tesatsu/2026/08/23/Bicycle/"/>
       <url>/Tesatsu/2026/08/23/Bicycle/</url>
@@ -3547,7 +3647,7 @@
       <link href="/Tesatsu/2018/05/19/Grid/"/>
       <url>/Tesatsu/2018/05/19/Grid/</url>
       
-        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/5jrXhJiybCA2KZCYGqe4Nyy8_z04i7yryezs1SCsy5f81IAkuajKfaXYoGPD8IpBb3CAQUWFanGmTfScU4feLi7OfLPEWaTcEOfeI2BF_XGHPoz0fXUZPtBevIhnh_3ApTj5gyDtHw=w600" class="" title="Grid"></center><p>攝於桃園農業博覽會</p><div id="googleMap1881" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap1881'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),     },     target = document.getElementById('googleMap1881'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),        'map': map,        'title': '農業博覽會',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '農業博覽會'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/5jrXhJiybCA2KZCYGqe4Nyy8_z04i7yryezs1SCsy5f81IAkuajKfaXYoGPD8IpBb3CAQUWFanGmTfScU4feLi7OfLPEWaTcEOfeI2BF_XGHPoz0fXUZPtBevIhnh_3ApTj5gyDtHw=w600" class="" title="Grid"></center><p>攝於桃園農業博覽會</p><div id="googleMap1168" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap1168'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),     },     target = document.getElementById('googleMap1168'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),        'map': map,        'title': '農業博覽會',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '農業博覽會'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3649,7 +3749,7 @@
       <link href="/Tesatsu/2018/05/04/Hello-World/"/>
       <url>/Tesatsu/2018/05/04/Hello-World/</url>
       
-        <content type="html"><![CDATA[<p>Hello World 對於程式設計師來說, 這是一定要的啦!</p><p>這篇算是這裡的第一篇文章, 用這篇紀念一下.</p><p>之後會慢慢把其他地方的文章轉錄過來, 不過不打算改發表日期所以這篇不會顯示最舊.</p><center><img src="https://lh3.googleusercontent.com/jFECwc3QjUjZGMhevPdVmng_8Cr5IzBYfy-WHArynC34u4-k3sa01jxXfFlGVwa2xf9fhdJ_MjNAGFfJQxIit4ze_bYQHc08_eNBpEi4mW5tF26Kv-J_5sM7Djlvjm5-WakYXsETow=w600" class="" title="大觀峰日落"></center><p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p><p>照片攝於去年 9 月日本九州大觀峰. 登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p><div id="googleMap5357" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap5357'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 13,       'center': new window.google.maps.LatLng( 32.996765 , 131.049611 ),     },     target = document.getElementById('googleMap5357'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>Hello World 對於程式設計師來說, 這是一定要的啦!</p><p>這篇算是這裡的第一篇文章, 用這篇紀念一下.</p><p>之後會慢慢把其他地方的文章轉錄過來, 不過不打算改發表日期所以這篇不會顯示最舊.</p><center><img src="https://lh3.googleusercontent.com/jFECwc3QjUjZGMhevPdVmng_8Cr5IzBYfy-WHArynC34u4-k3sa01jxXfFlGVwa2xf9fhdJ_MjNAGFfJQxIit4ze_bYQHc08_eNBpEi4mW5tF26Kv-J_5sM7Djlvjm5-WakYXsETow=w600" class="" title="大觀峰日落"></center><p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p><p>照片攝於去年 9 月日本九州大觀峰. 登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p><div id="googleMap9043" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap9043'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 13,       'center': new window.google.maps.LatLng( 32.996765 , 131.049611 ),     },     target = document.getElementById('googleMap9043'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3728,7 +3828,7 @@
       <link href="/Tesatsu/2018/03/18/Unknown/"/>
       <url>/Tesatsu/2018/03/18/Unknown/</url>
       
-        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/CWcZo1K1wAi67h05mHBSs9hmMJi1z17jEbvifc5Te0P_5wn7kGztq_D0pIpJ-c8XU0WVKWO5-kUXAMoauig_jEDOJR8jjBSNBL5pRDZQ06TEE8TjZ_ytTjHxYmEDDBdmgc2Azo-wVg=w600" class="" title="Unknown"></center><p>不知道該下甚麼標題好 XD</p><p>攝於桃園羅浮泰雅溫泉公園</p><div id="googleMap7356" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap7356'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),     },     target = document.getElementById('googleMap7356'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),        'map': map,        'title': '羅浮泰雅溫泉公園',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '羅浮泰雅溫泉公園'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/CWcZo1K1wAi67h05mHBSs9hmMJi1z17jEbvifc5Te0P_5wn7kGztq_D0pIpJ-c8XU0WVKWO5-kUXAMoauig_jEDOJR8jjBSNBL5pRDZQ06TEE8TjZ_ytTjHxYmEDDBdmgc2Azo-wVg=w600" class="" title="Unknown"></center><p>不知道該下甚麼標題好 XD</p><p>攝於桃園羅浮泰雅溫泉公園</p><div id="googleMap4720" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap4720'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),     },     target = document.getElementById('googleMap4720'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),        'map': map,        'title': '羅浮泰雅溫泉公園',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '羅浮泰雅溫泉公園'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3753,7 +3853,7 @@
       <link href="/Tesatsu/2018/03/18/Photography/"/>
       <url>/Tesatsu/2018/03/18/Photography/</url>
       
-        <content type="html"><![CDATA[<p>實景普普, 拍成照片意外得不錯…</p><center><img src="https://lh3.googleusercontent.com/So5uTEDDh5OdifRL5SvnyxdW2Rlr2cfuNdVjMp4TwdxYGUNrpcKK8Y5I3M2NV9AVqkpbP_1JnE9WpBPMSZAyiwCzKpzsDV0cTQ-HcYv9PpCuV1CefhhSXIe7CjK8g4VrNn2qPnNBhg=w600" class="" title="Photography"></center><p>攝於立善寺</p><div id="googleMap9436" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap9436'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.789 , 121.198 ),     },     target = document.getElementById('googleMap9436'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>實景普普, 拍成照片意外得不錯…</p><center><img src="https://lh3.googleusercontent.com/So5uTEDDh5OdifRL5SvnyxdW2Rlr2cfuNdVjMp4TwdxYGUNrpcKK8Y5I3M2NV9AVqkpbP_1JnE9WpBPMSZAyiwCzKpzsDV0cTQ-HcYv9PpCuV1CefhhSXIe7CjK8g4VrNn2qPnNBhg=w600" class="" title="Photography"></center><p>攝於立善寺</p><div id="googleMap5692" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap5692'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.789 , 121.198 ),     },     target = document.getElementById('googleMap5692'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3880,7 +3980,7 @@
       <link href="/Tesatsu/2018/02/18/Sunset/"/>
       <url>/Tesatsu/2018/02/18/Sunset/</url>
       
-        <content type="html"><![CDATA[<p>Sunset at a harbor.</p><center><img src="https://lh3.googleusercontent.com/VzDudWpFWuHUscthesu-xhQWJFmbf1vxHbAkWXyy1Y0h1HCD3LSpYDp3zqltxCu0FRS20h1lr-Si0DEgqWx4EmFf7ZDEkOJnH9M-UqEigakSCvwYTgmWdnajLzZy7wvEBGBrvqWqeg=w600" class="" title="Sunset"></center><p>攝於永安漁港</p><div id="googleMap2057" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap2057'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 19,       'center': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),     },     target = document.getElementById('googleMap2057'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),        'map': map,        'title': '永安漁港',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '永安漁港'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>Sunset at a harbor.</p><center><img src="https://lh3.googleusercontent.com/VzDudWpFWuHUscthesu-xhQWJFmbf1vxHbAkWXyy1Y0h1HCD3LSpYDp3zqltxCu0FRS20h1lr-Si0DEgqWx4EmFf7ZDEkOJnH9M-UqEigakSCvwYTgmWdnajLzZy7wvEBGBrvqWqeg=w600" class="" title="Sunset"></center><p>攝於永安漁港</p><div id="googleMap413" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap413'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 19,       'center': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),     },     target = document.getElementById('googleMap413'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),        'map': map,        'title': '永安漁港',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '永安漁港'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
