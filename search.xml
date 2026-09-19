@@ -4,6 +4,81 @@
   
     
     <entry>
+      <title>Saturn&#39;s Hexagon</title>
+      <link href="/Tesatsu/2026/09/19/Saturn-s-Hexagon/"/>
+      <url>/Tesatsu/2026/09/19/Saturn-s-Hexagon/</url>
+      
+        <content type="html"><![CDATA[<p>土星北極著名的<strong>六角形風暴（Saturn’s Hexagon）<strong>本質上不是單一風暴，而是一條以約時速 320 公里環繞北極奔馳的</strong>噴射氣流（Jet Stream）</strong>，其成因源於流體力學中的羅斯貝波（Rossby wave，行星波）與極地渦旋的相互作用。</p><center><img src="/Tesatsu/2026/09/19/Saturn-s-Hexagon/1.jpg" class="" width="800" title="Hexagon"></center>---<p><strong>核心成因機制</strong></p><ul><li><strong>緯向剪切流與科氏力</strong>：土星自轉極快（週期約 10.5 小時），產生強大的科氏力。北緯約 78 度處存在一條高速向東吹的噴射氣流，其兩側氣流流速差異產生顯著的剪切力。</li><li><strong>羅斯貝波（Rossby Wave）的不穩定性</strong>：當噴射氣流繞著極區流動時，擾動會使其產生水平方向的蛇形擺動。在特定的風速、半徑與流體深度條件下，波長恰好與土星周長共振，形成波數為 6 的<strong>駐波（Stationary Wave）</strong>。</li><li><strong>深層對流的結構鎖定</strong>：卡西尼號與電腦模擬研究顯示，六角形不僅存在於雲頂，還向下延伸至深達數千公里的深層大氣。深處由熱對流推動的渦流群在噴射氣流外圍形成了側向擠壓，將六個波峰牢牢鎖定在固定位置。</li></ul><p><strong>實驗驗證與南半球差異</strong></p><p>牛津大學等機構在旋轉液體水槽中成功復現了這一現象：在旋轉水柱的中央注入不同轉速的水流時，兩者交界處的剪切力會自然形成多邊形（三角形、四邊形、六邊形等）。</p><p>至於<strong>為什麼只有北極是六角形</strong>：土星南極雖然也有巨大的極地旋渦，但其周邊噴射氣流的風速分佈與深層渦流結構不同，沒有觸發波數為 6 的共振條件，因此南極呈現為一般的圓形漩渦。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 知存 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 手札 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Sunlight Color</title>
+      <link href="/Tesatsu/2026/09/17/Sunlight-Color/"/>
+      <url>/Tesatsu/2026/09/17/Sunlight-Color/</url>
+      
+        <content type="html"><![CDATA[<p>為什麼沒有綠色的恆星?</p><p>依照維因位移定律（Wien’s displacement law），當天體表面溫度在 5,500 K 到 6,000 K 左右（事實上太陽表面溫度約 5,778 K），<strong>其輻射能量的峰值波長確實就落在藍綠光到綠光波段（約 500 nm）</strong>。</p><p>然而，我們看不到「綠色恆星」的原因並不是恆星不發綠光，而是<strong>黑體輻射的寬光譜特性</strong>與<strong>人類眼睛的視覺感知機制</strong>共同作用的結果。</p><hr><p><strong>1. 恆星發出的是連續光譜，而非單色光</strong><br>恆星近似於理想黑體，它發出的光並不是像雷射那樣集中在單一波長，而是一條平滑且涵蓋廣泛波段的連續曲線：</p><ul><li>當峰值落在<strong>紅光</strong>時（低溫星，約 3,000 K），能量絕大多數集中在紅外線與紅光，藍光幾乎沒有，因此眼睛看到的是紅或橙色。</li><li>當峰值落在<strong>藍光</strong>甚至紫外線時（高溫星，超過 10,000 K），可見光中藍紫光的比例遠高於紅光，因此看起來呈現藍色或藍白色。</li><li>當峰值正好落在中間的<strong>綠光</strong>時，這條連續曲線的兩側——紅、橙、黃、藍、紫等波段的能量其實全都非常充沛，且強度差異並不大。</li></ul><p><strong>2. 人類肉眼的感光混色機制</strong><br>人類視網膜負責彩色視覺的是三種錐狀細胞（S-藍、M-綠、L-紅）：</p><ul><li>綠光位於可見光譜的正中央。當一顆恆星最強的波段落在綠光時，周圍的紅光與藍光同時大量進入眼睛，會<strong>同時強烈刺激紅、綠、藍三種錐狀細胞</strong>。</li><li>在大腦的色彩解讀中，三種感光細胞被大致均衡地觸發時，所合成的視覺訊號就是<strong>白色</strong>或帶點微黃的暖白色（太陽在太空中看其實是純白色，在地面因大氣散射而略偏黃）。</li></ul><table><thead><tr><th>恆星表面溫度</th><th>輻射峰值區域</th><th>各色光混合結果</th><th>肉眼感知顏色</th><th>代表恆星</th></tr></thead><tbody><tr><td><strong>約 3,000 K</strong></td><td>紅外線 &#x2F; 紅光</td><td>紅光佔絕對優勢，極少藍光</td><td>紅色 &#x2F; 橙紅</td><td>參宿四 (Betelgeuse)</td></tr><tr><td><strong>約 5,800 K</strong></td><td><strong>綠光 (約 500 nm)</strong></td><td>紅、綠、藍光均勻混合</td><td><strong>白色 &#x2F; 微黃白</strong></td><td><strong>太陽 (Sun)</strong></td></tr><tr><td><strong>約 10,000 K</strong></td><td>藍光 &#x2F; 近紫外線</td><td>藍光偏多，輔以部分綠紅光</td><td>白帶淡藍</td><td>織女星 (Vega)</td></tr><tr><td><strong>&gt; 20,000 K</strong></td><td>遠紫外線</td><td>藍紫光佔壓倒性優勢</td><td>亮藍色</td><td>參宿七 (Rigel)</td></tr></tbody></table><p>要讓肉眼看見純粹的「綠色」，光源必須幾乎只發出綠色波段的光（如極光、某些星雲的禁線輻射或綠色雷射），而像恆星這種熱輻射體永遠無法排除兩側的紅藍光，因此天空中只會有紅、橙、黃、白、藍色的恆星，絕對看不到綠色恆星。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 知存 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 手札 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Achatinidae</title>
+      <link href="/Tesatsu/2026/09/13/Achatinidae/"/>
+      <url>/Tesatsu/2026/09/13/Achatinidae/</url>
+      
+        <content type="html"><![CDATA[<h1 id="雨後「送死」的生存智慧：非洲大蝸牛的演化適應與-r-對策"><a href="#雨後「送死」的生存智慧：非洲大蝸牛的演化適應與-r-對策" class="headerlink" title="雨後「送死」的生存智慧：非洲大蝸牛的演化適應與 r-對策"></a>雨後「送死」的生存智慧：非洲大蝸牛的演化適應與 r-對策</h1><p>每逢大雨過後，人行道與柏油路上常會出現大量非洲大蝸牛（<em>Lissachatina fulica</em>），緩慢爬行並落得被行人踩碎或遭車輛輾斃的下場。這種看似「集體送死」的愚蠢行為，為何沒有在殘酷的天擇壓力下被淘汰？</p><p>從演化生物學與生態學的角度切入，這種行為非但不是演化上的失敗，反而是牠們在自然界極具優勢的生存關鍵。</p><hr><h2 id="一、-演化陷阱：百萬年本能遇上百年柏油路"><a href="#一、-演化陷阱：百萬年本能遇上百年柏油路" class="headerlink" title="一、 演化陷阱：百萬年本能遇上百年柏油路"></a>一、 演化陷阱：百萬年本能遇上百年柏油路</h2><p>天擇的篩選機制依賴於漫長演化史中的環境壓力。非洲大蝸牛經歷了數百萬年的演化，而人類鋪設平整柏油路、發明汽車與穿著硬底膠鞋的歷史，不過僅短短數十年至百年。</p><p>在未受人為開發干擾的自然環境中，平坦開闊的區域通常是裸露的岩石、倒下的枯木或林間泥地。對蝸牛而言，雨天具有不可抗拒的生存優勢：</p><ol><li><strong>移動阻力最低：</strong> 蝸牛依靠腹足分泌黏液爬行，體內水分極易蒸散。雨天空氣潮濕、地面濕潤，黏液耗損少且摩擦力極低，是牠們擴大活動範圍、尋覓食物與配偶的最佳窗口。</li><li><strong>規避窒息風險：</strong> 暴雨常使土壤孔隙與落葉層底部被積水淹沒。蝸牛的呼吸孔若長期浸泡在混濁泥水中可能窒息，促使牠們往地勢較高、平坦通風的開闊處遷移。</li></ol><p>當這套深植體內的生存本能遇上現代都市基礎設施時，便形成了典型的<strong>演化陷阱（Evolutionary Trap）</strong>——昔日有利的適應策略，在突變的人造環境中產生了致命的反差。</p><hr><h2 id="二、-生態密碼：以量取勝的「r-對策」"><a href="#二、-生態密碼：以量取勝的「r-對策」" class="headerlink" title="二、 生態密碼：以量取勝的「r-對策」"></a>二、 生態密碼：以量取勝的「r-對策」</h2><p>既然現代環境帶來了大量死傷，為何族群沒有因此萎縮？關鍵在於非洲大蝸牛的生活史策略——<strong>r-對策（r-selection）</strong>。</p><p>在生態學中，「$r$」代表族群邏輯斯諦增長模型中的<strong>內在增長率（rate of natural increase）</strong>。採取 r-對策的物種，演化的核心邏輯在於「追求數量極大化、薄利多銷」，與人類或大象這類講求精準投資的 <strong>K-對策（K-selection）</strong> 形成鮮明對比：</p><table><thead><tr><th>比較維度</th><th>r-對策者（如：非洲大蝸牛）</th><th>K-對策者（如：人類、大象）</th></tr></thead><tbody><tr><td><strong>繁衍核心</strong></td><td>追求數量最大化、快速迭代</td><td>追求單體競爭力、重質不重量</td></tr><tr><td><strong>繁殖數量</strong></td><td>每次產卵數百至數千枚</td><td>每胎僅產 1 至少數幾個後代</td></tr><tr><td><strong>親代撫育</strong></td><td>幾近為零（產卵後即離去）</td><td>投入大量時間與資源撫育、保護</td></tr><tr><td><strong>發育成熟</strong></td><td>成長速度極快，能迅速進入繁衍期</td><td>成熟期漫長，常需數年甚至數十年</td></tr><tr><td><strong>幼體存活率</strong></td><td>早期死亡率極高（僅極少數能成年）</td><td>早期死亡率低（多數能活至成年）</td></tr><tr><td><strong>適應環境</strong></td><td>動盪不穩定、資源短暫爆發的環境</td><td>穩定、競爭激烈且接近承載上限的環境</td></tr></tbody></table><hr><h2 id="三、-族群視角：個體的代價與基因的延續"><a href="#三、-族群視角：個體的代價與基因的延續" class="headerlink" title="三、 族群視角：個體的代價與基因的延續"></a>三、 族群視角：個體的代價與基因的延續</h2><p>演化與天擇計算的是「整個族群的基因複製成功率」，而非單一個體能否平安度過馬路。</p><p>非洲大蝸牛具備極高的繁殖潛能：牠們雌雄同體，交配後可儲存精子並分批產卵，單隻成體一年內可產下數百至上千顆卵。對 r-對策者而言，個體的生命成本相對較低。</p><p>即使爬上柏油路的 100 隻蝸牛中有 90 隻被車輛輾斃，只要附近草叢裡倖存的 10 隻能利用雨水的濕潤充分進食、成功交配，下一代產出的數千顆卵便能輕易填補死亡缺口。一旦環境條件轉好，驚人的內在增長率 $r$ 就會發揮威力，讓族群呈現爆發式增長。</p><p>因此，雨天冒險外出的行為雖然對走上柏油路的個體是場災難，但對整體族群而言，雨水帶來的繁衍與覓食收益，依然遠遠壓過了現代交通所造成的折損。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 拾零 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 手札 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Umami</title>
       <link href="/Tesatsu/2026/08/30/Umami/"/>
       <url>/Tesatsu/2026/08/30/Umami/</url>
@@ -3647,7 +3722,7 @@
       <link href="/Tesatsu/2018/05/19/Grid/"/>
       <url>/Tesatsu/2018/05/19/Grid/</url>
       
-        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/5jrXhJiybCA2KZCYGqe4Nyy8_z04i7yryezs1SCsy5f81IAkuajKfaXYoGPD8IpBb3CAQUWFanGmTfScU4feLi7OfLPEWaTcEOfeI2BF_XGHPoz0fXUZPtBevIhnh_3ApTj5gyDtHw=w600" class="" title="Grid"></center><p>攝於桃園農業博覽會</p><div id="googleMap1168" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap1168'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),     },     target = document.getElementById('googleMap1168'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),        'map': map,        'title': '農業博覽會',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '農業博覽會'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/5jrXhJiybCA2KZCYGqe4Nyy8_z04i7yryezs1SCsy5f81IAkuajKfaXYoGPD8IpBb3CAQUWFanGmTfScU4feLi7OfLPEWaTcEOfeI2BF_XGHPoz0fXUZPtBevIhnh_3ApTj5gyDtHw=w600" class="" title="Grid"></center><p>攝於桃園農業博覽會</p><div id="googleMap846" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap846'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),     },     target = document.getElementById('googleMap846'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),        'map': map,        'title': '農業博覽會',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '農業博覽會'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3749,7 +3824,7 @@
       <link href="/Tesatsu/2018/05/04/Hello-World/"/>
       <url>/Tesatsu/2018/05/04/Hello-World/</url>
       
-        <content type="html"><![CDATA[<p>Hello World 對於程式設計師來說, 這是一定要的啦!</p><p>這篇算是這裡的第一篇文章, 用這篇紀念一下.</p><p>之後會慢慢把其他地方的文章轉錄過來, 不過不打算改發表日期所以這篇不會顯示最舊.</p><center><img src="https://lh3.googleusercontent.com/jFECwc3QjUjZGMhevPdVmng_8Cr5IzBYfy-WHArynC34u4-k3sa01jxXfFlGVwa2xf9fhdJ_MjNAGFfJQxIit4ze_bYQHc08_eNBpEi4mW5tF26Kv-J_5sM7Djlvjm5-WakYXsETow=w600" class="" title="大觀峰日落"></center><p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p><p>照片攝於去年 9 月日本九州大觀峰. 登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p><div id="googleMap9043" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap9043'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 13,       'center': new window.google.maps.LatLng( 32.996765 , 131.049611 ),     },     target = document.getElementById('googleMap9043'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>Hello World 對於程式設計師來說, 這是一定要的啦!</p><p>這篇算是這裡的第一篇文章, 用這篇紀念一下.</p><p>之後會慢慢把其他地方的文章轉錄過來, 不過不打算改發表日期所以這篇不會顯示最舊.</p><center><img src="https://lh3.googleusercontent.com/jFECwc3QjUjZGMhevPdVmng_8Cr5IzBYfy-WHArynC34u4-k3sa01jxXfFlGVwa2xf9fhdJ_MjNAGFfJQxIit4ze_bYQHc08_eNBpEi4mW5tF26Kv-J_5sM7Djlvjm5-WakYXsETow=w600" class="" title="大觀峰日落"></center><p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p><p>照片攝於去年 9 月日本九州大觀峰. 登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p><div id="googleMap2668" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap2668'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 13,       'center': new window.google.maps.LatLng( 32.996765 , 131.049611 ),     },     target = document.getElementById('googleMap2668'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3828,7 +3903,7 @@
       <link href="/Tesatsu/2018/03/18/Unknown/"/>
       <url>/Tesatsu/2018/03/18/Unknown/</url>
       
-        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/CWcZo1K1wAi67h05mHBSs9hmMJi1z17jEbvifc5Te0P_5wn7kGztq_D0pIpJ-c8XU0WVKWO5-kUXAMoauig_jEDOJR8jjBSNBL5pRDZQ06TEE8TjZ_ytTjHxYmEDDBdmgc2Azo-wVg=w600" class="" title="Unknown"></center><p>不知道該下甚麼標題好 XD</p><p>攝於桃園羅浮泰雅溫泉公園</p><div id="googleMap4720" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap4720'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),     },     target = document.getElementById('googleMap4720'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),        'map': map,        'title': '羅浮泰雅溫泉公園',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '羅浮泰雅溫泉公園'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/CWcZo1K1wAi67h05mHBSs9hmMJi1z17jEbvifc5Te0P_5wn7kGztq_D0pIpJ-c8XU0WVKWO5-kUXAMoauig_jEDOJR8jjBSNBL5pRDZQ06TEE8TjZ_ytTjHxYmEDDBdmgc2Azo-wVg=w600" class="" title="Unknown"></center><p>不知道該下甚麼標題好 XD</p><p>攝於桃園羅浮泰雅溫泉公園</p><div id="googleMap8155" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap8155'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),     },     target = document.getElementById('googleMap8155'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),        'map': map,        'title': '羅浮泰雅溫泉公園',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '羅浮泰雅溫泉公園'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3853,7 +3928,7 @@
       <link href="/Tesatsu/2018/03/18/Photography/"/>
       <url>/Tesatsu/2018/03/18/Photography/</url>
       
-        <content type="html"><![CDATA[<p>實景普普, 拍成照片意外得不錯…</p><center><img src="https://lh3.googleusercontent.com/So5uTEDDh5OdifRL5SvnyxdW2Rlr2cfuNdVjMp4TwdxYGUNrpcKK8Y5I3M2NV9AVqkpbP_1JnE9WpBPMSZAyiwCzKpzsDV0cTQ-HcYv9PpCuV1CefhhSXIe7CjK8g4VrNn2qPnNBhg=w600" class="" title="Photography"></center><p>攝於立善寺</p><div id="googleMap5692" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap5692'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.789 , 121.198 ),     },     target = document.getElementById('googleMap5692'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>實景普普, 拍成照片意外得不錯…</p><center><img src="https://lh3.googleusercontent.com/So5uTEDDh5OdifRL5SvnyxdW2Rlr2cfuNdVjMp4TwdxYGUNrpcKK8Y5I3M2NV9AVqkpbP_1JnE9WpBPMSZAyiwCzKpzsDV0cTQ-HcYv9PpCuV1CefhhSXIe7CjK8g4VrNn2qPnNBhg=w600" class="" title="Photography"></center><p>攝於立善寺</p><div id="googleMap5502" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap5502'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.789 , 121.198 ),     },     target = document.getElementById('googleMap5502'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3980,7 +4055,7 @@
       <link href="/Tesatsu/2018/02/18/Sunset/"/>
       <url>/Tesatsu/2018/02/18/Sunset/</url>
       
-        <content type="html"><![CDATA[<p>Sunset at a harbor.</p><center><img src="https://lh3.googleusercontent.com/VzDudWpFWuHUscthesu-xhQWJFmbf1vxHbAkWXyy1Y0h1HCD3LSpYDp3zqltxCu0FRS20h1lr-Si0DEgqWx4EmFf7ZDEkOJnH9M-UqEigakSCvwYTgmWdnajLzZy7wvEBGBrvqWqeg=w600" class="" title="Sunset"></center><p>攝於永安漁港</p><div id="googleMap413" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap413'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 19,       'center': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),     },     target = document.getElementById('googleMap413'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),        'map': map,        'title': '永安漁港',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '永安漁港'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>Sunset at a harbor.</p><center><img src="https://lh3.googleusercontent.com/VzDudWpFWuHUscthesu-xhQWJFmbf1vxHbAkWXyy1Y0h1HCD3LSpYDp3zqltxCu0FRS20h1lr-Si0DEgqWx4EmFf7ZDEkOJnH9M-UqEigakSCvwYTgmWdnajLzZy7wvEBGBrvqWqeg=w600" class="" title="Sunset"></center><p>攝於永安漁港</p><div id="googleMap7435" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap7435'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 19,       'center': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),     },     target = document.getElementById('googleMap7435'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),        'map': map,        'title': '永安漁港',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '永安漁港'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
