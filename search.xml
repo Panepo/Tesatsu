@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>Landmark</title>
+      <link href="/Tesatsu/2026/10/26/Landmark/"/>
+      <url>/Tesatsu/2026/10/26/Landmark/</url>
+      
+        <content type="html"><![CDATA[<p>台灣各地都有<strong>置地廣場</strong>，本來以為是借貸日文的甚麼意思，一查才發現..</p><p>這不是借代自日語，而是<strong>源自英文「Landmark」在香港商業地產中的經典中文翻譯</strong>，或是取中文「購置地產／立足之地」的商業寓意。</p><p>台灣最知名的幾個「置地廣場」（例如桃園青埔的「置地廣場 桃園」、台南的「置地廣場 台南」），背後的命名脈絡主要來自兩大來源：</p><h3 id="1-香港「置地廣塲（The-Landmark）」的品牌影響"><a href="#1-香港「置地廣塲（The-Landmark）」的品牌影響" class="headerlink" title="1. 香港「置地廣塲（The Landmark）」的品牌影響"></a>1. 香港「置地廣塲（The Landmark）」的品牌影響</h3><p>「置地」作為大型頂級商辦與複合商場的代名詞，最早起源於香港：</p><ul><li><strong>英資背景</strong>：香港大型地產集團「香港置地」（Hongkong Land，怡和集團旗下），其在香港中環興建的旗艦頂級商場與商辦聚落就命名為「置地廣塲（The Landmark）」。</li><li><strong>詞源對應</strong>：英文「Land」翻為「地」或結合投資涵義翻為「置地」，並將旗艦建築命名為 Landmark。因為該商場在華人商業界極具指標性，「置地廣場」逐漸成為華語圈開發商愛用的商業命名模式（中國大陸、東南亞亦有許多商場沿用此命名風格）。</li></ul><h3 id="2-國泰人壽在台灣的複合商業品牌"><a href="#2-國泰人壽在台灣的複合商業品牌" class="headerlink" title="2. 國泰人壽在台灣的複合商業品牌"></a>2. 國泰人壽在台灣的複合商業品牌</h3><p>台灣目前最為人熟知的「置地廣場」，是國泰人壽（國泰人壽不動產）為其大型複合式商業開發案所創立的自有品牌：</p><ul><li><p><strong>案例</strong>：</p></li><li><p><strong>置地廣場 桃園</strong>（Taoyuan Landmark Plaza）：結合了華泰名品城旁的新光影城、Xpark 水族館與和逸飯店。</p></li><li><p><strong>置地廣場 台南</strong>（Tainan Landmark Plaza）：原大億麗緻酒店大樓由國泰人壽收回改裝後的複合商業空間。</p></li><li><p><strong>命名邏輯</strong>：取自中文「購<strong>置地</strong>產、立足之<strong>地</strong>」結合國際地標（<strong>Landmark</strong> Plaza）的意象，與日文完全沒有借代關係。</p></li></ul><hr><h3 id="為什麼容易讓人聯想到日文？"><a href="#為什麼容易讓人聯想到日文？" class="headerlink" title="為什麼容易讓人聯想到日文？"></a>為什麼容易讓人聯想到日文？</h3><p>台灣人常誤以為「置地」來自日文，主要是以下兩個原因：</p><ol><li><strong>「立地（りっち）」的字型混淆</strong>：日語房地產術語「立地条件」（地段、選址條件）在台灣建築與房仲業界使用非常普遍，因字形極為相似，常被直覺聯想。</li><li><strong>合作日系品牌聚集</strong>：以「置地廣場 桃園」為例，裡面進駐了西武集團旗下的 <strong>Xpark 水族館</strong> 等日資設施，容易讓人誤以為整座園區的命名是由日商主導或沿用日式概念，但該園區的業主與命名者實為台灣的國泰人壽。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 知存 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 手札 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Electrochromism</title>
+      <link href="/Tesatsu/2026/10/10/Electrochromism/"/>
+      <url>/Tesatsu/2026/10/10/Electrochromism/</url>
+      
+        <content type="html"><![CDATA[<p>去北海道旅遊的時候搭到的飛機有著和以往不同的玻璃窗，按底下按鈕就會慢慢變色從透明變成深色或是反過來。這種可以按按鈕變色的飛機舷窗（最常見於波音 787「夢幻客機」以及部分新型 A350 客機），採用的是<strong>電致變色（Electrochromism）技術</strong>。</p><p>它的本質是一面<strong>化學「三明治」玻璃</strong>，利用微弱電壓驅動氧化還原反應來改變透光率。</p><hr><h3 id="1-舷窗的夾層結構"><a href="#1-舷窗的夾層結構" class="headerlink" title="1. 舷窗的夾層結構"></a>1. 舷窗的夾層結構</h3><p>舷窗的兩層透明面板之間，夾著一套由多層奈米薄膜組成的結構：</p><ul><li><strong>透明導電層（ITO 薄膜）：</strong> 相當於夾層內部的電極，負責傳導微弱電流。</li><li><strong>電致變色層：</strong> 變色的核心介質（常見材料如三氧化鎢 $\text{WO}_3$ 或有機紫精染料凝膠）。</li><li><strong>離子電解質層（傳導層）：</strong> 提供帶電離子（如氫離子 $\text{H}^+$ 或鋰離子 $\text{Li}^+$）流動的通道。</li><li><strong>離子儲存層：</strong> 平衡電荷並暫存離子。</li></ul><hr><h3 id="2-變色是怎麼發生的？"><a href="#2-變色是怎麼發生的？" class="headerlink" title="2. 變色是怎麼發生的？"></a>2. 變色是怎麼發生的？</h3><ul><li><strong>變暗（按下變暗按鈕）：</strong><br>舷窗通上低壓電流時，電場會推動電解質中的離子嵌入電致變色層中。這會引發<strong>氧化還原化學反應</strong>，改變該層分子的電子能階與光吸收特性，材料會從透明狀態轉變為深藍色，吸收絕大部分可見光。</li><li><strong>變亮（按下調亮按鈕）：</strong><br>反轉電壓或改變電場方向，離子就會從變色層被「抽回」到儲存層，化學反應逆轉，窗戶便恢復清澈透光。</li></ul><hr><h3 id="3-為什麼是「慢慢」變色？"><a href="#3-為什麼是「慢慢」變色？" class="headerlink" title="3. 為什麼是「慢慢」變色？"></a>3. 為什麼是「慢慢」變色？</h3><p>常規的液晶螢幕（LCD）靠電場扭轉分子排列，幾毫秒內就能切換；但電致變色是<strong>離子在固態或膠態薄膜中的實體遷移</strong>與<strong>化學反應</strong>，整面窗戶直徑較大，離子擴散均勻需要時間，因此通常需要 30～60 秒才會完整變暗或變亮。</p><hr><h3 id="為什麼飛機要用它取代傳統遮光板？"><a href="#為什麼飛機要用它取代傳統遮光板？" class="headerlink" title="為什麼飛機要用它取代傳統遮光板？"></a>為什麼飛機要用它取代傳統遮光板？</h3><ul><li><strong>降低重量與故障率：</strong> 減少了機械拉門軌道與塑膠活動件，減輕機身載重並減少維修需求。</li><li><strong>機組全艙控制：</strong> 起降需維持視野或機艙需要日夜模式時，空服員可以透過中央系統一鍵統一把所有舷窗調暗或調亮，省去人工走道逐一巡檢。</li><li><strong>遮光不遮景：</strong> 即使調到最暗檔位阻擋了 99.9% 以上的光線，肉眼靠近依然能隱約看見雲層和窗外地貌，保留空間感與視野。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 知存 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 手札 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Pinus Pumila</title>
       <link href="/Tesatsu/2026/10/04/Pinus-Pumila/"/>
       <url>/Tesatsu/2026/10/04/Pinus-Pumila/</url>
@@ -1250,9 +1300,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -1302,9 +1352,9 @@
       
         <tags>
             
-            <tag> 轉錄 </tag>
-            
             <tag> 跫響 </tag>
+            
+            <tag> 轉錄 </tag>
             
         </tags>
       
@@ -1383,9 +1433,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -1437,9 +1487,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -1464,9 +1514,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -1491,9 +1541,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -1595,9 +1645,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
             <tag> 吟遊 </tag>
             
@@ -1624,9 +1674,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
             <tag> 吟遊 </tag>
             
@@ -1653,9 +1703,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
             <tag> 吟遊 </tag>
             
@@ -1682,9 +1732,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
             <tag> 吟遊 </tag>
             
@@ -1711,9 +1761,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
             <tag> 吟遊 </tag>
             
@@ -1740,9 +1790,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
             <tag> 吟遊 </tag>
             
@@ -1769,9 +1819,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
             <tag> 吟遊 </tag>
             
@@ -1798,9 +1848,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
             <tag> 吟遊 </tag>
             
@@ -1827,9 +1877,9 @@
       
         <tags>
             
-            <tag> 轉錄 </tag>
-            
             <tag> 跫響 </tag>
+            
+            <tag> 轉錄 </tag>
             
         </tags>
       
@@ -2016,9 +2066,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -2043,9 +2093,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -2367,9 +2417,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -2475,9 +2525,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -2556,9 +2606,9 @@
       
         <tags>
             
-            <tag> 轉錄 </tag>
-            
             <tag> 跫響 </tag>
+            
+            <tag> 轉錄 </tag>
             
         </tags>
       
@@ -2747,9 +2797,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -2774,9 +2824,9 @@
       
         <tags>
             
-            <tag> 轉錄 </tag>
-            
             <tag> 跫響 </tag>
+            
+            <tag> 轉錄 </tag>
             
         </tags>
       
@@ -2801,9 +2851,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -2932,9 +2982,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -3194,9 +3244,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -3495,9 +3545,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -3747,7 +3797,7 @@
       <link href="/Tesatsu/2018/05/19/Grid/"/>
       <url>/Tesatsu/2018/05/19/Grid/</url>
       
-        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/5jrXhJiybCA2KZCYGqe4Nyy8_z04i7yryezs1SCsy5f81IAkuajKfaXYoGPD8IpBb3CAQUWFanGmTfScU4feLi7OfLPEWaTcEOfeI2BF_XGHPoz0fXUZPtBevIhnh_3ApTj5gyDtHw=w600" class="" title="Grid"></center><p>攝於桃園農業博覽會</p><div id="googleMap5538" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap5538'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),     },     target = document.getElementById('googleMap5538'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),        'map': map,        'title': '農業博覽會',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '農業博覽會'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/5jrXhJiybCA2KZCYGqe4Nyy8_z04i7yryezs1SCsy5f81IAkuajKfaXYoGPD8IpBb3CAQUWFanGmTfScU4feLi7OfLPEWaTcEOfeI2BF_XGHPoz0fXUZPtBevIhnh_3ApTj5gyDtHw=w600" class="" title="Grid"></center><p>攝於桃園農業博覽會</p><div id="googleMap5681" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap5681'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),     },     target = document.getElementById('googleMap5681'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 25.0065806 , 121.0490333 ),        'map': map,        'title': '農業博覽會',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '農業博覽會'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3849,7 +3899,7 @@
       <link href="/Tesatsu/2018/05/04/Hello-World/"/>
       <url>/Tesatsu/2018/05/04/Hello-World/</url>
       
-        <content type="html"><![CDATA[<p>Hello World 對於程式設計師來說, 這是一定要的啦!</p><p>這篇算是這裡的第一篇文章, 用這篇紀念一下.</p><p>之後會慢慢把其他地方的文章轉錄過來, 不過不打算改發表日期所以這篇不會顯示最舊.</p><center><img src="https://lh3.googleusercontent.com/jFECwc3QjUjZGMhevPdVmng_8Cr5IzBYfy-WHArynC34u4-k3sa01jxXfFlGVwa2xf9fhdJ_MjNAGFfJQxIit4ze_bYQHc08_eNBpEi4mW5tF26Kv-J_5sM7Djlvjm5-WakYXsETow=w600" class="" title="大觀峰日落"></center><p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p><p>照片攝於去年 9 月日本九州大觀峰. 登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p><div id="googleMap4704" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap4704'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 13,       'center': new window.google.maps.LatLng( 32.996765 , 131.049611 ),     },     target = document.getElementById('googleMap4704'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>Hello World 對於程式設計師來說, 這是一定要的啦!</p><p>這篇算是這裡的第一篇文章, 用這篇紀念一下.</p><p>之後會慢慢把其他地方的文章轉錄過來, 不過不打算改發表日期所以這篇不會顯示最舊.</p><center><img src="https://lh3.googleusercontent.com/jFECwc3QjUjZGMhevPdVmng_8Cr5IzBYfy-WHArynC34u4-k3sa01jxXfFlGVwa2xf9fhdJ_MjNAGFfJQxIit4ze_bYQHc08_eNBpEi4mW5tF26Kv-J_5sM7Djlvjm5-WakYXsETow=w600" class="" title="大觀峰日落"></center><p>那和這張照片有甚麼關係呢? 其實一點關係都沒有. XD</p><p>照片攝於去年 9 月日本九州大觀峰. 登頂的時候剛好日落, 很幸運地拍下這張值得紀念的照片.</p><div id="googleMap6552" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap6552'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 13,       'center': new window.google.maps.LatLng( 32.996765 , 131.049611 ),     },     target = document.getElementById('googleMap6552'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3928,7 +3978,7 @@
       <link href="/Tesatsu/2018/03/18/Unknown/"/>
       <url>/Tesatsu/2018/03/18/Unknown/</url>
       
-        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/CWcZo1K1wAi67h05mHBSs9hmMJi1z17jEbvifc5Te0P_5wn7kGztq_D0pIpJ-c8XU0WVKWO5-kUXAMoauig_jEDOJR8jjBSNBL5pRDZQ06TEE8TjZ_ytTjHxYmEDDBdmgc2Azo-wVg=w600" class="" title="Unknown"></center><p>不知道該下甚麼標題好 XD</p><p>攝於桃園羅浮泰雅溫泉公園</p><div id="googleMap593" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap593'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),     },     target = document.getElementById('googleMap593'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),        'map': map,        'title': '羅浮泰雅溫泉公園',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '羅浮泰雅溫泉公園'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<center><img src="https://lh3.googleusercontent.com/CWcZo1K1wAi67h05mHBSs9hmMJi1z17jEbvifc5Te0P_5wn7kGztq_D0pIpJ-c8XU0WVKWO5-kUXAMoauig_jEDOJR8jjBSNBL5pRDZQ06TEE8TjZ_ytTjHxYmEDDBdmgc2Azo-wVg=w600" class="" title="Unknown"></center><p>不知道該下甚麼標題好 XD</p><p>攝於桃園羅浮泰雅溫泉公園</p><div id="googleMap4982" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap4982'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),     },     target = document.getElementById('googleMap4982'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.7928486 , 121.3670155 ),        'map': map,        'title': '羅浮泰雅溫泉公園',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '羅浮泰雅溫泉公園'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -3953,7 +4003,7 @@
       <link href="/Tesatsu/2018/03/18/Photography/"/>
       <url>/Tesatsu/2018/03/18/Photography/</url>
       
-        <content type="html"><![CDATA[<p>實景普普, 拍成照片意外得不錯…</p><center><img src="https://lh3.googleusercontent.com/So5uTEDDh5OdifRL5SvnyxdW2Rlr2cfuNdVjMp4TwdxYGUNrpcKK8Y5I3M2NV9AVqkpbP_1JnE9WpBPMSZAyiwCzKpzsDV0cTQ-HcYv9PpCuV1CefhhSXIe7CjK8g4VrNn2qPnNBhg=w600" class="" title="Photography"></center><p>攝於立善寺</p><div id="googleMap7812" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap7812'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.789 , 121.198 ),     },     target = document.getElementById('googleMap7812'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>實景普普, 拍成照片意外得不錯…</p><center><img src="https://lh3.googleusercontent.com/So5uTEDDh5OdifRL5SvnyxdW2Rlr2cfuNdVjMp4TwdxYGUNrpcKK8Y5I3M2NV9AVqkpbP_1JnE9WpBPMSZAyiwCzKpzsDV0cTQ-HcYv9PpCuV1CefhhSXIe7CjK8g4VrNn2qPnNBhg=w600" class="" title="Photography"></center><p>攝於立善寺</p><div id="googleMap4898" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap4898'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 16,       'center': new window.google.maps.LatLng( 24.789 , 121.198 ),     },     target = document.getElementById('googleMap4898'),     map = new window.google.maps.Map(target, mapOptions);           }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -4080,7 +4130,7 @@
       <link href="/Tesatsu/2018/02/18/Sunset/"/>
       <url>/Tesatsu/2018/02/18/Sunset/</url>
       
-        <content type="html"><![CDATA[<p>Sunset at a harbor.</p><center><img src="https://lh3.googleusercontent.com/VzDudWpFWuHUscthesu-xhQWJFmbf1vxHbAkWXyy1Y0h1HCD3LSpYDp3zqltxCu0FRS20h1lr-Si0DEgqWx4EmFf7ZDEkOJnH9M-UqEigakSCvwYTgmWdnajLzZy7wvEBGBrvqWqeg=w600" class="" title="Sunset"></center><p>攝於永安漁港</p><div id="googleMap9324" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap9324'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 19,       'center': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),     },     target = document.getElementById('googleMap9324'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),        'map': map,        'title': '永安漁港',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '永安漁港'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
+        <content type="html"><![CDATA[<p>Sunset at a harbor.</p><center><img src="https://lh3.googleusercontent.com/VzDudWpFWuHUscthesu-xhQWJFmbf1vxHbAkWXyy1Y0h1HCD3LSpYDp3zqltxCu0FRS20h1lr-Si0DEgqWx4EmFf7ZDEkOJnH9M-UqEigakSCvwYTgmWdnajLzZy7wvEBGBrvqWqeg=w600" class="" title="Sunset"></center><p>攝於永安漁港</p><div id="googleMap6643" style="            height: 450px;            width: 100%;            margin: 0px;            padding: 0px            "></div><style>.gmnoprint img {max-width: none !important;}</style><script defer="defer">  window.hexoGmaps = window.hexoGmaps || { maps: {}};  window.hexoGmaps.maps['initgoogleMap6643'] = function init() {    var mapOptions = {       'scrollwheel': false,       'zoom': 19,       'center': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),     },     target = document.getElementById('googleMap6643'),     map = new window.google.maps.Map(target, mapOptions);                     var opts0 = {        'position': new window.google.maps.LatLng( 24.987057 , 121.0168118 ),        'map': map,        'title': '永安漁港',        'zIndex' : 0,        'icon': ''      };     var infowindow0 = new window.google.maps.InfoWindow({       content: '永安漁港'     });     var marker0 = new window.google.maps.Marker(opts0);     marker0.addListener('click', function(){       infowindow0.open(map, marker0)     })     }  function makeMaps() {    for (var map in window.hexoGmaps.maps) {       console.log('map #', map);       window.hexoGmaps.maps[map]();    }  }  function loadScript() {    window.hexoGmaps.googleScriptLoaded = true;    var script = document.createElement('script');    script.type = 'text/javascript';        script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&callback=makeMaps&key=false';    document.body.appendChild(script);  }  if (!window.hexoGmaps.googleScriptLoaded) {    loadScript();  }</script>]]></content>
       
       
       <categories>
@@ -4194,9 +4244,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -4248,9 +4298,9 @@
       
         <tags>
             
-            <tag> 轉錄 </tag>
-            
             <tag> 跫響 </tag>
+            
+            <tag> 轉錄 </tag>
             
         </tags>
       
@@ -4402,9 +4452,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -4429,9 +4479,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -4481,9 +4531,9 @@
       
         <tags>
             
-            <tag> 轉錄 </tag>
-            
             <tag> 跫響 </tag>
+            
+            <tag> 轉錄 </tag>
             
         </tags>
       
@@ -4533,9 +4583,9 @@
       
         <tags>
             
-            <tag> 轉錄 </tag>
-            
             <tag> 跫響 </tag>
+            
+            <tag> 轉錄 </tag>
             
         </tags>
       
@@ -4560,9 +4610,9 @@
       
         <tags>
             
-            <tag> 轉錄 </tag>
-            
             <tag> 跫響 </tag>
+            
+            <tag> 轉錄 </tag>
             
         </tags>
       
@@ -4587,9 +4637,9 @@
       
         <tags>
             
-            <tag> 手札 </tag>
-            
             <tag> 轉錄 </tag>
+            
+            <tag> 手札 </tag>
             
         </tags>
       
@@ -4614,9 +4664,9 @@
       
         <tags>
             
-            <tag> 轉錄 </tag>
-            
             <tag> 跫響 </tag>
+            
+            <tag> 轉錄 </tag>
             
         </tags>
       
